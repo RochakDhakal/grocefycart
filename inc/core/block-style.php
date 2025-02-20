@@ -159,8 +159,29 @@ if ( function_exists( 'register_block_style' ) ) {
 		register_block_style(
 			'core/post-terms',
 			array(
-				'name'  => 'categories-background-with-round',
+				'name'  => 'categories-primary-background',
 				'label' => __( 'Primary Background Style', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'core/post-terms',
+			array(
+				'name'  => 'categories-secondary-background',
+				'label' => __( 'Secondary Background Style', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'core/post-terms',
+			array(
+				'name'  => 'categories-terniary-background',
+				'label' => __( 'Terniary Background Style', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'core/post-terms',
+			array(
+				'name'  => 'categories-mixed-background',
+				'label' => __( 'Mixed Background Style', 'grocefycart' ),
 			)
 		);
 		register_block_style(
@@ -342,8 +363,8 @@ if ( function_exists( 'register_block_style' ) ) {
 		register_block_style(
 			'core/categories',
 			array(
-				'name'  => 'grocefycart-categories-bullet-hide-style',
-				'label' => __( 'Hide Bullet Style', 'grocefycart' ),
+				'name'  => 'grocefycart-categories-flex-style',
+				'label' => __( 'Flex Style', 'grocefycart' ),
 			)
 		);
 		register_block_style(

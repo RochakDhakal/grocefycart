@@ -15,16 +15,7 @@
  */
 function grocefycart_register_pattern_category() {
 	$block_pattern_categories = array(
-		'grocefycart'             => array( 'label' => __( 'Additional Sections', 'grocefycart' ) ),
-		'grocefycart-testimoials' => array( 'label' => __( 'Testimonials', 'grocefycart' ) ),
-		'grocefycart-portfolio'   => array( 'label' => __( 'Gallery & Portfolios', 'grocefycart' ) ),
-		'grocefycart-hero'        => array( 'label' => __( 'Hero', 'grocefycart' ) ),
-		'grocefycart-pricing'     => array( 'label' => __( 'Pricing', 'grocefycart' ) ),
-		'grocefycart-team'        => array( 'label' => __( 'Team', 'grocefycart' ) ),
-		'grocefycart-accordion'   => array( 'label' => __( 'FAQ & Accordion', 'grocefycart' ) ),
-		'grocefycart-contacts'    => array( 'label' => __( 'Contact & Newsletter Forms', 'grocefycart' ) ),
-		'grocefycart-homes'       => array( 'label' => __( 'Homepage Templates', 'grocefycart' ) ),
-		'grocefycart-pages'       => array( 'label' => __( 'Page Templates', 'grocefycart' ) ),
+		'grocefycart' => array( 'label' => __( 'All Patterns', 'grocefycart' ) ),
 	);
 
 	$block_pattern_categories = apply_filters( 'grocefycart_block_pattern_categories', $block_pattern_categories );

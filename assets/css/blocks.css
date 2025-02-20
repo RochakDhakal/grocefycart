@@ -1,0 +1,15 @@
+/* ********** Box Shadow ********** */
+.is-style-grocefycart-boxshadow {
+  box-shadow: 0px 8px 30px 0px rgba(2, 27, 11, 0.1);
+}
+/* ********** Categories List ********** */
+ul.is-style-grocefycart-categories-flex-style li {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid var(--wp--preset--color--border);
+  color: var(--wp--preset--color--primary);
+}
+/* ********** Categories ********** */
+/* Primary */

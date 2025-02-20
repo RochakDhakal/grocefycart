@@ -21,35 +21,35 @@ p a {
   text-decoration: underline;
 }
 /* -------------------- WooCommerce -------------------- */
-.grocefycart-categories-dropdown
-  .wc-block-product-categories
-  .wc-block-product-categories__dropdown
-  select {
-  background-color: var(--wp--preset--color--primary);
+.grocefycart-categories-dropdown .wp-block-categories__label {
+  display: none;
+}
+.grocefycart-categories-dropdown .wp-block-categories-dropdown select {
+  appearance: none;
   border: none;
   outline: none;
   color: var(--wp--preset--color--light);
   font-size: var(--wp--preset--font-size--normal);
   font-family: var(--wp--preset--font-family--inter);
+  background-color: var(--wp--preset--color--primary);
   font-weight: 600;
   text-transform: capitalize;
-  appearance: none;
   cursor: pointer;
 }
 .grocefycart-categories-dropdown select::-ms-expand {
   display: none;
 }
-.grocefycart-categories-dropdown .wc-block-product-categories button {
-  background-color: var(--wp--preset--color--transparent);
+.grocefycart-categories-dropdown .wp-block-categories-dropdown button {
   outline: none;
   border: none;
   cursor: pointer;
+  background-color: var(--wp--preset--color--transparent);
 }
-.grocefycart-categories-dropdown .wc-block-product-categories button > svg {
+.grocefycart-categories-dropdown .wp-block-categories-dropdown button > svg {
   fill: var(--wp--preset--color--light);
 }
 .grocefycart-categories-dropdown
-  .wc-block-product-categories
+  .wp-block-categories-dropdown
   button
   > svg:hover {
   fill: var(--wp--preset--color--secondary);

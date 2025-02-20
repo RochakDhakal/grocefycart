@@ -60,7 +60,7 @@
           "name": "Meta Color"
         },
         {
-          "slug": "border-color",
+          "slug": "border",
           "color": "#022E1C1A",
           "name": "Border Color"
         },
@@ -299,6 +299,20 @@
               "fontStyle": "normal",
               "fontWeight": "300 400 500 600 700",
               "src": ["file:./assets/fonts/inter/Inter-VariableFont_wght.ttf"]
+            },
+            {
+              "fontFamily": "Inter",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "300 400 500 600 700",
+              "src": ["file:./assets/fonts/inter/Inter-Regular.ttf"]
+            },
+            {
+              "fontFamily": "Inter",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "300 400 500 600 700",
+              "src": ["file:./assets/fonts/inter/Inter-SemiBold.ttf"]
             }
           ],
           "fontFamily": "\"Inter\", sans-serif",
