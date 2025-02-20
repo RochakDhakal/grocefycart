@@ -54,3 +54,50 @@ p a {
   > svg:hover {
   fill: var(--wp--preset--color--secondary);
 }
+/* Slider Marquee */
+.grocefycart-marquee-wrapper {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+.grocefycart-marquee-content {
+  position: relative;
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+  gap: 2rem;
+  padding-right: 2rem;
+  animation: grocefycart-marquee 15s linear infinite;
+  flex-wrap: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.grocefycart-marquee-content:hover {
+  animation-play-state: paused;
+}
+.grocefycart-marquee-wrapper .grocefycart-marquee-content.block-editor-block-list__block,
+.grocefycart-marquee-content.block-editor-block-list__block {
+  animation: none;
+}
+.grocefycart-marquee-content p {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  flex: 1 0 auto;
+  margin-block-start: 0;
+  white-space: nowrap;
+  flex: 1 0 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@keyframes grocefycart-marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

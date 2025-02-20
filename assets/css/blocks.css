@@ -1,6 +1,11 @@
-/* ********** Box Shadow ********** */
+/* ********** Group ********** */
+/* Box Shadow */
 .is-style-grocefycart-boxshadow {
   box-shadow: 0px 8px 30px 0px rgba(2, 27, 11, 0.1);
+}
+/* Overflow Hidden */
+.is-style-grocefycart-overflow-hidden {
+  overflow: hidden;
 }
 /* ********** Categories List ********** */
 ul.is-style-grocefycart-categories-flex-style li {

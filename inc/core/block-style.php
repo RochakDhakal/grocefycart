@@ -72,8 +72,8 @@ if ( function_exists( 'register_block_style' ) ) {
 		register_block_style(
 			'core/group',
 			array(
-				'name'  => 'grocefycart-group-content-vertical-center',
-				'label' => __( 'Content: Vertcal Center ', 'grocefycart' ),
+				'name'  => 'grocefycart-overflow-hidden',
+				'label' => __( 'Overflow : Hidden ', 'grocefycart' ),
 			)
 		);
 		register_block_style(
