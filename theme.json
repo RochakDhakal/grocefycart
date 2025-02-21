@@ -299,20 +299,6 @@
               "fontStyle": "normal",
               "fontWeight": "300 400 500 600 700",
               "src": ["file:./assets/fonts/inter/Inter-VariableFont_wght.ttf"]
-            },
-            {
-              "fontFamily": "Inter",
-              "fontStretch": "normal",
-              "fontStyle": "normal",
-              "fontWeight": "300 400 500 600 700",
-              "src": ["file:./assets/fonts/inter/Inter-Regular.ttf"]
-            },
-            {
-              "fontFamily": "Inter",
-              "fontStretch": "normal",
-              "fontStyle": "normal",
-              "fontWeight": "300 400 500 600 700",
-              "src": ["file:./assets/fonts/inter/Inter-SemiBold.ttf"]
             }
           ],
           "fontFamily": "\"Inter\", sans-serif",

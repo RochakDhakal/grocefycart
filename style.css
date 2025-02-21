@@ -77,7 +77,8 @@ p a {
 .grocefycart-marquee-content:hover {
   animation-play-state: paused;
 }
-.grocefycart-marquee-wrapper .grocefycart-marquee-content.block-editor-block-list__block,
+.grocefycart-marquee-wrapper
+  .grocefycart-marquee-content.block-editor-block-list__block,
 .grocefycart-marquee-content.block-editor-block-list__block {
   animation: none;
 }
@@ -92,7 +93,11 @@ p a {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
+.grocefycart-marquee-content p:before {
+  content: url(assets/images/Union.svg);
+  margin-right: 1em;
+  font-size: var(--wp--preset--font-size--large);
+}
 @keyframes grocefycart-marquee {
   0% {
     transform: translateX(0%);
