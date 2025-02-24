@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Product Cover Grid
+ * Title: CTA Banner
  * Slug: grocefycart/cover-grid
  * Categories:grocefycart-template
  */
