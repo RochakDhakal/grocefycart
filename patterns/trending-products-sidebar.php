@@ -4,11 +4,17 @@
  * Slug: grocefycart/trending-products-sidebar
  * Categories: grocefycart-template
  */
-
+$grocefycart_sidebar_url = trailingslashit( get_template_directory_uri() );
+$grocefycart_sidebar_img = array(
+	$grocefycart_sidebar_url . 'assets/images/ads.jpg',
+)
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","bottom":"40px","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"1260px"}} -->
 <div class="wp-block-group"
 	style="margin-top:0;margin-bottom:0;padding-top:40px;padding-right:var(--wp--preset--spacing--40);padding-bottom:40px;padding-left:var(--wp--preset--spacing--40)">
+<?php
+if ( class_exists( 'WooCommerce' ) ) {
+	?>
 	<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"25px","left":"25px"}}}} -->
 	<div class="wp-block-columns"><!-- wp:column {"width":"25%"} -->
 		<div class="wp-block-column" style="flex-basis:25%">
@@ -20,7 +26,7 @@
 					<!-- wp:heading {"textAlign":"left","level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"border":{"bottom":{"color":"var:preset|color|primary","width":"1px"}},"spacing":{"padding":{"bottom":"10px"},"margin":{"bottom":"30px"}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"heading","fontSize":"medium"} -->
 					<h5 class="wp-block-heading has-text-align-left has-heading-color has-text-color has-link-color has-medium-font-size"
 						style="border-bottom-color:var(--wp--preset--color--primary);border-bottom-width:1px;margin-bottom:30px;padding-bottom:10px;font-style:normal;font-weight:500">
-						Top Selling</h5>
+						<?php esc_html_e( 'Top Selling', 'grocefycart' ); ?></h5>
 					<!-- /wp:heading -->
 
 					<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
@@ -52,7 +58,7 @@
 
 			<!-- wp:image {"id":452,"width":"auto","height":"420px","aspectRatio":"2/3","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center","style":{"border":{"radius":"10px"}}} -->
 			<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img
-					src="http://localhost/wordpress/grocefy-cart/wp-content/uploads/sites/5/2025/02/Mask-group.png"
+					src="<?php echo esc_url( $grocefycart_sidebar_img[0] ); ?>"
 					alt="" class="wp-image-452"
 					style="border-radius:10px;aspect-ratio:2/3;object-fit:cover;width:auto;height:420px" /></figure>
 			<!-- /wp:image -->
@@ -70,7 +76,7 @@
 						style="border-bottom-color:var(--wp--preset--color--primary);border-bottom-width:1px;margin-top:0;margin-bottom:45px;padding-bottom:16px">
 						<!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"bottom":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"border":{"bottom":{"style":"none","width":"0px"}}},"textColor":"heading","fontSize":"big"} -->
 						<h4 class="wp-block-heading has-text-align-center has-heading-color has-text-color has-link-color has-big-font-size"
-							style="border-bottom-style:none;border-bottom-width:0px;margin-bottom:0">Trending Products
+							style="border-bottom-style:none;border-bottom-width:0px;margin-bottom:0"><?php esc_html_e( 'Trending Products', 'grocefycart' ); ?>
 						</h4>
 						<!-- /wp:heading -->
 
@@ -81,8 +87,7 @@
 							<div class="wp-block-button has-custom-font-size has-normal-font-size"><a
 									class="wp-block-button__link has-foreground-color has-transparent-background-color has-text-color has-background has-link-color wp-element-button"
 									href="#"
-									style="border-style:none;border-width:0px;border-radius:100px;padding-top:8px;padding-right:18px;padding-bottom:8px;padding-left:18px">See
-									All</a></div>
+									style="border-style:none;border-width:0px;border-radius:100px;padding-top:8px;padding-right:18px;padding-bottom:8px;padding-left:18px"><?php esc_html_e( 'See All', 'grocefycart' ); ?></a></div>
 							<!-- /wp:button -->
 						</div>
 						<!-- /wp:buttons -->
@@ -120,7 +125,20 @@
 		<!-- /wp:column -->
 	</div>
 	<!-- /wp:columns -->
-
+	<?php
+} else {
+	$grocefycart_product_url = trailingslashit( get_template_directory_uri() );
+	$grocefycart_product_img = array(
+		$grocefycart_product_url . 'assets/images/product-penne.jpg',
+		$grocefycart_product_url . 'assets/images/product-farfalle.jpg',
+		$grocefycart_product_url . 'assets/images/product-berry-1.jpg',
+		$grocefycart_product_url . 'assets/images/product-tagliate.jpg',
+		$grocefycart_product_url . 'assets/images/product-pomegranate.jpg',
+		$grocefycart_product_url . 'assets/images/product-papaya.jpg',
+		$grocefycart_product_url . 'assets/images/product-berry.jpg',
+		$grocefycart_product_url . 'assets/images/star.png',
+	)
+	?>
 	<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"35px","left":"25px"}}}} -->
 	<div class="wp-block-columns"><!-- wp:column {"width":"25%"} -->
 		<div class="wp-block-column" style="flex-basis:25%">
@@ -130,7 +148,7 @@
 				<!-- wp:heading {"textAlign":"left","level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"border":{"bottom":{"color":"var:preset|color|primary","width":"1px"}},"spacing":{"padding":{"bottom":"10px"},"margin":{"bottom":"30px"}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"heading","fontSize":"medium"} -->
 				<h5 class="wp-block-heading has-text-align-left has-heading-color has-text-color has-link-color has-medium-font-size"
 					style="border-bottom-color:var(--wp--preset--color--primary);border-bottom-width:1px;margin-bottom:30px;padding-bottom:10px;font-style:normal;font-weight:500">
-					Top Selling</h5>
+					<?php esc_html_e( 'Top Selling', 'grocefycart' ); ?></h5>
 				<!-- /wp:heading -->
 
 				<!-- wp:group {"style":{"spacing":{"blockGap":"15px"}},"layout":{"type":"constrained"}} -->
@@ -141,7 +159,7 @@
 						<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%">
 							<!-- wp:image {"id":59,"width":"auto","height":"64px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
 							<figure class="wp-block-image aligncenter size-full is-resized"><img
-									src="http://localhost/wordpress/grocefy-cart/wp-content/uploads/sites/5/2025/02/product-penne.jpg"
+									src="<?php echo esc_url( $grocefycart_product_img[0] ); ?>"
 									alt="penne" class="wp-image-59"
 									style="aspect-ratio:1;object-fit:cover;width:auto;height:64px" /></figure>
 							<!-- /wp:image -->
@@ -152,19 +170,19 @@
 						<div class="wp-block-column is-vertically-aligned-center">
 							<!-- wp:heading {"level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"lineHeight":"1.2"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"heading","fontSize":"small-plus"} -->
 							<h4 class="wp-block-heading has-heading-color has-text-color has-link-color has-small-plus-font-size"
-								style="margin-top:0;margin-bottom:0;line-height:1.2">Penne Rigate</h4>
+								style="margin-top:0;margin-bottom:0;line-height:1.2"><?php esc_html_e( 'Penne Rigate', 'grocefycart' ); ?></h4>
 							<!-- /wp:heading -->
 
 							<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 							<figure class="wp-block-image size-full is-resized" style="margin-top:0;margin-bottom:0">
-								<img src="http://localhost/wordpress/grocefy-cart/wp-content/uploads/sites/5/2025/02/star-1.png"
+								<img src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
 									alt="" class="wp-image-1423" style="object-fit:cover;width:60px;height:12px" />
 							</figure>
 							<!-- /wp:image -->
 
 							<!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"5px","bottom":"0px"}}},"textColor":"primary","fontSize":"small-plus"} -->
 							<h2 class="wp-block-heading has-primary-color has-text-color has-link-color has-small-plus-font-size"
-								style="margin-top:5px;margin-bottom:0px;font-style:normal;font-weight:600">$29.99</h2>
+								style="margin-top:5px;margin-bottom:0px;font-style:normal;font-weight:600"><?php esc_html_e( '$29.99', 'grocefycart' ); ?></h2>
 							<!-- /wp:heading -->
 						</div>
 						<!-- /wp:column -->
@@ -177,7 +195,7 @@
 						<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%">
 							<!-- wp:image {"id":68,"width":"auto","height":"64px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
 							<figure class="wp-block-image aligncenter size-full is-resized"><img
-									src="http://localhost/wordpress/grocefy-cart/wp-content/uploads/sites/5/2025/02/product-farfalle.jpg"
+									src="<?php echo esc_url( $grocefycart_product_img[2] ); ?>"
 									alt="" class="wp-image-68"
 									style="aspect-ratio:1;object-fit:cover;width:auto;height:64px" /></figure>
 							<!-- /wp:image -->
@@ -188,19 +206,19 @@
 						<div class="wp-block-column is-vertically-aligned-center">
 							<!-- wp:heading {"level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"lineHeight":"1.2"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"heading","fontSize":"small-plus"} -->
 							<h4 class="wp-block-heading has-heading-color has-text-color has-link-color has-small-plus-font-size"
-								style="margin-top:0;margin-bottom:0;line-height:1.2">Farfalle</h4>
+								style="margin-top:0;margin-bottom:0;line-height:1.2"><?php esc_html_e( 'Farfalle', 'grocefycart' ); ?></h4>
 							<!-- /wp:heading -->
 
 							<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 							<figure class="wp-block-image size-full is-resized" style="margin-top:0;margin-bottom:0">
-								<img src="http://localhost/wordpress/grocefy-cart/wp-content/uploads/sites/5/2025/02/star-1.png"
+								<img src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
 									alt="" class="wp-image-1423" style="object-fit:cover;width:60px;height:12px" />
 							</figure>
 							<!-- /wp:image -->
 
 							<!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"5px","bottom":"0px"}}},"textColor":"primary","fontSize":"small-plus"} -->
 							<h2 class="wp-block-heading has-primary-color has-text-color has-link-color has-small-plus-font-size"
-								style="margin-top:5px;margin-bottom:0px;font-style:normal;font-weight:600">$29.99</h2>
+								style="margin-top:5px;margin-bottom:0px;font-style:normal;font-weight:600"><?php esc_html_e( '$29.99', 'grocefycart' ); ?></h2>
 							<!-- /wp:heading -->
 						</div>
 						<!-- /wp:column -->
@@ -213,7 +231,7 @@
 						<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%">
 							<!-- wp:image {"id":66,"width":"auto","height":"64px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
 							<figure class="wp-block-image aligncenter size-full is-resized"><img
-									src="http://localhost/wordpress/grocefy-cart/wp-content/uploads/sites/5/2025/02/product-berry-1.jpg"
+									src="<?php echo esc_url( $grocefycart_product_img[2] ); ?>"
 									alt="" class="wp-image-66"
 									style="aspect-ratio:1;object-fit:cover;width:auto;height:64px" /></figure>
 							<!-- /wp:image -->
@@ -224,19 +242,19 @@
 						<div class="wp-block-column is-vertically-aligned-center">
 							<!-- wp:heading {"level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"lineHeight":"1.2"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"heading","fontSize":"small-plus"} -->
 							<h4 class="wp-block-heading has-heading-color has-text-color has-link-color has-small-plus-font-size"
-								style="margin-top:0;margin-bottom:0;line-height:1.2">Strawberry</h4>
+								style="margin-top:0;margin-bottom:0;line-height:1.2"><?php esc_html_e( 'Strawberry', 'grocefycart' ); ?></h4>
 							<!-- /wp:heading -->
 
 							<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 							<figure class="wp-block-image size-full is-resized" style="margin-top:0;margin-bottom:0">
-								<img src="http://localhost/wordpress/grocefy-cart/wp-content/uploads/sites/5/2025/02/star-1.png"
+								<img src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
 									alt="" class="wp-image-1423" style="object-fit:cover;width:60px;height:12px" />
 							</figure>
 							<!-- /wp:image -->
 
 							<!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"5px","bottom":"0px"}}},"textColor":"primary","fontSize":"small-plus"} -->
 							<h2 class="wp-block-heading has-primary-color has-text-color has-link-color has-small-plus-font-size"
-								style="margin-top:5px;margin-bottom:0px;font-style:normal;font-weight:600">$39.99</h2>
+								style="margin-top:5px;margin-bottom:0px;font-style:normal;font-weight:600"><?php esc_html_e( '$39.99', 'grocefycart' ); ?></h2>
 							<!-- /wp:heading -->
 						</div>
 						<!-- /wp:column -->
@@ -249,7 +267,7 @@
 						<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%">
 							<!-- wp:image {"id":59,"width":"auto","height":"64px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
 							<figure class="wp-block-image aligncenter size-full is-resized"><img
-									src="http://localhost/wordpress/grocefy-cart/wp-content/uploads/sites/5/2025/02/product-penne.jpg"
+									src="<?php echo esc_url( $grocefycart_product_img[3] ); ?>"
 									alt="penne" class="wp-image-59"
 									style="aspect-ratio:1;object-fit:cover;width:auto;height:64px" /></figure>
 							<!-- /wp:image -->
@@ -260,19 +278,19 @@
 						<div class="wp-block-column is-vertically-aligned-center">
 							<!-- wp:heading {"level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"lineHeight":"1.2"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"heading","fontSize":"small-plus"} -->
 							<h4 class="wp-block-heading has-heading-color has-text-color has-link-color has-small-plus-font-size"
-								style="margin-top:0;margin-bottom:0;line-height:1.2">Capellini Tagliati</h4>
+								style="margin-top:0;margin-bottom:0;line-height:1.2"><?php esc_html_e( 'Capellini Tagliati', 'grocefycart' ); ?></h4>
 							<!-- /wp:heading -->
 
 							<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 							<figure class="wp-block-image size-full is-resized" style="margin-top:0;margin-bottom:0">
-								<img src="http://localhost/wordpress/grocefy-cart/wp-content/uploads/sites/5/2025/02/star-1.png"
+								<img src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
 									alt="" class="wp-image-1423" style="object-fit:cover;width:60px;height:12px" />
 							</figure>
 							<!-- /wp:image -->
 
 							<!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"5px","bottom":"0px"}}},"textColor":"primary","fontSize":"small-plus"} -->
 							<h2 class="wp-block-heading has-primary-color has-text-color has-link-color has-small-plus-font-size"
-								style="margin-top:5px;margin-bottom:0px;font-style:normal;font-weight:600">$29.99</h2>
+								style="margin-top:5px;margin-bottom:0px;font-style:normal;font-weight:600"><?php esc_html_e( '$29.99', 'grocefycart' ); ?></h2>
 							<!-- /wp:heading -->
 						</div>
 						<!-- /wp:column -->
@@ -285,7 +303,7 @@
 						<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%">
 							<!-- wp:image {"id":76,"width":"auto","height":"64px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
 							<figure class="wp-block-image aligncenter size-full is-resized"><img
-									src="http://localhost/wordpress/grocefy-cart/wp-content/uploads/sites/5/2025/02/product-promogranate.jpg"
+									src="<?php echo esc_url( $grocefycart_product_img[4] ); ?>"
 									alt="" class="wp-image-76"
 									style="aspect-ratio:1;object-fit:cover;width:auto;height:64px" /></figure>
 							<!-- /wp:image -->
@@ -296,19 +314,19 @@
 						<div class="wp-block-column is-vertically-aligned-center">
 							<!-- wp:heading {"level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"lineHeight":"1.2"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"heading","fontSize":"small-plus"} -->
 							<h4 class="wp-block-heading has-heading-color has-text-color has-link-color has-small-plus-font-size"
-								style="margin-top:0;margin-bottom:0;line-height:1.2">Pomegranate</h4>
+								style="margin-top:0;margin-bottom:0;line-height:1.2"><?php esc_html_e( 'Pomegranate', 'grocefycart' ); ?></h4>
 							<!-- /wp:heading -->
 
 							<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 							<figure class="wp-block-image size-full is-resized" style="margin-top:0;margin-bottom:0">
-								<img src="http://localhost/wordpress/grocefy-cart/wp-content/uploads/sites/5/2025/02/star-1.png"
+								<img src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
 									alt="" class="wp-image-1423" style="object-fit:cover;width:60px;height:12px" />
 							</figure>
 							<!-- /wp:image -->
 
 							<!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"5px","bottom":"0px"}}},"textColor":"primary","fontSize":"small-plus"} -->
 							<h2 class="wp-block-heading has-primary-color has-text-color has-link-color has-small-plus-font-size"
-								style="margin-top:5px;margin-bottom:0px;font-style:normal;font-weight:600">$49.99</h2>
+								style="margin-top:5px;margin-bottom:0px;font-style:normal;font-weight:600"><?php esc_html_e( '$49.99', 'grocefycart' ); ?></h2>
 							<!-- /wp:heading -->
 						</div>
 						<!-- /wp:column -->
@@ -321,7 +339,7 @@
 
 			<!-- wp:image {"id":452,"width":"auto","height":"420px","aspectRatio":"2/3","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center","style":{"border":{"radius":"10px"}}} -->
 			<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img
-					src="http://localhost/wordpress/grocefy-cart/wp-content/uploads/sites/5/2025/02/Mask-group.png"
+					src="<?php echo esc_url( $grocefycart_sidebar_img[0] ); ?>"
 					alt="" class="wp-image-452"
 					style="border-radius:10px;aspect-ratio:2/3;object-fit:cover;width:auto;height:420px" /></figure>
 			<!-- /wp:image -->
@@ -337,7 +355,7 @@
 					style="border-bottom-color:var(--wp--preset--color--primary);border-bottom-width:1px;margin-top:0;margin-bottom:45px;padding-bottom:16px">
 					<!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"bottom":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"border":{"bottom":{"style":"none","width":"0px"}}},"textColor":"heading","fontSize":"big"} -->
 					<h4 class="wp-block-heading has-text-align-center has-heading-color has-text-color has-link-color has-big-font-size"
-						style="border-bottom-style:none;border-bottom-width:0px;margin-bottom:0">Trending Products</h4>
+						style="border-bottom-style:none;border-bottom-width:0px;margin-bottom:0"><?php esc_html_e( 'Trending Products', 'grocefycart' ); ?></h4>
 					<!-- /wp:heading -->
 
 					<!-- wp:buttons {"style":{"border":{"width":"1px","color":"#4C4C4C","radius":"100px"}},"backgroundColor":"transparent"} -->
@@ -347,8 +365,7 @@
 						<div class="wp-block-button has-custom-font-size has-normal-font-size"><a
 								class="wp-block-button__link has-foreground-color has-transparent-background-color has-text-color has-background has-link-color wp-element-button"
 								href="#"
-								style="border-style:none;border-width:0px;border-radius:100px;padding-top:8px;padding-right:18px;padding-bottom:8px;padding-left:18px">See
-								All</a></div>
+								style="border-style:none;border-width:0px;border-radius:100px;padding-top:8px;padding-right:18px;padding-bottom:8px;padding-left:18px"><?php esc_html_e( 'See All', 'grocefycart' ); ?></a></div>
 						<!-- /wp:button -->
 					</div>
 					<!-- /wp:buttons -->
@@ -363,19 +380,19 @@
 							style="border-color:#022E1C1A;border-width:1px;border-radius:10px;padding-top:25px;padding-right:25px;padding-bottom:25px;padding-left:25px">
 							<!-- wp:image {"id":59,"width":"auto","height":"150px","aspectRatio":"4/3","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
 							<figure class="wp-block-image aligncenter size-full is-resized"><img
-									src="http://localhost/wordpress/grocefy-cart/wp-content/uploads/sites/5/2025/02/product-penne.jpg"
+									src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
 									alt="penne" class="wp-image-59"
 									style="aspect-ratio:4/3;object-fit:cover;width:auto;height:150px" /></figure>
 							<!-- /wp:image -->
 
 							<!-- wp:heading {"level":6,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"heading","fontSize":"normal"} -->
 							<h6 class="wp-block-heading has-heading-color has-text-color has-link-color has-normal-font-size"
-								style="font-style:normal;font-weight:600">Penne Rigate</h6>
+								style="font-style:normal;font-weight:600"><?php esc_html_e( 'Penne Rigate', 'grocefycart' ); ?></h6>
 							<!-- /wp:heading -->
 
 							<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0px","bottom":"0"}}}} -->
 							<figure class="wp-block-image size-full is-resized" style="margin-top:0px;margin-bottom:0">
-								<img src="http://localhost/wordpress/grocefy-cart/wp-content/uploads/sites/5/2025/02/star-1.png"
+								<img src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
 									alt="" class="wp-image-1423" style="object-fit:cover;width:60px;height:12px" />
 							</figure>
 							<!-- /wp:image -->
@@ -386,9 +403,9 @@
 								<!-- wp:heading {"fontSize":"small-plus"} -->
 								<h2 class="wp-block-heading has-small-plus-font-size"><s><mark
 											style="background-color:rgba(0, 0, 0, 0)"
-											class="has-inline-color has-foreground-color">$49.99 </mark></s><mark
+											class="has-inline-color has-foreground-color"><?php esc_html_e( '$49.99', 'grocefycart' ); ?> </mark></s><mark
 										style="background-color:rgba(0, 0, 0, 0)"
-										class="has-inline-color has-primary-color">$39.99</mark></h2>
+										class="has-inline-color has-primary-color"><?php esc_html_e( '$39.99', 'grocefycart' ); ?></mark></h2>
 								<!-- /wp:heading -->
 
 								<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"space-between"}} -->
@@ -396,8 +413,7 @@
 									<!-- wp:button {"textColor":"primary","style":{"color":{"background":"#1d8d601a"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"spacing":{"padding":{"left":"14px","right":"14px","top":"12px","bottom":"12px"}},"border":{"radius":"100px"}},"fontSize":"x-small"} -->
 									<div class="wp-block-button has-custom-font-size has-x-small-font-size"><a
 											class="wp-block-button__link has-primary-color has-text-color has-background has-link-color wp-element-button"
-											style="border-radius:100px;background-color:#1d8d601a;padding-top:12px;padding-right:14px;padding-bottom:12px;padding-left:14px">Add
-											To Cart</a></div>
+											style="border-radius:100px;background-color:#1d8d601a;padding-top:12px;padding-right:14px;padding-bottom:12px;padding-left:14px"><?php esc_html_e( 'Add To Cart', 'grocefycart' ); ?></a></div>
 									<!-- /wp:button -->
 								</div>
 								<!-- /wp:buttons -->
@@ -415,19 +431,19 @@
 							style="border-color:#022E1C1A;border-width:1px;border-radius:10px;padding-top:25px;padding-right:25px;padding-bottom:25px;padding-left:25px">
 							<!-- wp:image {"id":68,"width":"auto","height":"150px","aspectRatio":"4/3","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
 							<figure class="wp-block-image aligncenter size-full is-resized"><img
-									src="http://localhost/wordpress/grocefy-cart/wp-content/uploads/sites/5/2025/02/product-farfalle.jpg"
+									src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
 									alt="" class="wp-image-68"
 									style="aspect-ratio:4/3;object-fit:cover;width:auto;height:150px" /></figure>
 							<!-- /wp:image -->
 
 							<!-- wp:heading {"level":6,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"heading","fontSize":"normal"} -->
 							<h6 class="wp-block-heading has-heading-color has-text-color has-link-color has-normal-font-size"
-								style="font-style:normal;font-weight:600">Farfalle Pasta</h6>
+								style="font-style:normal;font-weight:600"><?php esc_html_e( 'Farfalle Pasta', 'grocefycart' ); ?></h6>
 							<!-- /wp:heading -->
 
 							<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0px","bottom":"0"}}}} -->
 							<figure class="wp-block-image size-full is-resized" style="margin-top:0px;margin-bottom:0">
-								<img src="http://localhost/wordpress/grocefy-cart/wp-content/uploads/sites/5/2025/02/star-1.png"
+								<img src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
 									alt="" class="wp-image-1423" style="object-fit:cover;width:60px;height:12px" />
 							</figure>
 							<!-- /wp:image -->
@@ -438,9 +454,9 @@
 								<!-- wp:heading {"fontSize":"small-plus"} -->
 								<h2 class="wp-block-heading has-small-plus-font-size"><s><mark
 											style="background-color:rgba(0, 0, 0, 0)"
-											class="has-inline-color has-foreground-color">$39.99 </mark></s><mark
+											class="has-inline-color has-foreground-color"><?php esc_html_e( '$39.99 ', 'grocefycart' ); ?></mark></s><mark
 										style="background-color:rgba(0, 0, 0, 0)"
-										class="has-inline-color has-primary-color">$29.99</mark></h2>
+										class="has-inline-color has-primary-color"><?php esc_html_e( '$29.99', 'grocefycart' ); ?></mark></h2>
 								<!-- /wp:heading -->
 
 								<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"space-between"}} -->
@@ -448,8 +464,7 @@
 									<!-- wp:button {"textColor":"primary","style":{"color":{"background":"#1d8d601a"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"spacing":{"padding":{"left":"14px","right":"14px","top":"12px","bottom":"12px"}},"border":{"radius":"100px"}},"fontSize":"x-small"} -->
 									<div class="wp-block-button has-custom-font-size has-x-small-font-size"><a
 											class="wp-block-button__link has-primary-color has-text-color has-background has-link-color wp-element-button"
-											style="border-radius:100px;background-color:#1d8d601a;padding-top:12px;padding-right:14px;padding-bottom:12px;padding-left:14px">Add
-											To Cart</a></div>
+											style="border-radius:100px;background-color:#1d8d601a;padding-top:12px;padding-right:14px;padding-bottom:12px;padding-left:14px"><?php esc_html_e( 'Add To Cart', 'grocefycart' ); ?></a></div>
 									<!-- /wp:button -->
 								</div>
 								<!-- /wp:buttons -->
@@ -467,19 +482,19 @@
 							style="border-color:#022E1C1A;border-width:1px;border-radius:10px;padding-top:25px;padding-right:25px;padding-bottom:25px;padding-left:25px">
 							<!-- wp:image {"id":70,"width":"auto","height":"150px","aspectRatio":"4/3","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
 							<figure class="wp-block-image aligncenter size-full is-resized"><img
-									src="http://localhost/wordpress/grocefy-cart/wp-content/uploads/sites/5/2025/02/product-tagliatelle.jpg"
+									src="<?php echo esc_url( $grocefycart_product_img[3] ); ?>"
 									alt="" class="wp-image-70"
 									style="aspect-ratio:4/3;object-fit:cover;width:auto;height:150px" /></figure>
 							<!-- /wp:image -->
 
 							<!-- wp:heading {"level":6,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"heading","fontSize":"normal"} -->
 							<h6 class="wp-block-heading has-heading-color has-text-color has-link-color has-normal-font-size"
-								style="font-style:normal;font-weight:600">Capellini Tagliati</h6>
+								style="font-style:normal;font-weight:600"><?php esc_html_e( 'Capellini Tagliati', 'grocefycart' ); ?></h6>
 							<!-- /wp:heading -->
 
 							<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0px","bottom":"0"}}}} -->
 							<figure class="wp-block-image size-full is-resized" style="margin-top:0px;margin-bottom:0">
-								<img src="http://localhost/wordpress/grocefy-cart/wp-content/uploads/sites/5/2025/02/star-1.png"
+								<img src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
 									alt="" class="wp-image-1423" style="object-fit:cover;width:60px;height:12px" />
 							</figure>
 							<!-- /wp:image -->
@@ -490,9 +505,9 @@
 								<!-- wp:heading {"fontSize":"small-plus"} -->
 								<h2 class="wp-block-heading has-small-plus-font-size"><s><mark
 											style="background-color:rgba(0, 0, 0, 0)"
-											class="has-inline-color has-foreground-color">$39.99 </mark></s><mark
+											class="has-inline-color has-foreground-color"><?php esc_html_e( '$39.99 ', 'grocefycart' ); ?></mark></s><mark
 										style="background-color:rgba(0, 0, 0, 0)"
-										class="has-inline-color has-primary-color">$29.99</mark></h2>
+										class="has-inline-color has-primary-color"><?php esc_html_e( '$29.99', 'grocefycart' ); ?></mark></h2>
 								<!-- /wp:heading -->
 
 								<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"space-between"}} -->
@@ -500,8 +515,7 @@
 									<!-- wp:button {"textColor":"primary","style":{"color":{"background":"#1d8d601a"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"spacing":{"padding":{"left":"14px","right":"14px","top":"12px","bottom":"12px"}},"border":{"radius":"100px"}},"fontSize":"x-small"} -->
 									<div class="wp-block-button has-custom-font-size has-x-small-font-size"><a
 											class="wp-block-button__link has-primary-color has-text-color has-background has-link-color wp-element-button"
-											style="border-radius:100px;background-color:#1d8d601a;padding-top:12px;padding-right:14px;padding-bottom:12px;padding-left:14px">Add
-											To Cart</a></div>
+											style="border-radius:100px;background-color:#1d8d601a;padding-top:12px;padding-right:14px;padding-bottom:12px;padding-left:14px"><?php esc_html_e( 'Add To Cart', 'grocefycart' ); ?></a></div>
 									<!-- /wp:button -->
 								</div>
 								<!-- /wp:buttons -->
@@ -522,19 +536,19 @@
 							style="border-color:#022E1C1A;border-width:1px;border-radius:10px;padding-top:25px;padding-right:25px;padding-bottom:25px;padding-left:25px">
 							<!-- wp:image {"id":74,"width":"auto","height":"150px","aspectRatio":"4/3","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
 							<figure class="wp-block-image aligncenter size-full is-resized"><img
-									src="http://localhost/wordpress/grocefy-cart/wp-content/uploads/sites/5/2025/02/product-papaya.jpg"
+									src="<?php echo esc_url( $grocefycart_product_img[5] ); ?>"
 									alt="" class="wp-image-74"
 									style="aspect-ratio:4/3;object-fit:cover;width:auto;height:150px" /></figure>
 							<!-- /wp:image -->
 
 							<!-- wp:heading {"level":6,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"heading","fontSize":"normal"} -->
 							<h6 class="wp-block-heading has-heading-color has-text-color has-link-color has-normal-font-size"
-								style="font-style:normal;font-weight:600">Fresh Papaya</h6>
+								style="font-style:normal;font-weight:600"><?php esc_html_e( 'Fresh Papaya', 'grocefycart' ); ?></h6>
 							<!-- /wp:heading -->
 
 							<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0px","bottom":"0"}}}} -->
 							<figure class="wp-block-image size-full is-resized" style="margin-top:0px;margin-bottom:0">
-								<img src="http://localhost/wordpress/grocefy-cart/wp-content/uploads/sites/5/2025/02/star-1.png"
+								<img src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
 									alt="" class="wp-image-1423" style="object-fit:cover;width:60px;height:12px" />
 							</figure>
 							<!-- /wp:image -->
@@ -545,9 +559,9 @@
 								<!-- wp:heading {"fontSize":"small-plus"} -->
 								<h2 class="wp-block-heading has-small-plus-font-size"><s><mark
 											style="background-color:rgba(0, 0, 0, 0)"
-											class="has-inline-color has-foreground-color">$39.99 </mark></s><mark
+											class="has-inline-color has-foreground-color"><?php esc_html_e( '$39.99 ', 'grocefycart' ); ?></mark></s><mark
 										style="background-color:rgba(0, 0, 0, 0)"
-										class="has-inline-color has-primary-color">$29.99</mark></h2>
+										class="has-inline-color has-primary-color"><?php esc_html_e( '$29.99', 'grocefycart' ); ?></mark></h2>
 								<!-- /wp:heading -->
 
 								<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"space-between"}} -->
@@ -555,8 +569,7 @@
 									<!-- wp:button {"textColor":"primary","style":{"color":{"background":"#1d8d601a"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"spacing":{"padding":{"left":"14px","right":"14px","top":"12px","bottom":"12px"}},"border":{"radius":"100px"}},"fontSize":"x-small"} -->
 									<div class="wp-block-button has-custom-font-size has-x-small-font-size"><a
 											class="wp-block-button__link has-primary-color has-text-color has-background has-link-color wp-element-button"
-											style="border-radius:100px;background-color:#1d8d601a;padding-top:12px;padding-right:14px;padding-bottom:12px;padding-left:14px">Add
-											To Cart</a></div>
+											style="border-radius:100px;background-color:#1d8d601a;padding-top:12px;padding-right:14px;padding-bottom:12px;padding-left:14px"><?php esc_html_e( 'Add To Cart', 'grocefycart' ); ?></a></div>
 									<!-- /wp:button -->
 								</div>
 								<!-- /wp:buttons -->
@@ -574,19 +587,19 @@
 							style="border-color:#022E1C1A;border-width:1px;border-radius:10px;padding-top:25px;padding-right:25px;padding-bottom:25px;padding-left:25px">
 							<!-- wp:image {"id":76,"width":"auto","height":"150px","aspectRatio":"4/3","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
 							<figure class="wp-block-image aligncenter size-full is-resized"><img
-									src="http://localhost/wordpress/grocefy-cart/wp-content/uploads/sites/5/2025/02/product-promogranate.jpg"
+									src="<?php echo esc_url( $grocefycart_product_img[4] ); ?>"
 									alt="" class="wp-image-76"
 									style="aspect-ratio:4/3;object-fit:cover;width:auto;height:150px" /></figure>
 							<!-- /wp:image -->
 
 							<!-- wp:heading {"level":6,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"heading","fontSize":"normal"} -->
 							<h6 class="wp-block-heading has-heading-color has-text-color has-link-color has-normal-font-size"
-								style="font-style:normal;font-weight:600">Fresh Pomegranate</h6>
+								style="font-style:normal;font-weight:600"><?php esc_html_e( 'Fresh Pomegranate', 'grocefycart' ); ?></h6>
 							<!-- /wp:heading -->
 
 							<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0px","bottom":"0"}}}} -->
 							<figure class="wp-block-image size-full is-resized" style="margin-top:0px;margin-bottom:0">
-								<img src="http://localhost/wordpress/grocefy-cart/wp-content/uploads/sites/5/2025/02/star-1.png"
+								<img src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
 									alt="" class="wp-image-1423" style="object-fit:cover;width:60px;height:12px" />
 							</figure>
 							<!-- /wp:image -->
@@ -597,9 +610,9 @@
 								<!-- wp:heading {"fontSize":"small-plus"} -->
 								<h2 class="wp-block-heading has-small-plus-font-size"><s><mark
 											style="background-color:rgba(0, 0, 0, 0)"
-											class="has-inline-color has-foreground-color">$29.99 </mark></s><mark
+											class="has-inline-color has-foreground-color"><?php esc_html_e( '$29.99 ', 'grocefycart' ); ?></mark></s><mark
 										style="background-color:rgba(0, 0, 0, 0)"
-										class="has-inline-color has-primary-color">$19.99</mark></h2>
+										class="has-inline-color has-primary-color"><?php esc_html_e( '$19.99 ', 'grocefycart' ); ?></mark></h2>
 								<!-- /wp:heading -->
 
 								<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"space-between"}} -->
@@ -607,8 +620,7 @@
 									<!-- wp:button {"textColor":"primary","style":{"color":{"background":"#1d8d601a"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"spacing":{"padding":{"left":"14px","right":"14px","top":"12px","bottom":"12px"}},"border":{"radius":"100px"}},"fontSize":"x-small"} -->
 									<div class="wp-block-button has-custom-font-size has-x-small-font-size"><a
 											class="wp-block-button__link has-primary-color has-text-color has-background has-link-color wp-element-button"
-											style="border-radius:100px;background-color:#1d8d601a;padding-top:12px;padding-right:14px;padding-bottom:12px;padding-left:14px">Add
-											To Cart</a></div>
+											style="border-radius:100px;background-color:#1d8d601a;padding-top:12px;padding-right:14px;padding-bottom:12px;padding-left:14px"><?php esc_html_e( 'Add To Cart', 'grocefycart' ); ?></a></div>
 									<!-- /wp:button -->
 								</div>
 								<!-- /wp:buttons -->
@@ -626,19 +638,19 @@
 							style="border-color:#022E1C1A;border-width:1px;border-radius:10px;padding-top:25px;padding-right:25px;padding-bottom:25px;padding-left:25px">
 							<!-- wp:image {"id":65,"width":"auto","height":"150px","aspectRatio":"4/3","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
 							<figure class="wp-block-image aligncenter size-full is-resized"><img
-									src="http://localhost/wordpress/grocefy-cart/wp-content/uploads/sites/5/2025/02/product-berry.jpg"
+									src="<?php echo esc_url( $grocefycart_product_img[6] ); ?>"
 									alt="" class="wp-image-65"
 									style="aspect-ratio:4/3;object-fit:cover;width:auto;height:150px" /></figure>
 							<!-- /wp:image -->
 
 							<!-- wp:heading {"level":6,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"heading","fontSize":"normal"} -->
 							<h6 class="wp-block-heading has-heading-color has-text-color has-link-color has-normal-font-size"
-								style="font-style:normal;font-weight:600">Fresh Strawberry</h6>
+								style="font-style:normal;font-weight:600"><?php esc_html_e( 'Fresh Strawberry', 'grocefycart' ); ?></h6>
 							<!-- /wp:heading -->
 
 							<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0px","bottom":"0"}}}} -->
 							<figure class="wp-block-image size-full is-resized" style="margin-top:0px;margin-bottom:0">
-								<img src="http://localhost/wordpress/grocefy-cart/wp-content/uploads/sites/5/2025/02/star-1.png"
+								<img src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
 									alt="" class="wp-image-1423" style="object-fit:cover;width:60px;height:12px" />
 							</figure>
 							<!-- /wp:image -->
@@ -649,9 +661,9 @@
 								<!-- wp:heading {"fontSize":"small-plus"} -->
 								<h2 class="wp-block-heading has-small-plus-font-size"><s><mark
 											style="background-color:rgba(0, 0, 0, 0)"
-											class="has-inline-color has-foreground-color">$39.99 </mark></s><mark
+											class="has-inline-color has-foreground-color"><?php esc_html_e( '$39.99 ', 'grocefycart' ); ?></mark></s><mark
 										style="background-color:rgba(0, 0, 0, 0)"
-										class="has-inline-color has-primary-color">$29.99</mark></h2>
+										class="has-inline-color has-primary-color"><?php esc_html_e( '$29.99', 'grocefycart' ); ?></mark></h2>
 								<!-- /wp:heading -->
 
 								<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"space-between"}} -->
@@ -659,8 +671,7 @@
 									<!-- wp:button {"textColor":"primary","style":{"color":{"background":"#1d8d601a"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"spacing":{"padding":{"left":"14px","right":"14px","top":"12px","bottom":"12px"}},"border":{"radius":"100px"}},"fontSize":"x-small"} -->
 									<div class="wp-block-button has-custom-font-size has-x-small-font-size"><a
 											class="wp-block-button__link has-primary-color has-text-color has-background has-link-color wp-element-button"
-											style="border-radius:100px;background-color:#1d8d601a;padding-top:12px;padding-right:14px;padding-bottom:12px;padding-left:14px">Add
-											To Cart</a></div>
+											style="border-radius:100px;background-color:#1d8d601a;padding-top:12px;padding-right:14px;padding-bottom:12px;padding-left:14px"><?php esc_html_e( 'Add To Cart', 'grocefycart' ); ?></a></div>
 									<!-- /wp:button -->
 								</div>
 								<!-- /wp:buttons -->
@@ -678,5 +689,6 @@
 		<!-- /wp:column -->
 	</div>
 	<!-- /wp:columns -->
+	<?php } ?>
 </div>
 <!-- /wp:group -->

@@ -19,57 +19,64 @@ ul.is-style-grocefycart-categories-flex-style li {
   border-bottom: 1px solid var(--wp--preset--color--border);
   color: var(--wp--preset--color--primary);
 }
+
 /* ********** Categories ********** */
 .is-style-categories-primary-background a,
 .is-style-categories-secondary-background a,
 .is-style-categories-terniary-background a,
-.is-style-categories-mixed-background a {
+.is-style-categories-mixed-background a,
+.is-style-categories-faded-background a {
   padding: 5px 12px;
+  border-radius: 100px;
   transition: all 0.2s ease-in-out;
+  display: inline-block;
 }
-.is-style-categories-primary-background,
-.is-style-categories-secondary-background,
-.is-style-categories-terniary-background,
-.is-style-categories-mixed-background {
-  transition: all 0.2s ease-in-out;
-  transform: translateY(0px);
-}
-.is-style-categories-primary-background:hover,
-.is-style-categories-secondary-background:hover,
-.is-style-categories-terniary-background:hover,
-.is-style-categories-mixed-background:hover {
+
+.is-style-categories-primary-background a:hover,
+.is-style-categories-secondary-background a:hover,
+.is-style-categories-terniary-background a:hover,
+.is-style-categories-mixed-background a:hover,
+.is-style-categories-faded-background a:hover {
   transform: translateY(-3px);
-  transition: all 0.2s ease-in-out;
 }
+
 /* Primary */
 .is-style-categories-primary-background a {
   background: var(--wp--preset--color--primary);
-  transition: all 0.2s ease-in-out;
 }
 .is-style-categories-primary-background:hover a {
   background: var(--wp--preset--color--secondary);
-  transition: all 0.2s ease-in-out;
 }
 /* Secondary */
 .is-style-categories-secondary-background a {
   background: var(--wp--preset--color--secondary);
-  transition: all 0.2s ease-in-out;
 }
 .is-style-categories-secondary-background:hover a {
   background: var(--wp--preset--color--terniary);
-  transition: all 0.2s ease-in-out;
 }
 /* Terniary */
 .is-style-categories-terniary-background a {
   background: var(--wp--preset--color--terniary);
-  transition: all 0.2s ease-in-out;
 }
 .is-style-categories-terniary-background:hover a {
   background: var(--wp--preset--color--primary);
-  transition: all 0.2s ease-in-out;
 }
+
 /* Mixed */
 .is-style-categories-mixed-background a:nth-child(3n + 1) {
   background: var(--wp--preset--color--primary);
-  transition: all 0.2s ease-in-out;
+}
+.is-style-categories-mixed-background a:nth-child(3n + 2) {
+  background: var(--wp--preset--color--secondary);
+}
+.is-style-categories-mixed-background a:nth-child(3n) {
+  background: var(--wp--preset--color--terniary);
+}
+/* Faded */
+.is-style-categories-faded-background a {
+  background: color-mix(
+    in srgb,
+    var(--wp--preset--color--primary) 10%,
+    transparent
+  );
 }

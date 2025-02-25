@@ -187,7 +187,7 @@ if ( function_exists( 'register_block_style' ) ) {
 		register_block_style(
 			'core/post-terms',
 			array(
-				'name'  => 'categories-background-faded-round',
+				'name'  => 'categories-faded-background',
 				'label' => __( 'Faded Background Style', 'grocefycart' ),
 			)
 		);
