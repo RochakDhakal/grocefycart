@@ -1,21 +1,20 @@
 <?php
 /**
- * Title: Product Cover Grid
+ * Title: Product Cover Grid with Categories
  * Slug: grocefycart/cover-grid
  * Categories:grocefycart-template
  */
 
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","bottom":"40px","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"1260px"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:40px;padding-right:var(--wp--preset--spacing--40);padding-bottom:40px;padding-left:var(--wp--preset--spacing--40)">
-    <!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"20px","left":"20px"},"margin":{"top":"0","bottom":"0"}}}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:40px;padding-right:var(--wp--preset--spacing--40);padding-bottom:40px;padding-left:var(--wp--preset--spacing--40)"><!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"20px","left":"20px"},"margin":{"top":"0","bottom":"0"}}}} -->
 	<div class="wp-block-columns" style="margin-top:0;margin-bottom:0"><!-- wp:column {"width":"25%"} -->
 		<div class="wp-block-column" style="flex-basis:25%"><!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"},":hover":{"color":{"text":"var:preset|color|primary"}}}},"spacing":{"padding":{"top":"20px","bottom":"20px","left":"34px","right":"34px"},"blockGap":"30px"},"border":{"width":"1px","color":"#022E1C1A","radius":"10px"}},"textColor":"heading","layout":{"type":"constrained"}} -->
 			<div class="wp-block-group has-border-color has-heading-color has-text-color has-link-color" style="border-color:#022E1C1A;border-width:1px;border-radius:10px;padding-top:20px;padding-right:34px;padding-bottom:20px;padding-left:34px"><!-- wp:heading {"style":{"spacing":{"padding":{"bottom":"10px"}},"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"fontStyle":"normal","fontWeight":"600"},"border":{"bottom":{"color":"var:preset|color|primary","width":"1px"},"top":[],"right":[],"left":[]}},"textColor":"heading","fontSize":"medium"} -->
 				<h2 class="wp-block-heading has-heading-color has-text-color has-link-color has-medium-font-size" style="border-bottom-color:var(--wp--preset--color--primary);border-bottom-width:1px;padding-bottom:10px;font-style:normal;font-weight:600">Top Categories</h2>
 				<!-- /wp:heading -->
 
-				<!-- wp:categories {"taxonomy":"product_cat","showPostCounts":true,"className":"is-style-grocefycart-categories-flex-style","style":{"spacing":{"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"fontSize":"small-plus","fontFamily":"inter"} /-->
+				<!-- wp:categories {"taxonomy":"product_cat","showPostCounts":true,"className":"is-style-grocefycart-categories-flex-style","style":{"spacing":{"padding":{"right":"0","left":"0","top":"0","bottom":"0"}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"small-plus"} /-->
 			</div>
 			<!-- /wp:group -->
 		</div>
@@ -95,13 +94,13 @@
 	<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"20px","left":"20px"},"margin":{"top":"40px","bottom":"0"}}}} -->
 	<div class="wp-block-columns" style="margin-top:40px;margin-bottom:0"><!-- wp:column {"width":"25%"} -->
 		<div class="wp-block-column" style="flex-basis:25%"><!-- wp:group {"style":{"border":{"width":"1px","color":"#022E1C1A","radius":"10px"},"spacing":{"padding":{"top":"20px","bottom":"20px","left":"34px","right":"34px"},"blockGap":"0"},"dimensions":{"minHeight":"100%"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"center","justifyContent":"stretch"}} -->
-			<div class="wp-block-group has-border-color" style="border-color:#022E1C1A;border-width:1px;border-radius:10px;min-height:100%;padding-top:20px;padding-right:34px;padding-bottom:20px;padding-left:34px"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"border":{"bottom":{"color":"var:preset|color|primary","width":"1px"}},"spacing":{"padding":{"bottom":"10px"},"margin":{"bottom":"30px"}}},"textColor":"heading"} -->
-				<h5 class="wp-block-heading has-heading-color has-text-color has-link-color" style="border-bottom-color:var(--wp--preset--color--primary);border-bottom-width:1px;margin-bottom:30px;padding-bottom:10px">Top Categories</h5>
+			<div class="wp-block-group has-border-color" style="border-color:#022E1C1A;border-width:1px;border-radius:10px;min-height:100%;padding-top:20px;padding-right:34px;padding-bottom:20px;padding-left:34px"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"border":{"bottom":{"color":"var:preset|color|primary","width":"1px"}},"spacing":{"padding":{"bottom":"10px"},"margin":{"bottom":"30px"}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"heading","fontSize":"medium"} -->
+				<h5 class="wp-block-heading has-heading-color has-text-color has-link-color has-medium-font-size" style="border-bottom-color:var(--wp--preset--color--primary);border-bottom-width:1px;margin-bottom:30px;padding-bottom:10px;font-style:normal;font-weight:600">Top Categories</h5>
 				<!-- /wp:heading -->
 
 				<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"15px"},"margin":{"top":"0","bottom":"15px"}},"border":{"bottom":{"color":"var:preset|color|border","width":"1px"}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"small-plus","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 				<div class="wp-block-group has-small-plus-font-size" style="border-bottom-color:var(--wp--preset--color--border);border-bottom-width:1px;margin-top:0;margin-bottom:15px;padding-bottom:15px;font-style:normal;font-weight:500"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}}},"textColor":"heading","fontSize":"small-plus"} -->
-					<p class="has-heading-color has-text-color has-link-color has-small-plus-font-size">Fruits &amp; Vegetable</p>
+					<p class="has-heading-color has-text-color has-link-color has-small-plus-font-size">Fruits & Vegetable</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
@@ -110,9 +109,9 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"15px"},"margin":{"top":"0","bottom":"15px"}},"border":{"bottom":{"color":"var:preset|color|border","width":"1px"}}},"fontSize":"small-plus","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-				<div class="wp-block-group has-small-plus-font-size" style="border-bottom-color:var(--wp--preset--color--border);border-bottom-width:1px;margin-top:0;margin-bottom:15px;padding-bottom:15px"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}}},"textColor":"heading"} -->
-					<p class="has-heading-color has-text-color has-link-color">Pet Foods</p>
+				<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"15px"},"margin":{"top":"0","bottom":"15px"}},"border":{"bottom":{"color":"var:preset|color|border","width":"1px"}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"small-plus","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+				<div class="wp-block-group has-small-plus-font-size" style="border-bottom-color:var(--wp--preset--color--border);border-bottom-width:1px;margin-top:0;margin-bottom:15px;padding-bottom:15px;font-style:normal;font-weight:500"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}}},"textColor":"heading","fontSize":"small-plus"} -->
+					<p class="has-heading-color has-text-color has-link-color has-small-plus-font-size">Pet Foods</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
@@ -121,9 +120,9 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"15px"},"margin":{"top":"0","bottom":"15px"}},"border":{"bottom":{"color":"var:preset|color|border","width":"1px"}}},"fontSize":"small-plus","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-				<div class="wp-block-group has-small-plus-font-size" style="border-bottom-color:var(--wp--preset--color--border);border-bottom-width:1px;margin-top:0;margin-bottom:15px;padding-bottom:15px"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}}},"textColor":"heading"} -->
-					<p class="has-heading-color has-text-color has-link-color">Frozen Seafoods</p>
+				<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"15px"},"margin":{"top":"0","bottom":"15px"}},"border":{"bottom":{"color":"var:preset|color|border","width":"1px"}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"small-plus","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+				<div class="wp-block-group has-small-plus-font-size" style="border-bottom-color:var(--wp--preset--color--border);border-bottom-width:1px;margin-top:0;margin-bottom:15px;padding-bottom:15px;font-style:normal;font-weight:500"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}}},"textColor":"heading","fontSize":"small-plus"} -->
+					<p class="has-heading-color has-text-color has-link-color has-small-plus-font-size">Frozen Seafoods</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
@@ -132,9 +131,9 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"15px"},"margin":{"top":"0","bottom":"15px"}},"border":{"bottom":{"color":"var:preset|color|border","width":"1px"}}},"fontSize":"small-plus","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-				<div class="wp-block-group has-small-plus-font-size" style="border-bottom-color:var(--wp--preset--color--border);border-bottom-width:1px;margin-top:0;margin-bottom:15px;padding-bottom:15px"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}}},"textColor":"heading"} -->
-					<p class="has-heading-color has-text-color has-link-color">Milk and Diaries</p>
+				<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"15px"},"margin":{"top":"0","bottom":"15px"}},"border":{"bottom":{"color":"var:preset|color|border","width":"1px"}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"small-plus","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+				<div class="wp-block-group has-small-plus-font-size" style="border-bottom-color:var(--wp--preset--color--border);border-bottom-width:1px;margin-top:0;margin-bottom:15px;padding-bottom:15px;font-style:normal;font-weight:500"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}}},"textColor":"heading","fontSize":"small-plus"} -->
+					<p class="has-heading-color has-text-color has-link-color has-small-plus-font-size">Milk and Diaries</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
@@ -143,9 +142,9 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"15px"},"margin":{"top":"0","bottom":"15px"}},"border":{"bottom":{"color":"var:preset|color|border","width":"1px"}}},"fontSize":"small-plus","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-				<div class="wp-block-group has-small-plus-font-size" style="border-bottom-color:var(--wp--preset--color--border);border-bottom-width:1px;margin-top:0;margin-bottom:15px;padding-bottom:15px"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}}},"textColor":"heading"} -->
-					<p class="has-heading-color has-text-color has-link-color">Wines &amp; Drinks</p>
+				<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"15px"},"margin":{"top":"0","bottom":"15px"}},"border":{"bottom":{"color":"var:preset|color|border","width":"1px"}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"small-plus","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+				<div class="wp-block-group has-small-plus-font-size" style="border-bottom-color:var(--wp--preset--color--border);border-bottom-width:1px;margin-top:0;margin-bottom:15px;padding-bottom:15px;font-style:normal;font-weight:500"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}}},"textColor":"heading","fontSize":"small-plus"} -->
+					<p class="has-heading-color has-text-color has-link-color has-small-plus-font-size">Wines &amp; Drinks</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
@@ -154,9 +153,9 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"15px"},"margin":{"top":"0","bottom":"15px"}},"border":{"bottom":{"color":"var:preset|color|border","width":"1px"}}},"fontSize":"small-plus","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-				<div class="wp-block-group has-small-plus-font-size" style="border-bottom-color:var(--wp--preset--color--border);border-bottom-width:1px;margin-top:0;margin-bottom:15px;padding-bottom:15px"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}}},"textColor":"heading"} -->
-					<p class="has-heading-color has-text-color has-link-color">Coffee &amp; Tea</p>
+				<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"15px"},"margin":{"top":"0","bottom":"15px"}},"border":{"bottom":{"color":"var:preset|color|border","width":"1px"}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"small-plus","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+				<div class="wp-block-group has-small-plus-font-size" style="border-bottom-color:var(--wp--preset--color--border);border-bottom-width:1px;margin-top:0;margin-bottom:15px;padding-bottom:15px;font-style:normal;font-weight:500"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}}},"textColor":"heading","fontSize":"small-plus"} -->
+					<p class="has-heading-color has-text-color has-link-color has-small-plus-font-size">Coffee &amp; Tea</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
@@ -165,9 +164,9 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"15px"},"margin":{"top":"0","bottom":"0px"}},"border":{"top":{"style":"none","width":"0px"},"right":{"style":"none","width":"0px"},"bottom":{"color":"var:preset|color|border","width":"0px","style":"none"},"left":{"style":"none","width":"0px"}}},"fontSize":"small-plus","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-				<div class="wp-block-group has-small-plus-font-size" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-color:var(--wp--preset--color--border);border-bottom-style:none;border-bottom-width:0px;border-left-style:none;border-left-width:0px;margin-top:0;margin-bottom:0px;padding-bottom:15px"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}}},"textColor":"heading"} -->
-					<p class="has-heading-color has-text-color has-link-color">Food Cupboard</p>
+				<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"15px"},"margin":{"top":"0","bottom":"15px"}},"border":{"bottom":{"color":"var:preset|color|border","width":"1px"}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"small-plus","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+				<div class="wp-block-group has-small-plus-font-size" style="border-bottom-color:var(--wp--preset--color--border);border-bottom-width:1px;margin-top:0;margin-bottom:15px;padding-bottom:15px;font-style:normal;font-weight:500"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}}},"textColor":"heading","fontSize":"small-plus"} -->
+					<p class="has-heading-color has-text-color has-link-color has-small-plus-font-size">Food Cupboard</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->

@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: CTA Product
- * Slug: grocefycart/cover-grid
- * Categories:grocefycart-template
+ * Slug: grocefycart/cta-product
+ * Categories: grocefycart-template
  */
 
 ?>
