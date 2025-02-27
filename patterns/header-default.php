@@ -16,13 +16,17 @@
 		<div class="wp-block-group">
 			<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|light"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"light","fontSize":"normal"} -->
 			<p class="has-light-color has-text-color has-link-color has-normal-font-size"
-				style="font-style:normal;font-weight:600">2345 Beach,Rd Metrocity USA, HWY 1235 | +1 (000) 012-3456</p>
+				style="font-style:normal;font-weight:600">
+				<?php esc_html_e( '2345 Beach,Rd Metrocity USA, HWY 1235 | +1 (000) 012-3456', 'grocefycart' ); ?>
+			</p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:group {"style":{"spacing":{"blockGap":"15px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 			<div class="wp-block-group">
 				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"light","fontSize":"normal"} -->
-				<p class="has-light-color has-text-color has-link-color has-normal-font-size">Track your order |</p>
+				<p class="has-light-color has-text-color has-link-color has-normal-font-size">
+					<?php esc_html_e( 'Track your order |', 'grocefycart' ); ?>
+				</p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:social-links {"iconColor":"light","iconColorValue":"#F9F9F9","size":"has-small-icon-size","className":"is-style-logos-only","style":{"spacing":{"blockGap":{"left":"15px"}}}} -->
@@ -72,13 +76,16 @@
 			style="padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
 			<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 			<div class="wp-block-group">
-				<!-- wp:group {"className":"grocefycart-categories-dropdown","style":{"spacing":{"padding":{"top":"10px","bottom":"10px","left":"16px","right":"16px"}},"border":{"radius":"10px"}},"backgroundColor":"primary","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
-				<div class="wp-block-group grocefycart-categories-dropdown has-primary-background-color has-background"
-					style="border-radius:10px;padding-top:10px;padding-right:16px;padding-bottom:10px;padding-left:16px">
-					<!-- wp:categories {"taxonomy":"product_cat","displayAsDropdown":true,"showLabel":false} /--></div>
-				<!-- /wp:group -->
-
-				<!-- wp:navigation {"ref":78,"textColor":"heading","style":{"spacing":{"blockGap":"24px"},"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"small-plus"} /-->
+				<?php if ( class_exists( 'WooCommerce' ) ) { ?>
+					<!-- wp:group {"className":"grocefycart-categories-dropdown","style":{"spacing":{"padding":{"top":"10px","bottom":"10px","left":"16px","right":"16px"}},"border":{"radius":"10px"}},"backgroundColor":"primary","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
+					<div class="wp-block-group grocefycart-categories-dropdown has-primary-background-color has-background"
+						style="border-radius:10px;padding-top:10px;padding-right:16px;padding-bottom:10px;padding-left:16px">
+						<!-- wp:categories {"taxonomy":"product_cat","displayAsDropdown":true,"showLabel":false} /--></div>
+					<!-- /wp:group -->
+				<?php } ?>
+				<!-- wp:navigation {"textColor":"heading","style":{"spacing":{"blockGap":"24px"},"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"small-plus"} -->
+				<!-- wp:page-list /-->
+				<!-- /wp:navigation -->
 			</div>
 			<!-- /wp:group -->
 
@@ -88,8 +95,8 @@
 				<div class="wp-block-button has-custom-font-size is-style-button-hover-secondary-bgcolor"
 					style="font-size:16px;font-style:normal;font-weight:500;line-height:1.5"><a
 						class="wp-block-button__link has-light-color has-text-color has-link-color wp-element-button"
-						style="border-radius:10px;padding-top:10px;padding-right:16px;padding-bottom:10px;padding-left:16px">Weekly
-						Discount</a></div>
+						style="border-radius:10px;padding-top:10px;padding-right:16px;padding-bottom:10px;padding-left:16px"><?php esc_html_e( 'Weekly Discount', 'grocefycart' ); ?></a>
+				</div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->
