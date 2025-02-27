@@ -84,6 +84,7 @@
 					<!-- /wp:group -->
 				<?php } ?>
 				<!-- wp:navigation {"textColor":"heading","style":{"spacing":{"blockGap":"24px"},"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"small-plus"} -->
+				<!-- wp:home-link {"label":"Home"} /-->
 				<!-- wp:page-list /-->
 				<!-- /wp:navigation -->
 			</div>

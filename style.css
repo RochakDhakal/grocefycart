@@ -106,5 +106,8 @@ p a {
     transform: translateX(-100%);
   }
 }
-
+/* ********** Page List ********** */
+ul.grocefycart-page-list-padding {
+  padding: 0px;
+}
 /* ********** Contact Form 7 ********** */
