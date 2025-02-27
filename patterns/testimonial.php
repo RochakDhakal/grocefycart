@@ -2,7 +2,7 @@
 /**
  * Title: Testimonial
  * Slug: grocefycart/testimonial
- * Categories:grocefycart-template
+ * Categories:grocefycart
  */
 
 	$grocefycart_testimonial_url = trailingslashit( get_template_directory_uri() );

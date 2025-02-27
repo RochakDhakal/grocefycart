@@ -2,7 +2,7 @@
 /**
  * Title: Latest Blogs
  * Slug: grocefycart/blogs
- * Categories:grocefycart-template
+ * Categories:grocefycart
  */
 
 ?>

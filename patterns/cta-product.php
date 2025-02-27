@@ -2,7 +2,7 @@
 /**
  * Title: CTA Product
  * Slug: grocefycart/cta-product
- * Categories: grocefycart-template
+ * Categories: grocefycart
  */
 
 ?>

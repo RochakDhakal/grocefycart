@@ -2,7 +2,7 @@
 /**
  * Title: Deal Of The Week
  * Slug: grocefycart/deal-of-the-week
- * Categories:grocefycart-template
+ * Categories:grocefycart
  */
 
 ?>

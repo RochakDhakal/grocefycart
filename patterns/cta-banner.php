@@ -2,7 +2,7 @@
 /**
  * Title: CTA Banner
  * Slug: grocefycart/cta-banner
- * Categories: grocefycart-template
+ * Categories: grocefycart
  */
 $grocefycart_banner_url = trailingslashit( get_template_directory_uri() );
 $grocefycart_banner_img = array(

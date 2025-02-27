@@ -2,7 +2,7 @@
 /**
  * Title: Product Cover Grid 2
  * Slug: grocefycart/product-cover-grid
- * Categories:grocefycart-template
+ * Categories:grocefycart
  */
 
 $grocefycart_cover_url = trailingslashit( get_template_directory_uri() );

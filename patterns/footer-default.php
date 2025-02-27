@@ -2,7 +2,7 @@
 /**
  * Title: Footer Default
  * Slug: grocefycart/footer-default
- * Categories: grocefycart-template
+ * Categories: grocefycart
  */
 
 ?>

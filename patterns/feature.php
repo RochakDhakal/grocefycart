@@ -2,7 +2,7 @@
 /**
  * Title: Features Block
  * Slug: grocefycart/feature
- * Categories:grocefycart-template
+ * Categories:grocefycart
  */
 
 $grocefycart_feature_url = trailingslashit( get_template_directory_uri() );
