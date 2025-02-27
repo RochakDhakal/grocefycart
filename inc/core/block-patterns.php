@@ -15,7 +15,7 @@
  */
 function grocefycart_register_pattern_category() {
 	$block_pattern_categories = array(
-		'grocefycart' => array( 'label' => __( 'Grocefy Cart : All Patterns', 'grocefycart' ) ),
+		'grocefycart' => array( 'label' => __( 'GrocefyCart : All Patterns', 'grocefycart' ) ),
 	);
 
 	$block_pattern_categories = apply_filters( 'grocefycart_block_pattern_categories', $block_pattern_categories );
