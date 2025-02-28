@@ -7,8 +7,8 @@
 
 $grocefycart_cover_url = trailingslashit( get_template_directory_uri() );
 $grocefycart_cover_img = array(
-	$grocefycart_cover_url . '/assets/images/cta-1.jpg',
-	$grocefycart_cover_url . '/assets/images/cta-3.jpg',
+	$grocefycart_cover_url . 'assets/images/cta-1.jpg',
+	$grocefycart_cover_url . 'assets/images/cta-3.jpg',
 )
 ?>
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"40px","bottom":"0"},"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"layout":{"type":"constrained","contentSize":"1260px"}} -->

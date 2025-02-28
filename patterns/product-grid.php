@@ -68,11 +68,11 @@
 		} else {
 			$grocefycart_product_url = trailingslashit( get_template_directory_uri() );
 			$grocefycart_product_img = array(
-				$grocefycart_product_url . '/assets/images/product-penne.jpg',
-				$grocefycart_product_url . '/assets/images/product-farfalle.jpg',
-				$grocefycart_product_url . '/assets/images/product-tagliati.jpg',
-				$grocefycart_product_url . '/assets/images/product-papaya.jpg',
-				$grocefycart_product_url . '/assets/images/star.png',
+				$grocefycart_product_url . 'assets/images/product-penne.jpg',
+				$grocefycart_product_url . 'assets/images/product-farfalle.jpg',
+				$grocefycart_product_url . 'assets/images/product-tagliate.jpg',
+				$grocefycart_product_url . 'assets/images/product-papaya.jpg',
+				$grocefycart_product_url . 'assets/images/star.png',
 			)
 			?>
 		<!-- wp:columns -->

@@ -94,7 +94,7 @@ p a {
   text-overflow: ellipsis;
 }
 .grocefycart-marquee-content p:before {
-  content: url(assets/images/Union.svg);
+  content: url(assets/images/union.svg);
   margin-right: 1em;
   font-size: var(--wp--preset--font-size--large);
 }
@@ -106,5 +106,8 @@ p a {
     transform: translateX(-100%);
   }
 }
-
+/* ********** Page List ********** */
+ul.grocefycart-page-list-padding {
+  padding: 0px;
+}
 /* ********** Contact Form 7 ********** */

@@ -175,7 +175,7 @@ if ( class_exists( 'WooCommerce' ) ) {
 
 							<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 							<figure class="wp-block-image size-full is-resized" style="margin-top:0;margin-bottom:0">
-								<img src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
+								<img src="<?php echo esc_url( $grocefycart_product_img[7] ); ?>"
 									alt="" class="wp-image-1423" style="object-fit:cover;width:60px;height:12px" />
 							</figure>
 							<!-- /wp:image -->
@@ -195,7 +195,7 @@ if ( class_exists( 'WooCommerce' ) ) {
 						<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%">
 							<!-- wp:image {"id":68,"width":"auto","height":"64px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
 							<figure class="wp-block-image aligncenter size-full is-resized"><img
-									src="<?php echo esc_url( $grocefycart_product_img[2] ); ?>"
+									src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
 									alt="" class="wp-image-68"
 									style="aspect-ratio:1;object-fit:cover;width:auto;height:64px" /></figure>
 							<!-- /wp:image -->
@@ -211,7 +211,7 @@ if ( class_exists( 'WooCommerce' ) ) {
 
 							<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 							<figure class="wp-block-image size-full is-resized" style="margin-top:0;margin-bottom:0">
-								<img src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
+								<img src="<?php echo esc_url( $grocefycart_product_img[7] ); ?>"
 									alt="" class="wp-image-1423" style="object-fit:cover;width:60px;height:12px" />
 							</figure>
 							<!-- /wp:image -->
@@ -247,7 +247,7 @@ if ( class_exists( 'WooCommerce' ) ) {
 
 							<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 							<figure class="wp-block-image size-full is-resized" style="margin-top:0;margin-bottom:0">
-								<img src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
+								<img src="<?php echo esc_url( $grocefycart_product_img[7] ); ?>"
 									alt="" class="wp-image-1423" style="object-fit:cover;width:60px;height:12px" />
 							</figure>
 							<!-- /wp:image -->
@@ -283,7 +283,7 @@ if ( class_exists( 'WooCommerce' ) ) {
 
 							<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 							<figure class="wp-block-image size-full is-resized" style="margin-top:0;margin-bottom:0">
-								<img src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
+								<img src="<?php echo esc_url( $grocefycart_product_img[7] ); ?>"
 									alt="" class="wp-image-1423" style="object-fit:cover;width:60px;height:12px" />
 							</figure>
 							<!-- /wp:image -->
@@ -319,7 +319,7 @@ if ( class_exists( 'WooCommerce' ) ) {
 
 							<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 							<figure class="wp-block-image size-full is-resized" style="margin-top:0;margin-bottom:0">
-								<img src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
+								<img src="<?php echo esc_url( $grocefycart_product_img[7] ); ?>"
 									alt="" class="wp-image-1423" style="object-fit:cover;width:60px;height:12px" />
 							</figure>
 							<!-- /wp:image -->
@@ -380,7 +380,7 @@ if ( class_exists( 'WooCommerce' ) ) {
 							style="border-color:#022E1C1A;border-width:1px;border-radius:10px;padding-top:25px;padding-right:25px;padding-bottom:25px;padding-left:25px">
 							<!-- wp:image {"id":59,"width":"auto","height":"150px","aspectRatio":"4/3","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
 							<figure class="wp-block-image aligncenter size-full is-resized"><img
-									src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
+									src="<?php echo esc_url( $grocefycart_product_img[0] ); ?>"
 									alt="penne" class="wp-image-59"
 									style="aspect-ratio:4/3;object-fit:cover;width:auto;height:150px" /></figure>
 							<!-- /wp:image -->
@@ -392,7 +392,7 @@ if ( class_exists( 'WooCommerce' ) ) {
 
 							<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0px","bottom":"0"}}}} -->
 							<figure class="wp-block-image size-full is-resized" style="margin-top:0px;margin-bottom:0">
-								<img src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
+								<img src="<?php echo esc_url( $grocefycart_product_img[7] ); ?>"
 									alt="" class="wp-image-1423" style="object-fit:cover;width:60px;height:12px" />
 							</figure>
 							<!-- /wp:image -->
@@ -443,7 +443,7 @@ if ( class_exists( 'WooCommerce' ) ) {
 
 							<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0px","bottom":"0"}}}} -->
 							<figure class="wp-block-image size-full is-resized" style="margin-top:0px;margin-bottom:0">
-								<img src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
+								<img src="<?php echo esc_url( $grocefycart_product_img[7] ); ?>"
 									alt="" class="wp-image-1423" style="object-fit:cover;width:60px;height:12px" />
 							</figure>
 							<!-- /wp:image -->
@@ -494,7 +494,7 @@ if ( class_exists( 'WooCommerce' ) ) {
 
 							<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0px","bottom":"0"}}}} -->
 							<figure class="wp-block-image size-full is-resized" style="margin-top:0px;margin-bottom:0">
-								<img src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
+								<img src="<?php echo esc_url( $grocefycart_product_img[7] ); ?>"
 									alt="" class="wp-image-1423" style="object-fit:cover;width:60px;height:12px" />
 							</figure>
 							<!-- /wp:image -->
@@ -548,7 +548,7 @@ if ( class_exists( 'WooCommerce' ) ) {
 
 							<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0px","bottom":"0"}}}} -->
 							<figure class="wp-block-image size-full is-resized" style="margin-top:0px;margin-bottom:0">
-								<img src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
+								<img src="<?php echo esc_url( $grocefycart_product_img[7] ); ?>"
 									alt="" class="wp-image-1423" style="object-fit:cover;width:60px;height:12px" />
 							</figure>
 							<!-- /wp:image -->
@@ -599,7 +599,7 @@ if ( class_exists( 'WooCommerce' ) ) {
 
 							<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0px","bottom":"0"}}}} -->
 							<figure class="wp-block-image size-full is-resized" style="margin-top:0px;margin-bottom:0">
-								<img src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
+								<img src="<?php echo esc_url( $grocefycart_product_img[7] ); ?>"
 									alt="" class="wp-image-1423" style="object-fit:cover;width:60px;height:12px" />
 							</figure>
 							<!-- /wp:image -->
@@ -650,7 +650,7 @@ if ( class_exists( 'WooCommerce' ) ) {
 
 							<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0px","bottom":"0"}}}} -->
 							<figure class="wp-block-image size-full is-resized" style="margin-top:0px;margin-bottom:0">
-								<img src="<?php echo esc_url( $grocefycart_product_img[1] ); ?>"
+								<img src="<?php echo esc_url( $grocefycart_product_img[7] ); ?>"
 									alt="" class="wp-image-1423" style="object-fit:cover;width:60px;height:12px" />
 							</figure>
 							<!-- /wp:image -->

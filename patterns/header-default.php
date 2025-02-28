@@ -79,6 +79,7 @@
 			style="padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
 			<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 			<div class="wp-block-group">
+<<<<<<< HEAD
 				<!-- wp:buttons -->
 				<div class="wp-block-buttons">
 					<!-- wp:button {"textColor":"light","className":"is-style-button-hover-secondary-bgcolor","style":{"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"500","lineHeight":"1.5"},"border":{"radius":"10px"},"elements":{"link":{"color":{"text":"var:preset|color|light"}}},"spacing":{"padding":{"left":"16px","right":"16px","top":"10px","bottom":"10px"}}}} -->
@@ -92,6 +93,17 @@
 				<!-- /wp:buttons -->
 
 				<!-- wp:navigation {"textColor":"heading","style":{"spacing":{"blockGap":"24px"},"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"small-plus"} -->
+=======
+				<?php if ( class_exists( 'WooCommerce' ) ) { ?>
+					<!-- wp:group {"className":"grocefycart-categories-dropdown","style":{"spacing":{"padding":{"top":"10px","bottom":"10px","left":"16px","right":"16px"}},"border":{"radius":"10px"}},"backgroundColor":"primary","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
+					<div class="wp-block-group grocefycart-categories-dropdown has-primary-background-color has-background"
+						style="border-radius:10px;padding-top:10px;padding-right:16px;padding-bottom:10px;padding-left:16px">
+						<!-- wp:categories {"taxonomy":"product_cat","displayAsDropdown":true,"showLabel":false} /--></div>
+					<!-- /wp:group -->
+				<?php } ?>
+				<!-- wp:navigation {"textColor":"heading","style":{"spacing":{"blockGap":"24px"},"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"small-plus"} -->
+				<!-- wp:home-link {"label":"Home"} /-->
+>>>>>>> core-blocks
 				<!-- wp:page-list /-->
 				<!-- /wp:navigation -->
 			</div>

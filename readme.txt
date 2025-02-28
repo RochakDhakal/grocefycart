@@ -1,4 +1,4 @@
-=== Grocefy Cart ===
+=== GrocefyCart ===
 
 Contributors: CozyThemes
 Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, e-commerce, full-site-editing, block-patterns, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-styles, wide-blocks
@@ -23,15 +23,15 @@ This modern and user-friendly WordPress FSE theme is designed specifically for f
 
 = Does this theme support any plugins? =
 
-"Grocefy Cart" includes support for WooCommerce and for Infinite Scroll in Jetpack.
+"GrocefyCart" includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
-= 1.0.0 - Nov 13, 2024 =
+= 1.0.0 - Nov 13, 2025 =
 * Initial release
 
 ==Copyright==
-"Grocefy Cart" WordPress Theme, Copyright 2024 CozyThemes
-"Grocefy Cart" is distributed under the terms of the GNU GPL
+"GrocefyCart" WordPress Theme, Copyright 2024 CozyThemes
+"GrocefyCart" is distributed under the terms of the GNU GPL
 
 
 == Credits ==
