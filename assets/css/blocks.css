@@ -267,7 +267,7 @@ ul.is-style-grocefycart-categories-terniary li {
   transition: all 0.2s ease-in-out;
 }
 
-.is-style-grocefycart-button-up-arrow:hover a::after{
+.is-style-grocefycart-button-up-arrow:hover a::after {
   opacity: 1;
   transform: translateX(5px);
   transform: rotate(-45deg);
@@ -346,10 +346,53 @@ ul.is-style-grocefycart-categories-terniary li {
   background-repeat: no-repeat;
   transition: background-size 0.5s;
 }
+/* ********** Image *********** */
+.is-style-grocefycart-hover-zoom-in,
+.is-style-grocefycart-hover-zoom-out {
+  overflow: hidden;
+}
+.is-style-grocefycart-hover-zoom-in img,
+.is-style-grocefycart-hover-zoom-out:hover img {
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+}
+.is-style-grocefycart-hover-zoom-in:hover img,
+.is-style-grocefycart-hover-zoom-out img {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
 /* ********** WooCommerce Blocks ********** */
-.is-style-grocefycart-wc-custom-psi {
+/* Product in Stock */
+.is-style-grocefycart-wc-custom-psi-rounded,
+.is-style-grocefycart-wc-custom-psi-pointed {
   display: inline-flex;
 }
-.is-style-grocefycart-wc-custom-psi {
+.is-style-grocefycart-wc-custom-psi-rounded {
   border-radius: 100px;
+}
+/* Add To Cart */
+.is-style-grocefycart-wc-btn-primary:hover > button {
+  background-color: var(--wp--preset--color--primary) !important;
+  color: var(--wp--preset--color--white) !important;
+  transition: all 0.2s ease-in-out;
+}
+.is-style-grocefycart-wc-btn-secondary:hover > button {
+  background-color: var(--wp--preset--color--secondary) !important;
+  color: var(--wp--preset--color--dark-shade) !important;
+  transition: all 0.2s ease-in-out;
+}
+.is-style-grocefycart-wc-btn-terniary:hover > button {
+  background-color: var(--wp--preset--color--terniary) !important;
+  color: var(--wp--preset--color--white) !important;
+  transition: all 0.2s ease-in-out;
+}
+.is-style-grocefycart-wc-btn-faded:hover > button {
+  background-color: color-mix(
+    in srgb,
+    var(--wp--preset--color--primary) 10%,
+    transparent
+  );
+  color: var(--wp--preset--color--dark-shade) !important;
+  transition: all 0.2s ease-in-out;
 }

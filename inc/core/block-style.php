@@ -215,10 +215,131 @@ if ( function_exists( 'register_block_style' ) ) {
 			)
 		);
 		register_block_style(
+			'core/image',
+			array(
+				'name'  => 'grocefycart-hover-zoom-in',
+				'label' => __( 'Hover : Zoom In', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'core/image',
+			array(
+				'name'  => 'grocefycart-hover-zoom-out',
+				'label' => __( 'Hover : Zoom Out', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'core/image',
+			array(
+				'name'  => 'grocefycart-animation-spin',
+				'label' => __( 'Spin Animation', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'core/image',
+			array(
+				'name'  => 'grocefycart-animation-pulse',
+				'label' => __( 'Pulse Animation', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'core/image',
+			array(
+				'name'  => 'grocefycart-hover-animation-spin',
+				'label' => __( 'Hover : Spin Animation', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'core/image',
+			array(
+				'name'  => 'grocefycart-hover-animation-pulse',
+				'label' => __( 'Hover : Pulse Animation', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'core/post-featured-image',
+			array(
+				'name'  => 'grocefycart-hover-zoom-in',
+				'label' => __( 'Hover : Zoom In', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'core/post-featured-image',
+			array(
+				'name'  => 'grocefycart-hover-zoom-out',
+				'label' => __( 'Hover : Zoom Out', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'core/cover',
+			array(
+				'name'  => 'grocefycart-hover-zoom-in',
+				'label' => __( 'Hover : Zoom In', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'core/cover',
+			array(
+				'name'  => 'grocefycart-hover-zoom-out',
+				'label' => __( 'Hover : Zoom Out', 'grocefycart' ),
+			)
+		);
+
+		// WooCommerce Blocks.
+		register_block_style(
 			'woocommerce/product-stock-indicator',
 			array(
-				'name'  => 'grocefycart-wc-custom-psi',
-				'label' => __( 'Rounded', 'grocefycart' ),
+				'name'  => 'grocefycart-wc-custom-psi-rounded',
+				'label' => __( 'Rounded Borders', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'woocommerce/product-stock-indicator',
+			array(
+				'name'  => 'grocefycart-wc-custom-psi-pointed',
+				'label' => __( 'Pointed Border', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'woocommerce/product-button',
+			array(
+				'name'  => 'grocefycart-wc-btn-primary',
+				'label' => __( 'Hover : Primary', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'woocommerce/product-button',
+			array(
+				'name'  => 'grocefycart-wc-btn-secondary',
+				'label' => __( 'Hover : Secondary', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'woocommerce/product-button',
+			array(
+				'name'  => 'grocefycart-wc-btn-terniary',
+				'label' => __( 'Hover : Terniary', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'woocommerce/product-button',
+			array(
+				'name'  => 'grocefycart-wc-btn-faded',
+				'label' => __( 'Hover : Faded', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'woocommerce/product-image',
+			array(
+				'name'  => 'grocefycart-hover-zoom-in',
+				'label' => __( 'Hover : Zoom In', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'woocommerce/product-image',
+			array(
+				'name'  => 'grocefycart-hover-zoom-out',
+				'label' => __( 'Hover : Zoom Out', 'grocefycart' ),
 			)
 		);
 	}
