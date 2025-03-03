@@ -17,14 +17,14 @@
 			<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|light"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"light","fontSize":"normal"} -->
 			<p class="has-light-color has-text-color has-link-color has-normal-font-size"
 				style="font-style:normal;font-weight:600">
-				2345 Beach,Rd Metrocity USA, HWY 1235 | +1 (000) 012-3456 </p>
+				<?php esc_html_e( '2345 Beach,Rd Metrocity USA, HWY 1235 | +1 (000) 012-3456', 'grocefycart' ); ?> </p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:group {"style":{"spacing":{"blockGap":"15px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 			<div class="wp-block-group">
 				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"light","fontSize":"normal"} -->
 				<p class="has-light-color has-text-color has-link-color has-normal-font-size">
-					Track your order | </p>
+					<?php esc_html_e( 'Track your order | ', 'grocefycart' ); ?></p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:social-links {"iconColor":"light","iconColorValue":"#F9F9F9","size":"has-small-icon-size","className":"is-style-logos-only","style":{"spacing":{"blockGap":{"left":"15px"}}}} -->
@@ -34,6 +34,7 @@
 					<!-- wp:social-link {"url":"#","service":"instagram"} /-->
 
 					<!-- wp:social-link {"url":"#","service":"x"} /-->
+
 					<!-- wp:social-link {"url":"#","service":"whatsapp"} /-->
 				</ul>
 				<!-- /wp:social-links -->
@@ -51,7 +52,7 @@
 		<div class="wp-block-group">
 			<!-- wp:site-logo {"width":250,"shouldSyncIcon":true,"style":{"color":{"duotone":"var:preset|duotone|primary-black"}}} /-->
 
-			<!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search","buttonText":"Search","buttonUseIcon":true,"className":"is-style-grocefycart-search-rounded","style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"fontStyle":"italic","fontWeight":"400"},"spacing":{"margin":{"right":"0","left":"0","top":"0","bottom":"0"}},"border":{"radius":"100px","width":"1px"}},"backgroundColor":"secondary","textColor":"heading","fontSize":"normal","borderColor":"border-color"} /-->
+			<!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search","buttonText":"Search","buttonPosition":"button-inside","buttonUseIcon":true,"className":"is-style-grocefycart-search-rounded","style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"fontStyle":"italic","fontWeight":"400"},"spacing":{"margin":{"right":"0","left":"0","top":"0","bottom":"0"}},"border":{"radius":"100px","width":"1px"}},"backgroundColor":"secondary","textColor":"heading","fontSize":"normal","borderColor":"border"} /-->
 
 			<!-- wp:group {"style":{"spacing":{"blockGap":"15px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 			<div class="wp-block-group">
@@ -73,31 +74,27 @@
 			style="padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
 			<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
 			<div class="wp-block-group">
-				<?php if ( class_exists( 'WooCommerce' ) ) { ?>
+				<?php
+				if ( class_exists( 'WooCommerce' ) ) {
+					?>
 					<!-- wp:group {"className":"grocefycart-categories-dropdown","style":{"spacing":{"padding":{"top":"10px","bottom":"10px","left":"16px","right":"16px"}},"border":{"radius":"10px"}},"backgroundColor":"primary","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
 					<div class="wp-block-group grocefycart-categories-dropdown has-primary-background-color has-background"
 						style="border-radius:10px;padding-top:10px;padding-right:16px;padding-bottom:10px;padding-left:16px">
-						<!-- wp:categories {"taxonomy":"product_cat","displayAsDropdown":true,"showLabel":false} /-->
-					</div>
+						<!-- wp:categories {"taxonomy":"product_cat","displayAsDropdown":true,"showLabel":false} /--></div>
 					<!-- /wp:group -->
 				<?php } else { ?>
 					<!-- wp:buttons -->
 					<div class="wp-block-buttons">
-						<!-- wp:button {"textColor":"light","className":"is-style-grocefycart-button-terniary","style":{"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"500","lineHeight":"1.5"},"border":{"radius":"10px"},"elements":{"link":{"color":{"text":"var:preset|color|light"}}},"spacing":{"padding":{"left":"16px","right":"16px","top":"10px","bottom":"10px"}}}} -->
-						<div class="wp-block-button has-custom-font-size is-style-grocefycart-button-terniary"
+						<!-- wp:button {"textColor":"light","className":"is-style-button-hover-secondary-bgcolor","style":{"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"500","lineHeight":"1.5"},"border":{"radius":"10px"},"elements":{"link":{"color":{"text":"var:preset|color|light"}}},"spacing":{"padding":{"left":"16px","right":"16px","top":"10px","bottom":"10px"}}}} -->
+						<div class="wp-block-button has-custom-font-size is-style-button-hover-secondary-bgcolor"
 							style="font-size:16px;font-style:normal;font-weight:500;line-height:1.5"><a
 								class="wp-block-button__link has-light-color has-text-color has-link-color wp-element-button"
-								style="border-radius:10px;padding-top:10px;padding-right:16px;padding-bottom:10px;padding-left:16px"><?php esc_html_e( 'Select Categories', 'grocefycart' ); ?></a>
-						</div>
+								style="border-radius:10px;padding-top:10px;padding-right:16px;padding-bottom:10px;padding-left:16px"><?php esc_html_e( 'Select Categories', 'grocefycart' ); ?></a></div>
 						<!-- /wp:button -->
 					</div>
 					<!-- /wp:buttons -->
 				<?php } ?>
 				<!-- wp:navigation {"textColor":"heading","className":"is-style-grocefycart-navigation-terniary","style":{"spacing":{"blockGap":"24px"},"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"small-plus"} -->
-				<!-- wp:home-link {"label":"Home"} /-->
-
-				<!-- wp:page-list /-->
-				<!-- /wp:navigation -->
 				<!-- wp:home-link {"label":"Home"} /-->
 
 				<!-- wp:page-list /-->

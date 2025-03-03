@@ -25,24 +25,31 @@ $grocefycart_sidebar_img = array(
 					<div class="wp-block-woocommerce-product-collection">
 						<!-- wp:heading {"textAlign":"left","level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"border":{"bottom":{"color":"var:preset|color|primary","width":"1px"}},"spacing":{"padding":{"bottom":"10px"},"margin":{"bottom":"30px"}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"heading","fontSize":"medium"} -->
 						<h5 class="wp-block-heading has-text-align-left has-heading-color has-text-color has-link-color has-medium-font-size"
-							style="border-bottom-color:var(--wp--preset--color--primary);border-bottom-width:1px;margin-bottom:30px;padding-bottom:10px;font-style:normal;font-weight:600"><?php esc_html_e( 'Top Selling', 'grocefycart' ); ?></h5>
+							style="border-bottom-color:var(--wp--preset--color--primary);border-bottom-width:1px;margin-bottom:30px;padding-bottom:10px;font-style:normal;font-weight:600">
+							Top Selling</h5>
 						<!-- /wp:heading -->
 
 						<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
 						<div class="wp-block-group" style="margin-top:0;margin-bottom:0">
 							<!-- wp:woocommerce/product-template -->
-							<!-- wp:group {"className":"is-style-default","style":{"spacing":{"padding":{"top":"0","bottom":"15px"},"margin":{"top":"0","bottom":"15px"}},"border":{"bottom":{"color":"var:preset|color|border","width":"1px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+							<!-- wp:group {"className":"is-style-default","style":{"spacing":{"padding":{"top":"0","bottom":"0"},"margin":{"top":"0","bottom":"15px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
 							<div class="wp-block-group is-style-default"
-								style="border-bottom-color:var(--wp--preset--color--border);border-bottom-width:1px;margin-top:0;margin-bottom:15px;padding-top:0;padding-bottom:15px">
+								style="margin-top:0;margin-bottom:15px;padding-top:0;padding-bottom:0">
 								<!-- wp:woocommerce/product-image {"showSaleBadge":false,"imageSizing":"thumbnail","isDescendentOfQueryLoop":true,"width":"65px","height":"65px","className":"is-style-grocefycart-hover-zoom-in"} /-->
 
 								<!-- wp:group {"style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"constrained"}} -->
 								<div class="wp-block-group">
-									<!-- wp:post-title {"textAlign":"center","level":3,"isLink":true,"className":"is-style-title-hover-primary","style":{"spacing":{"margin":{"bottom":"0rem","top":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|heading"},":hover":{"color":{"text":"var:preset|color|primary"}}}}},"textColor":"heading","fontSize":"small-plus","__woocommerceNamespace":"woocommerce/product-collection/product-title"} /-->
+									<!-- wp:post-title {"textAlign":"left","level":3,"isLink":true,"className":"is-style-title-hover-primary","style":{"spacing":{"margin":{"bottom":"0rem","top":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|heading"},":hover":{"color":{"text":"var:preset|color|primary"}}}}},"textColor":"heading","fontSize":"small-plus","__woocommerceNamespace":"woocommerce/product-collection/product-title"} /-->
 
-									<!-- wp:woocommerce/product-rating {"isDescendentOfQueryLoop":true,"textAlign":"center","textColor":"luminous-vivid-orange","fontSize":"x-small","style":{"elements":{"link":{"color":{"text":"var:preset|color|luminous-vivid-orange"}}},"spacing":{"margin":{"top":"0","bottom":"0"}}}} /-->
+									<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
+									<div class="wp-block-group" style="margin-top:0;margin-bottom:0">
+										<!-- wp:woocommerce/product-rating {"isDescendentOfQueryLoop":true,"textAlign":"left","textColor":"luminous-vivid-orange","fontSize":"x-small","style":{"elements":{"link":{"color":{"text":"var:preset|color|luminous-vivid-orange"}}},"spacing":{"margin":{"top":"0","bottom":"0"}}}} /-->
 
-									<!-- wp:woocommerce/product-price {"isDescendentOfQueryLoop":true,"textAlign":"center","textColor":"primary","fontSize":"small","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}}} /-->
+										<!-- wp:woocommerce/product-stock-indicator {"isDescendentOfQueryLoop":true,"className":"is-style-grocefycart-wc-custom-psi-rounded","textColor":"primary","style":{"color":{"background":"#1d8d601a"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"spacing":{"padding":{"top":"4px","bottom":"4px","left":"8px","right":"8px"}},"typography":{"fontSize":"10px","fontStyle":"normal","fontWeight":"500"}}} /-->
+									</div>
+									<!-- /wp:group -->
+
+									<!-- wp:woocommerce/product-price {"isDescendentOfQueryLoop":true,"textAlign":"left","className":"is-style-grocefycart-wc-hide-strikeout","textColor":"primary","fontSize":"small","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}}} /-->
 								</div>
 								<!-- /wp:group -->
 							</div>
@@ -58,9 +65,10 @@ $grocefycart_sidebar_img = array(
 				<!-- wp:image {"id":452,"width":"auto","height":"420px","aspectRatio":"2/3","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center","className":"is-style-grocefycart-hover-zoom-in","style":{"border":{"radius":"10px"}}} -->
 				<figure
 					class="wp-block-image aligncenter size-full is-resized has-custom-border is-style-grocefycart-hover-zoom-in">
-					<img src="<?php echo esc_url( $grocefycart_sidebar_img[0] ); ?>"
+					<img src="http://localhost/wordpress/grocefy-cart/wp-content/themes/grocefycart/assets/images/ads.jpg"
 						alt="" class="wp-image-452"
-						style="border-radius:10px;aspect-ratio:2/3;object-fit:cover;width:auto;height:420px" /></figure>
+						style="border-radius:10px;aspect-ratio:2/3;object-fit:cover;width:auto;height:420px" />
+				</figure>
 				<!-- /wp:image -->
 			</div>
 			<!-- /wp:column -->
@@ -76,7 +84,8 @@ $grocefycart_sidebar_img = array(
 							style="border-bottom-color:var(--wp--preset--color--primary);border-bottom-width:1px;margin-top:0;margin-bottom:45px;padding-bottom:16px">
 							<!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"bottom":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"border":{"bottom":{"style":"none","width":"0px"}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"heading","fontSize":"big"} -->
 							<h4 class="wp-block-heading has-text-align-center has-heading-color has-text-color has-link-color has-big-font-size"
-								style="border-bottom-style:none;border-bottom-width:0px;margin-bottom:0;font-style:normal;font-weight:600"><?php esc_html_e( 'Trending Products', 'grocefycart' ); ?></h4>
+								style="border-bottom-style:none;border-bottom-width:0px;margin-bottom:0;font-style:normal;font-weight:600">
+								<?php esc_html_e( 'Trending Products', 'grocefycart' ); ?></h4>
 							<!-- /wp:heading -->
 
 							<!-- wp:buttons {"style":{"border":{"width":"1px","color":"#4C4C4C","radius":"100px"}},"backgroundColor":"transparent"} -->
@@ -87,7 +96,8 @@ $grocefycart_sidebar_img = array(
 									style="font-style:normal;font-weight:500"><a
 										class="wp-block-button__link has-foreground-color has-transparent-background-color has-text-color has-background has-link-color wp-element-button"
 										href="#"
-										style="border-style:none;border-width:0px;border-radius:100px;padding-top:8px;padding-right:18px;padding-bottom:8px;padding-left:18px"><?php esc_html_e( 'See All', 'grocefycart' ); ?></a></div>
+										style="border-style:none;border-width:0px;border-radius:100px;padding-top:8px;padding-right:18px;padding-bottom:8px;padding-left:18px"><?php esc_html_e( 'See All', 'grocefycart' ); ?></a>
+								</div>
 								<!-- /wp:button -->
 							</div>
 							<!-- /wp:buttons -->
@@ -106,12 +116,11 @@ $grocefycart_sidebar_img = array(
 
 							<!-- wp:woocommerce/product-rating {"isDescendentOfQueryLoop":true,"fontSize":"normal","style":{"elements":{"link":{"color":{"text":"#fd8f14"}}},"color":{"text":"#fd8f14"},"spacing":{"margin":{"top":"15px"}}}} /-->
 
-							<!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"top":"24px","bottom":"0"},"padding":{"top":"24px"},"blockGap":"15px"},"border":{"top":{"color":"var:preset|color|border","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
-							<div class="wp-block-group alignwide"
+							<!-- wp:group {"style":{"spacing":{"margin":{"top":"24px","bottom":"0"},"padding":{"top":"24px"},"blockGap":"15px"},"border":{"top":{"color":"var:preset|color|border","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
+							<div class="wp-block-group"
 								style="border-top-color:var(--wp--preset--color--border);border-top-width:1px;margin-top:24px;margin-bottom:0;padding-top:24px">
-								<!-- wp:woocommerce/product-price {"isDescendentOfQueryLoop":true,"textAlign":"left","textColor":"primary","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"0","left":"0","top":"0","bottom":"0"}},"typography":{"fontSize":"14px","lineHeight":"1.2","fontStyle":"normal","fontWeight":"600"}}} /-->
-
-								<!-- wp:woocommerce/product-button {"textAlign":"left","isDescendentOfQueryLoop":true,"className":"is-style-grocefycart-wc-btn-primary","textColor":"primary","fontSize":"small","style":{"color":{"background":"#1d8d601a"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"500"},"border":{"radius":"100px"}}} /-->
+								<!-- wp:woocommerce/product-price {"isDescendentOfQueryLoop":true,"textAlign":"left","className":"is-style-grocefycart-wc-strikeout-foreground","textColor":"primary","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"0","left":"0","top":"0","bottom":"0"}},"typography":{"fontSize":"14px","lineHeight":"1.2","fontStyle":"normal","fontWeight":"600"}}} /-->
+								<!-- wp:woocommerce/product-button {"textAlign":"left","isDescendentOfQueryLoop":true,"className":"is-style-grocefycart-wc-btn-icon","textColor":"primary","style":{"color":{"background":"#1d8d601a"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"500","fontSize":"12px","lineHeight":"1.2"},"border":{"radius":"100px"}}} /-->
 							</div>
 							<!-- /wp:group -->
 						</div>
@@ -172,7 +181,8 @@ $grocefycart_sidebar_img = array(
 								<!-- wp:heading {"level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"lineHeight":"1.2"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"heading","fontSize":"small-plus"} -->
 								<h4 class="wp-block-heading has-heading-color has-text-color has-link-color has-small-plus-font-size"
 									style="margin-top:0;margin-bottom:0;line-height:1.2">
-									<?php esc_html_e( 'Penne Rigate', 'grocefycart' ); ?></h4>
+									<?php esc_html_e( 'Penne Rigate', 'grocefycart' ); ?>
+								</h4>
 								<!-- /wp:heading -->
 
 								<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
@@ -185,7 +195,8 @@ $grocefycart_sidebar_img = array(
 								<!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"5px","bottom":"0px"}}},"textColor":"primary","fontSize":"small-plus"} -->
 								<h2 class="wp-block-heading has-primary-color has-text-color has-link-color has-small-plus-font-size"
 									style="margin-top:5px;margin-bottom:0px;font-style:normal;font-weight:600">
-									<?php esc_html_e( '$29.99', 'grocefycart' ); ?></h2>
+									<?php esc_html_e( '$29.99', 'grocefycart' ); ?>
+								</h2>
 								<!-- /wp:heading -->
 							</div>
 							<!-- /wp:column -->
@@ -210,7 +221,8 @@ $grocefycart_sidebar_img = array(
 								<!-- wp:heading {"level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"lineHeight":"1.2"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"heading","fontSize":"small-plus"} -->
 								<h4 class="wp-block-heading has-heading-color has-text-color has-link-color has-small-plus-font-size"
 									style="margin-top:0;margin-bottom:0;line-height:1.2">
-									<?php esc_html_e( 'Farfalle', 'grocefycart' ); ?></h4>
+									<?php esc_html_e( 'Farfalle', 'grocefycart' ); ?>
+								</h4>
 								<!-- /wp:heading -->
 
 								<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
@@ -223,7 +235,8 @@ $grocefycart_sidebar_img = array(
 								<!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"5px","bottom":"0px"}}},"textColor":"primary","fontSize":"small-plus"} -->
 								<h2 class="wp-block-heading has-primary-color has-text-color has-link-color has-small-plus-font-size"
 									style="margin-top:5px;margin-bottom:0px;font-style:normal;font-weight:600">
-									<?php esc_html_e( '$29.99', 'grocefycart' ); ?></h2>
+									<?php esc_html_e( '$29.99', 'grocefycart' ); ?>
+								</h2>
 								<!-- /wp:heading -->
 							</div>
 							<!-- /wp:column -->
@@ -248,7 +261,8 @@ $grocefycart_sidebar_img = array(
 								<!-- wp:heading {"level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"lineHeight":"1.2"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"heading","fontSize":"small-plus"} -->
 								<h4 class="wp-block-heading has-heading-color has-text-color has-link-color has-small-plus-font-size"
 									style="margin-top:0;margin-bottom:0;line-height:1.2">
-									<?php esc_html_e( 'Strawberry', 'grocefycart' ); ?></h4>
+									<?php esc_html_e( 'Strawberry', 'grocefycart' ); ?>
+								</h4>
 								<!-- /wp:heading -->
 
 								<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
@@ -261,7 +275,8 @@ $grocefycart_sidebar_img = array(
 								<!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"5px","bottom":"0px"}}},"textColor":"primary","fontSize":"small-plus"} -->
 								<h2 class="wp-block-heading has-primary-color has-text-color has-link-color has-small-plus-font-size"
 									style="margin-top:5px;margin-bottom:0px;font-style:normal;font-weight:600">
-									<?php esc_html_e( '$39.99', 'grocefycart' ); ?></h2>
+									<?php esc_html_e( '$39.99', 'grocefycart' ); ?>
+								</h2>
 								<!-- /wp:heading -->
 							</div>
 							<!-- /wp:column -->
@@ -286,7 +301,8 @@ $grocefycart_sidebar_img = array(
 								<!-- wp:heading {"level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"lineHeight":"1.2"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"heading","fontSize":"small-plus"} -->
 								<h4 class="wp-block-heading has-heading-color has-text-color has-link-color has-small-plus-font-size"
 									style="margin-top:0;margin-bottom:0;line-height:1.2">
-									<?php esc_html_e( 'Capellini Tagliati', 'grocefycart' ); ?></h4>
+									<?php esc_html_e( 'Capellini Tagliati', 'grocefycart' ); ?>
+								</h4>
 								<!-- /wp:heading -->
 
 								<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
@@ -299,7 +315,8 @@ $grocefycart_sidebar_img = array(
 								<!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"5px","bottom":"0px"}}},"textColor":"primary","fontSize":"small-plus"} -->
 								<h2 class="wp-block-heading has-primary-color has-text-color has-link-color has-small-plus-font-size"
 									style="margin-top:5px;margin-bottom:0px;font-style:normal;font-weight:600">
-									<?php esc_html_e( '$29.99', 'grocefycart' ); ?></h2>
+									<?php esc_html_e( '$29.99', 'grocefycart' ); ?>
+								</h2>
 								<!-- /wp:heading -->
 							</div>
 							<!-- /wp:column -->
@@ -324,7 +341,8 @@ $grocefycart_sidebar_img = array(
 								<!-- wp:heading {"level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"lineHeight":"1.2"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"heading","fontSize":"small-plus"} -->
 								<h4 class="wp-block-heading has-heading-color has-text-color has-link-color has-small-plus-font-size"
 									style="margin-top:0;margin-bottom:0;line-height:1.2">
-									<?php esc_html_e( 'Pomegranate', 'grocefycart' ); ?></h4>
+									<?php esc_html_e( 'Pomegranate', 'grocefycart' ); ?>
+								</h4>
 								<!-- /wp:heading -->
 
 								<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
@@ -337,7 +355,8 @@ $grocefycart_sidebar_img = array(
 								<!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"5px","bottom":"0px"}}},"textColor":"primary","fontSize":"small-plus"} -->
 								<h2 class="wp-block-heading has-primary-color has-text-color has-link-color has-small-plus-font-size"
 									style="margin-top:5px;margin-bottom:0px;font-style:normal;font-weight:600">
-									<?php esc_html_e( '$49.99', 'grocefycart' ); ?></h2>
+									<?php esc_html_e( '$49.99', 'grocefycart' ); ?>
+								</h2>
 								<!-- /wp:heading -->
 							</div>
 							<!-- /wp:column -->
@@ -366,7 +385,8 @@ $grocefycart_sidebar_img = array(
 						<!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"bottom":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"border":{"bottom":{"style":"none","width":"0px"}}},"textColor":"heading","fontSize":"big"} -->
 						<h4 class="wp-block-heading has-text-align-center has-heading-color has-text-color has-link-color has-big-font-size"
 							style="border-bottom-style:none;border-bottom-width:0px;margin-bottom:0">
-							<?php esc_html_e( 'Trending Products', 'grocefycart' ); ?></h4>
+							<?php esc_html_e( 'Trending Products', 'grocefycart' ); ?>
+						</h4>
 						<!-- /wp:heading -->
 
 						<!-- wp:buttons {"style":{"border":{"width":"1px","color":"#4C4C4C","radius":"100px"}},"backgroundColor":"transparent"} -->
@@ -400,7 +420,8 @@ $grocefycart_sidebar_img = array(
 								<!-- wp:heading {"level":6,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"heading","fontSize":"normal"} -->
 								<h6 class="wp-block-heading has-heading-color has-text-color has-link-color has-normal-font-size"
 									style="font-style:normal;font-weight:600">
-									<?php esc_html_e( 'Penne Rigate', 'grocefycart' ); ?></h6>
+									<?php esc_html_e( 'Penne Rigate', 'grocefycart' ); ?>
+								</h6>
 								<!-- /wp:heading -->
 
 								<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0px","bottom":"0"}}}} -->
@@ -454,7 +475,8 @@ $grocefycart_sidebar_img = array(
 								<!-- wp:heading {"level":6,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"heading","fontSize":"normal"} -->
 								<h6 class="wp-block-heading has-heading-color has-text-color has-link-color has-normal-font-size"
 									style="font-style:normal;font-weight:600">
-									<?php esc_html_e( 'Farfalle Pasta', 'grocefycart' ); ?></h6>
+									<?php esc_html_e( 'Farfalle Pasta', 'grocefycart' ); ?>
+								</h6>
 								<!-- /wp:heading -->
 
 								<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0px","bottom":"0"}}}} -->
@@ -508,7 +530,8 @@ $grocefycart_sidebar_img = array(
 								<!-- wp:heading {"level":6,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"heading","fontSize":"normal"} -->
 								<h6 class="wp-block-heading has-heading-color has-text-color has-link-color has-normal-font-size"
 									style="font-style:normal;font-weight:600">
-									<?php esc_html_e( 'Capellini Tagliati', 'grocefycart' ); ?></h6>
+									<?php esc_html_e( 'Capellini Tagliati', 'grocefycart' ); ?>
+								</h6>
 								<!-- /wp:heading -->
 
 								<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0px","bottom":"0"}}}} -->
@@ -565,7 +588,8 @@ $grocefycart_sidebar_img = array(
 								<!-- wp:heading {"level":6,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"heading","fontSize":"normal"} -->
 								<h6 class="wp-block-heading has-heading-color has-text-color has-link-color has-normal-font-size"
 									style="font-style:normal;font-weight:600">
-									<?php esc_html_e( 'Fresh Papaya', 'grocefycart' ); ?></h6>
+									<?php esc_html_e( 'Fresh Papaya', 'grocefycart' ); ?>
+								</h6>
 								<!-- /wp:heading -->
 
 								<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0px","bottom":"0"}}}} -->
@@ -619,7 +643,8 @@ $grocefycart_sidebar_img = array(
 								<!-- wp:heading {"level":6,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"heading","fontSize":"normal"} -->
 								<h6 class="wp-block-heading has-heading-color has-text-color has-link-color has-normal-font-size"
 									style="font-style:normal;font-weight:600">
-									<?php esc_html_e( 'Fresh Pomegranate', 'grocefycart' ); ?></h6>
+									<?php esc_html_e( 'Fresh Pomegranate', 'grocefycart' ); ?>
+								</h6>
 								<!-- /wp:heading -->
 
 								<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0px","bottom":"0"}}}} -->
@@ -673,7 +698,8 @@ $grocefycart_sidebar_img = array(
 								<!-- wp:heading {"level":6,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"heading","fontSize":"normal"} -->
 								<h6 class="wp-block-heading has-heading-color has-text-color has-link-color has-normal-font-size"
 									style="font-style:normal;font-weight:600">
-									<?php esc_html_e( 'Fresh Strawberry', 'grocefycart' ); ?></h6>
+									<?php esc_html_e( 'Fresh Strawberry', 'grocefycart' ); ?>
+								</h6>
 								<!-- /wp:heading -->
 
 								<!-- wp:image {"id":1423,"width":"60px","height":"12px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"0px","bottom":"0"}}}} -->
