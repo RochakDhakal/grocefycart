@@ -179,6 +179,7 @@ ul.is-style-grocefycart-categories-terniary li {
 /* Rounded */
 .is-style-grocefycart-search-rounded .wp-block-search__inside-wrapper {
   border: 1px solid var(--wp--preset--color--border);
+  padding-left: 5px;
   border-radius: 100px;
 }
 .is-style-grocefycart-search-rounded .wp-block-search__inside-wrapper input {
@@ -186,6 +187,7 @@ ul.is-style-grocefycart-categories-terniary li {
 }
 .is-style-grocefycart-search-rounded .wp-block-search__inside-wrapper button {
   border-radius: 0px 100px 100px 0px !important;
+  margin-left: 0;
 }
 .is-style-grocefycart-search-rounded
   .wp-block-search__inside-wrapper
@@ -361,7 +363,44 @@ ul.is-style-grocefycart-categories-terniary li {
   transform: scale(1.1);
   transition: all 0.2s ease-in-out;
 }
-
+/* Spin */
+.is-style-grocefycart-animation-spin img {
+  animation: spin 2s linear infinite;
+  animation-play-state: running;
+}
+.is-style-grocefycart-animation-spin img:hover {
+  animation: spin 2s linear infinite;
+  animation-play-state: paused;
+}
+.is-style-grocefycart-hover-animation-spin:hover img {
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* Pulse */
+.is-style-grocefycart-animation-pulse img {
+  animation: pulse 2s infinite;
+}
+.is-style-grocefycart-hover-animation-pulse:hover img {
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 /* ********** WooCommerce Blocks ********** */
 /* Product in Stock */
 .is-style-grocefycart-wc-custom-psi-rounded,
@@ -395,4 +434,25 @@ ul.is-style-grocefycart-categories-terniary li {
   );
   color: var(--wp--preset--color--dark-shade) !important;
   transition: all 0.2s ease-in-out;
+}
+/* Product Price */
+/* Strikeout Price Hidden */
+.is-style-grocefycart-wc-hide-strikeout del {
+  display: none !important;
+}
+/* Strikeout Price Primary */
+.is-style-grocefycart-wc-strikeout-primary del {
+  color: var(--wp--preset--color--primary) !important;
+}
+/* Strikeout Price Secondary */
+.is-style-grocefycart-wc-strikeout-secondary del {
+  color: var(--wp--preset--color--secondary) !important;
+}
+/* Strikeout Price Terniary */
+.is-style-grocefycart-wc-strikeout-terniary del {
+  color: var(--wp--preset--color--terniary) !important;
+}
+/* Strikeout Price Foreground */
+.is-style-grocefycart-wc-strikeout-foreground del {
+  color: var(--wp--preset--color--foreground) !important;
 }
