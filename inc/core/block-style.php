@@ -388,7 +388,28 @@ if ( function_exists( 'register_block_style' ) ) {
 			'woocommerce/product-categories',
 			array(
 				'name'  => 'grocefycart-wc-categories-primary',
-				'label' => __( 'Primary Color', 'grocefycart' ),
+				'label' => __( 'Primary Border', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'woocommerce/product-categories',
+			array(
+				'name'  => 'grocefycart-wc-categories-secondary',
+				'label' => __( 'Secondary Border', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'woocommerce/product-categories',
+			array(
+				'name'  => 'grocefycart-wc-categories-terniary',
+				'label' => __( 'Terniary Border', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'woocommerce/product-categories',
+			array(
+				'name'  => 'grocefycart-wc-categories-border',
+				'label' => __( 'Faded Border', 'grocefycart' ),
 			)
 		);
 	}
