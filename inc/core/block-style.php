@@ -384,6 +384,13 @@ if ( function_exists( 'register_block_style' ) ) {
 				'label' => __( 'Foreground Strikeout Price', 'grocefycart' ),
 			)
 		);
+		register_block_style(
+			'woocommerce/product-categories',
+			array(
+				'name'  => 'grocefycart-wc-categories-primary',
+				'label' => __( 'Primary Color', 'grocefycart' ),
+			)
+		);
 	}
 	add_action( 'init', 'grocefycart_register_block_styles' );
 }
