@@ -392,10 +392,10 @@
         },
         "spacing": {
           "padding": {
-            "bottom": "7px",
-            "left": "24px",
-            "right": "24px",
-            "top": "7px"
+            "bottom": "12px",
+            "left": "14px",
+            "right": "14px",
+            "top": "12px"
           }
         },
         "color": {

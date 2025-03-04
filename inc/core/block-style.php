@@ -329,6 +329,13 @@ if ( function_exists( 'register_block_style' ) ) {
 			)
 		);
 		register_block_style(
+			'woocommerce/product-button',
+			array(
+				'name'  => 'grocefycart-wc-btn-icon',
+				'label' => __( 'Cart Icon', 'grocefycart' ),
+			)
+		);
+		register_block_style(
 			'woocommerce/product-image',
 			array(
 				'name'  => 'grocefycart-hover-zoom-in',
@@ -340,6 +347,41 @@ if ( function_exists( 'register_block_style' ) ) {
 			array(
 				'name'  => 'grocefycart-hover-zoom-out',
 				'label' => __( 'Hover : Zoom Out', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'woocommerce/product-price',
+			array(
+				'name'  => 'grocefycart-wc-hide-strikeout',
+				'label' => __( 'Hide Strikeout Price', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'woocommerce/product-price',
+			array(
+				'name'  => 'grocefycart-wc-strikeout-primary',
+				'label' => __( 'Primary Strikeout Price', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'woocommerce/product-price',
+			array(
+				'name'  => 'grocefycart-wc-strikeout-secondary',
+				'label' => __( 'Secondary Strikeout Price', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'woocommerce/product-price',
+			array(
+				'name'  => 'grocefycart-wc-strikeout-terniary',
+				'label' => __( 'Terniary Strikeout Price', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'woocommerce/product-price',
+			array(
+				'name'  => 'grocefycart-wc-strikeout-foreground',
+				'label' => __( 'Foreground Strikeout Price', 'grocefycart' ),
 			)
 		);
 	}
