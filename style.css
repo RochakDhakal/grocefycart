@@ -36,8 +36,9 @@ p a {
   text-transform: capitalize;
   cursor: pointer;
 }
-.grocefycart-categories-dropdown select::-ms-expand {
-  display: none;
+
+.grocefycart-categories-dropdown select option {
+  padding: 5px 8px !important;
 }
 .grocefycart-categories-dropdown .wp-block-categories-dropdown button {
   outline: none;
