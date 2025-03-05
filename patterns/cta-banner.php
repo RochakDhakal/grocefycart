@@ -15,7 +15,7 @@ $grocefycart_banner_img = array(
 		<div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 			<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"16px"}},"layout":{"type":"constrained","contentSize":"575px"}} -->
 				<div class="wp-block-group"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"background","fontSize":"big-plus"} -->
-					<h2 class="wp-block-heading has-background-color has-text-color has-link-color has-big-plus-font-size" style="font-style:normal;font-weight:600"><?php esc_html_e( 'Grocemart New Arrivals Shop Fast, Limited Supply!', 'grocefymart' ); ?></h2>
+					<h2 class="wp-block-heading has-background-color has-text-color has-link-color has-big-plus-font-size" style="font-style:normal;font-weight:600"><?php esc_html_e( 'Grocemart New Arrivals Shop Fast, Limited Supply!', 'grocefycart' ); ?></h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->

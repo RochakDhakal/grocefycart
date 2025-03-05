@@ -226,7 +226,7 @@
 		<!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 		<div class="wp-block-group" style="padding-right:0;padding-left:0">
 			<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|light"}}}},"textColor":"light","fontSize":"small-plus"} -->
-			<p class="has-light-color has-text-color has-link-color has-small-plus-font-size"><?php esc_html_e( 'Proudly powered by WordPress | GrocefyCart by CozyThemes.', 'grocegycart' ); ?></p>
+			<p class="has-light-color has-text-color has-link-color has-small-plus-font-size"><?php esc_html_e( 'Proudly powered by WordPress | GrocefyCart by CozyThemes.', 'grocefycart' ); ?></p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:image {"id":1516,"width":"auto","height":"25px","sizeSlug":"full","linkDestination":"none"} -->
