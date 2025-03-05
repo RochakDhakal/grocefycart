@@ -350,6 +350,27 @@ if ( function_exists( 'register_block_style' ) ) {
 			)
 		);
 		register_block_style(
+			'woocommerce/product-image',
+			array(
+				'name'  => 'grocefycart-sales-badge-primary',
+				'label' => __( 'Sales Badge : Primary', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'woocommerce/product-image',
+			array(
+				'name'  => 'grocefycart-sales-badge-secondary',
+				'label' => __( 'Sales Badge : Secondary', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'woocommerce/product-image',
+			array(
+				'name'  => 'grocefycart-sales-badge-terniary',
+				'label' => __( 'Sales Badge : Terniary', 'grocefycart' ),
+			)
+		);
+		register_block_style(
 			'woocommerce/product-price',
 			array(
 				'name'  => 'grocefycart-wc-hide-strikeout',

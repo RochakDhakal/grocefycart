@@ -485,6 +485,31 @@ ul.is-style-grocefycart-categories-terniary li {
 .is-style-grocefycart-wc-strikeout-foreground del {
   color: var(--wp--preset--color--foreground) !important;
 }
+/* Product Image -Sales Badge*/
+/* Primary */
+.is-style-grocefycart-sales-badge-primary
+  div.wc-block-components-product-sale-badge {
+  background-color: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--light);
+  border: none;
+  border-radius: 100px;
+}
+/* Secondary */
+.is-style-grocefycart-sales-badge-secondary
+  div.wc-block-components-product-sale-badge {
+  background-color: var(--wp--preset--color--secondary);
+  color: var(--wp--preset--color--light);
+  border: none;
+  border-radius: 100px;
+}
+/* Terniary */
+.is-style-grocefycart-sales-badge-terniary
+  div.wc-block-components-product-sale-badge {
+  background-color: var(--wp--preset--color--terniary);
+  color: var(--wp--preset--color--light);
+  border: none;
+  border-radius: 100px;
+}
 /* Product Categories */
 /* Primary */
 .is-style-grocefycart-wc-categories-primary ul {
