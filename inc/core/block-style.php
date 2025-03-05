@@ -284,6 +284,34 @@ if ( function_exists( 'register_block_style' ) ) {
 				'label' => __( 'Hover : Zoom Out', 'grocefycart' ),
 			)
 		);
+		register_block_style(
+			'core/post-date',
+			array(
+				'name'  => 'grocefycart-date-icon-dark',
+				'label' => __( 'Icon : 1', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'core/post-date',
+			array(
+				'name'  => 'grocefycart-date-icon-light',
+				'label' => __( 'Icon : 2', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'core/post-author-name',
+			array(
+				'name'  => 'grocefycart-author-icon-dark',
+				'label' => __( 'Icon : 1', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'core/post-author-name',
+			array(
+				'name'  => 'grocefycart-author-icon-light',
+				'label' => __( 'Icon : 2', 'grocefycart' ),
+			)
+		);
 
 		// WooCommerce Blocks.
 		register_block_style(

@@ -119,6 +119,64 @@ ul.is-style-grocefycart-categories-terniary li {
     transparent
   );
 }
+/* ********** Post Date ********** */
+.is-style-grocefycart-date-icon-dark time:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: currentColor;
+  -webkit-mask-image: url(../images/calendar-1.png);
+  mask-image: url(../images/calendar-1.png);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  margin-right: 5px;
+}
+.is-style-grocefycart-date-icon-light time:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: currentColor;
+  -webkit-mask-image: url(../images/calendar-2.png);
+  mask-image: url(../images/calendar-2.png);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  margin-right: 5px;
+}
+/* ********** Post Author ********** */
+.is-style-grocefycart-author-icon-light.wp-block-post-author-name::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: currentColor;
+  -webkit-mask-image: url(../images/author-2.png);
+  mask-image: url(../images/author-2.png);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  margin-right: 5px;
+}
+.is-style-grocefycart-author-icon-dark.wp-block-post-author-name::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: currentColor;
+  -webkit-mask-image: url(../images/author-1.png);
+  mask-image: url(../images/author-1.png);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  margin-right: 5px;
+}
 /* ********** Search ********** */
 .is-style-grocefycart-search-primary .wp-block-search__inside-wrapper > *,
 .is-style-grocefycart-search-secondary .wp-block-search__inside-wrapper > *,
@@ -403,6 +461,7 @@ ul.is-style-grocefycart-categories-terniary li {
     transform: scale(1);
   }
 }
+
 /* ********** WooCommerce Blocks ********** */
 /* Product in Stock */
 .is-style-grocefycart-wc-custom-psi-rounded,
