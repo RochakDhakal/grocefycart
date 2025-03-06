@@ -23,8 +23,8 @@
 	<div class="wp-block-group" style="margin-top:45px">
 		<!-- wp:query {"queryId":24,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":null,"parents":[],"format":[]}} -->
 		<div class="wp-block-query"><!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
-			<!-- wp:group {"className":"is-style-grocefycart-boxshadow","style":{"spacing":{"padding":{"top":"20px","bottom":"20px","left":"20px","right":"20px"}},"border":{"radius":"10px"}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"100%"}} -->
-			<div class="wp-block-group is-style-grocefycart-boxshadow has-background-background-color has-background"
+			<!-- wp:group {"className":"is-style-grocefycart-boxshadow is-style-grocefycart-boxshadow-light","style":{"spacing":{"padding":{"top":"20px","bottom":"20px","left":"20px","right":"20px"}},"border":{"radius":"10px"}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"100%"}} -->
+			<div class="wp-block-group is-style-grocefycart-boxshadow is-style-grocefycart-boxshadow-light has-background-background-color has-background"
 				style="border-radius:10px;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px">
 				<!-- wp:post-featured-image {"isLink":true,"width":"100%","height":"240px","align":"center","className":"is-style-grocefycart-hover-zoom-in"} /-->
 

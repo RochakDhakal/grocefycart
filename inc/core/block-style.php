@@ -288,28 +288,35 @@ if ( function_exists( 'register_block_style' ) ) {
 			'core/post-date',
 			array(
 				'name'  => 'grocefycart-date-icon-dark',
-				'label' => __( 'Icon : 1', 'grocefycart' ),
+				'label' => __( 'Icon : Filled', 'grocefycart' ),
 			)
 		);
 		register_block_style(
 			'core/post-date',
 			array(
 				'name'  => 'grocefycart-date-icon-light',
-				'label' => __( 'Icon : 2', 'grocefycart' ),
+				'label' => __( 'Icon : Outline', 'grocefycart' ),
 			)
 		);
 		register_block_style(
 			'core/post-author-name',
 			array(
 				'name'  => 'grocefycart-author-icon-dark',
-				'label' => __( 'Icon : 1', 'grocefycart' ),
+				'label' => __( 'Icon : Filled', 'grocefycart' ),
 			)
 		);
 		register_block_style(
 			'core/post-author-name',
 			array(
 				'name'  => 'grocefycart-author-icon-light',
-				'label' => __( 'Icon : 2', 'grocefycart' ),
+				'label' => __( 'Icon : Outline', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'core/list',
+			array(
+				'name'  => 'grocefycart-list-style-none',
+				'label' => __( 'List Style : None', 'grocefycart' ),
 			)
 		);
 

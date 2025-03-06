@@ -507,6 +507,7 @@ ul.is-style-grocefycart-categories-terniary li {
 .is-style-grocefycart-wc-btn-icon button:hover {
   transform: translateY(-3px);
   transition: all 0.2s ease-in-out;
+  background-color: var(--wp--preset--color--primary);
 }
 .is-style-grocefycart-wc-btn-icon button span:before {
   content: "";
