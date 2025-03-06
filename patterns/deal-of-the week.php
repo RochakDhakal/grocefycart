@@ -276,7 +276,7 @@
 									<!-- wp:image {"id":66,"width":"auto","height":"110px","sizeSlug":"full","linkDestination":"none","align":"center","style":{"spacing":{"margin":{"bottom":"24px"}}}} -->
 									<figure class="wp-block-image aligncenter size-full is-resized"
 										style="margin-bottom:24px"><img
-											src="<?php echo esc_url( $grocefycart_product_img[7] ); ?>"
+											src="<?php echo esc_url( $grocefycart_product_img[2] ); ?>"
 											alt="" class="wp-image-66" style="width:auto;height:110px" /></figure>
 									<!-- /wp:image -->
 
@@ -346,7 +346,7 @@
 									<!-- wp:image {"id":68,"width":"auto","height":"110px","sizeSlug":"full","linkDestination":"none","align":"center","style":{"spacing":{"margin":{"bottom":"24px"}}}} -->
 									<figure class="wp-block-image aligncenter size-full is-resized"
 										style="margin-bottom:24px"><img
-											src="<?php echo esc_url( $grocefycart_product_img[7] ); ?>"
+											src="<?php echo esc_url( $grocefycart_product_img[4] ); ?>"
 											alt="" class="wp-image-68" style="width:auto;height:110px" /></figure>
 									<!-- /wp:image -->
 

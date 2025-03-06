@@ -28,8 +28,7 @@ $grocefycart_cover_img = array(
 						<span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"
 							style="background-color:#7dc92f"></span><img
 							class="wp-block-cover__image-background wp-image-1639" alt=""
-							src="<?php echo esc_url( $grocefycart_cover_img[0] ); ?>"
-							data-object-fit="cover" />
+							src="<?php echo esc_url( $grocefycart_cover_img[0] ); ?>" data-object-fit="cover" />
 						<div class="wp-block-cover__inner-container">
 							<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"420px","justifyContent":"left"}} -->
 							<div class="wp-block-group">
@@ -59,8 +58,7 @@ $grocefycart_cover_img = array(
 						<span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"
 							style="background-color:#ecb92e"></span><img
 							class="wp-block-cover__image-background wp-image-1647" alt=""
-							src="<?php echo esc_url( $grocefycart_cover_img[1] ); ?>"
-							data-object-fit="cover" />
+							src="<?php echo esc_url( $grocefycart_cover_img[1] ); ?>" data-object-fit="cover" />
 						<div class="wp-block-cover__inner-container">
 							<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"420px","justifyContent":"left"}} -->
 							<div class="wp-block-group">
@@ -87,12 +85,13 @@ $grocefycart_cover_img = array(
 		<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"30px","left":"30px"}}}} -->
 		<div class="wp-block-columns"><!-- wp:column {"width":"50%"} -->
 			<div class="wp-block-column" style="flex-basis:50%">
-				<!-- wp:cover {"url":"<?php echo esc_url( $grocefycart_cover_img[0] ); ?>","id":1639,"dimRatio":0,"customOverlayColor":"#7dc92f","isUserOverlayColor":false,"minHeight":280,"contentPosition":"center left","isDark":false,"style":{"border":{"radius":"10px"},"spacing":{"padding":{"right":"var:preset|spacing|40","left":"55px","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"615px"}} -->
-				<div class="wp-block-cover is-light has-custom-content-position is-position-center-left"
+				<!-- wp:cover {"url":"<?php echo esc_url( $grocefycart_cover_img[0] ); ?>","id":1639,"dimRatio":0,"customOverlayColor":"#7dc92f","isUserOverlayColor":false,"minHeight":280,"contentPosition":"center left","isDark":false,"className":"is-style-grocefycart-hover-zoom-in","style":{"border":{"radius":"10px"},"spacing":{"padding":{"right":"var:preset|spacing|40","left":"55px","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"615px"}} -->
+				<div class="wp-block-cover is-light has-custom-content-position is-position-center-left is-style-grocefycart-hover-zoom-in"
 					style="border-radius:10px;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:55px;min-height:280px">
 					<span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"
 						style="background-color:#7dc92f"></span><img class="wp-block-cover__image-background wp-image-1639"
-						alt="" src="<?php echo esc_url( $grocefycart_cover_img[0] ); ?>" data-object-fit="cover" />
+						alt="" src="<?php echo esc_url( $grocefycart_cover_img[0] ); ?>"
+						data-object-fit="cover" />
 					<div class="wp-block-cover__inner-container">
 						<!-- wp:group {"style":{"spacing":{"blockGap":"16px"}},"layout":{"type":"constrained","contentSize":"300px","justifyContent":"left"}} -->
 						<div class="wp-block-group"><!-- wp:buttons -->
@@ -109,8 +108,7 @@ $grocefycart_cover_img = array(
 
 							<!-- wp:heading {"level":5,"style":{"typography":{"lineHeight":"1.2","fontStyle":"normal","fontWeight":"600"}},"fontSize":"big"} -->
 							<h5 class="wp-block-heading has-big-font-size"
-								style="font-style:normal;font-weight:600;line-height:1.2">
-								<?php esc_html_e( 'Red and White Wine Collection', 'grocefycart' ); ?></h5>
+								style="font-style:normal;font-weight:600;line-height:1.2"><?php esc_html_e( 'Red and White Wine Collection', 'grocefycart' ); ?></h5>
 							<!-- /wp:heading -->
 
 							<!-- wp:buttons -->
@@ -119,8 +117,7 @@ $grocefycart_cover_img = array(
 								<div class="wp-block-button has-custom-font-size has-small-plus-font-size"
 									style="font-style:normal;font-weight:500"><a
 										class="wp-block-button__link has-primary-color has-background-background-color has-text-color has-background has-link-color wp-element-button"
-										style="border-radius:100px;padding-top:10px;padding-right:20px;padding-bottom:10px;padding-left:20px"><?php esc_html_e( 'Shop Now', 'grocefycart' ); ?></a>
-								</div>
+										style="border-radius:100px;padding-top:10px;padding-right:20px;padding-bottom:10px;padding-left:20px"><?php esc_html_e( 'Shop Now', 'grocefycart' ); ?></a></div>
 								<!-- /wp:button -->
 							</div>
 							<!-- /wp:buttons -->
@@ -134,12 +131,13 @@ $grocefycart_cover_img = array(
 
 			<!-- wp:column {"width":"50%"} -->
 			<div class="wp-block-column" style="flex-basis:50%">
-				<!-- wp:cover {"url":"<?php echo esc_url( $grocefycart_cover_img[1] ); ?>","id":1647,"dimRatio":0,"customOverlayColor":"#ecb92e","isUserOverlayColor":false,"minHeight":280,"contentPosition":"center left","isDark":false,"style":{"border":{"radius":"10px"},"spacing":{"padding":{"right":"var:preset|spacing|40","left":"55px","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"615px"}} -->
-				<div class="wp-block-cover is-light has-custom-content-position is-position-center-left"
+				<!-- wp:cover {"url":"<?php echo esc_url( $grocefycart_cover_img[1] ); ?>","id":1647,"dimRatio":0,"customOverlayColor":"#ecb92e","isUserOverlayColor":false,"minHeight":280,"contentPosition":"center left","isDark":false,"className":"is-style-grocefycart-hover-zoom-in","style":{"border":{"radius":"10px"},"spacing":{"padding":{"right":"var:preset|spacing|40","left":"55px","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"615px"}} -->
+				<div class="wp-block-cover is-light has-custom-content-position is-position-center-left is-style-grocefycart-hover-zoom-in"
 					style="border-radius:10px;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:55px;min-height:280px">
 					<span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"
 						style="background-color:#ecb92e"></span><img class="wp-block-cover__image-background wp-image-1647"
-						alt="" src="<?php echo esc_url( $grocefycart_cover_img[1] ); ?>" data-object-fit="cover" />
+						alt="" src="<?php echo esc_url( $grocefycart_cover_img[1] ); ?>"
+						data-object-fit="cover" />
 					<div class="wp-block-cover__inner-container">
 						<!-- wp:group {"style":{"spacing":{"blockGap":"16px"}},"layout":{"type":"constrained","contentSize":"300px","justifyContent":"left"}} -->
 						<div class="wp-block-group"><!-- wp:buttons -->
@@ -156,8 +154,7 @@ $grocefycart_cover_img = array(
 
 							<!-- wp:heading {"style":{"typography":{"lineHeight":"1.2","fontStyle":"normal","fontWeight":"600"}},"fontSize":"big"} -->
 							<h2 class="wp-block-heading has-big-font-size"
-								style="font-style:normal;font-weight:600;line-height:1.2">
-								<?php esc_html_e( 'Mixed Fruits Basket', 'grocefycart' ); ?></h2>
+								style="font-style:normal;font-weight:600;line-height:1.2"><?php esc_html_e( 'Mixed Fruits Basket', 'grocefycart' ); ?></h2>
 							<!-- /wp:heading -->
 
 							<!-- wp:buttons -->
@@ -166,8 +163,7 @@ $grocefycart_cover_img = array(
 								<div class="wp-block-button has-custom-font-size has-small-plus-font-size"
 									style="font-style:normal;font-weight:500"><a
 										class="wp-block-button__link has-primary-color has-background-background-color has-text-color has-background has-link-color wp-element-button"
-										style="border-radius:100px;padding-top:10px;padding-right:20px;padding-bottom:10px;padding-left:20px"><?php esc_html_e( 'Shop Now', 'grocefycart' ); ?></a>
-								</div>
+										style="border-radius:100px;padding-top:10px;padding-right:20px;padding-bottom:10px;padding-left:20px"><?php esc_html_e( 'Shop Now', 'grocefycart' ); ?></a></div>
 								<!-- /wp:button -->
 							</div>
 							<!-- /wp:buttons -->

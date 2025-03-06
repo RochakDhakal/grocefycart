@@ -461,7 +461,11 @@ ul.is-style-grocefycart-categories-terniary li {
     transform: scale(1);
   }
 }
-
+/* ********** List Style ********** */
+ul.is-style-grocefycart-list-style-none {
+  list-style: none;
+  padding: 0px;
+}
 /* ********** WooCommerce Blocks ********** */
 /* Product in Stock */
 .is-style-grocefycart-wc-custom-psi-rounded,

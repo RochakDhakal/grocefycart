@@ -4,15 +4,17 @@
  * Slug: grocefycart/cta-product
  * Categories: grocefycart
  */
-	$grocefycart_cta_url = trailingslashit( get_template_directory_uri() );
-	$grocefycart_cta_img = array(
-		$grocefycart_cta_url . 'assets/images/cta-3.jpg',
-		$grocefycart_cta_url . 'assets/images/cta-1.jpg',
-		$grocefycart_cta_url . 'assets/images/cta-2.jpg',
-	)
-	?>
-<!-- wp:group {"style":{"spacing":{"margin":{"top":"40px","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"1260px"}} -->
-<div class="wp-block-group" style="margin-top:40px;margin-bottom:0">
+
+$grocefycart_cta_url = trailingslashit( get_template_directory_uri() );
+$grocefycart_cta_img = array(
+	$grocefycart_cta_url . 'assets/images/cta-3.jpg',
+	$grocefycart_cta_url . 'assets/images/cta-1.jpg',
+	$grocefycart_cta_url . 'assets/images/cta-2.jpg',
+)
+?>
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"40px","bottom":"0"},"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"layout":{"type":"constrained","contentSize":"1260px"}} -->
+<div class="wp-block-group"
+	style="margin-top:40px;margin-bottom:0;padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
 	<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"30px","left":"30px"}}}} -->
 	<div class="wp-block-columns"><!-- wp:column {"width":"33%"} -->
 		<div class="wp-block-column" style="flex-basis:33%">

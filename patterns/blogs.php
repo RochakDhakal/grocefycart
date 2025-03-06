@@ -16,6 +16,18 @@
 		<h4 class="wp-block-heading has-text-align-center has-heading-color has-text-color has-link-color has-big-font-size"
 			style="border-bottom-style:none;border-bottom-width:0px;margin-bottom:0;font-style:normal;font-weight:600"><?php esc_html_e( 'Latest News & Blogs', 'grocefycart' ); ?></h4>
 		<!-- /wp:heading -->
+
+		<!-- wp:buttons {"style":{"border":{"width":"1px","color":"#4C4C4C","radius":"100px"}},"backgroundColor":"transparent"} -->
+		<div class="wp-block-buttons has-border-color has-transparent-background-color has-background"
+			style="border-color:#4C4C4C;border-width:1px;border-radius:100px">
+			<!-- wp:button {"backgroundColor":"transparent","textColor":"foreground","className":"is-style-grocefycart-button-up-arrow","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"border":{"radius":"100px","width":"0px","style":"none"},"spacing":{"padding":{"left":"18px","right":"18px","top":"8px","bottom":"8px"}}},"fontSize":"normal"} -->
+			<div class="wp-block-button has-custom-font-size is-style-grocefycart-button-up-arrow has-normal-font-size">
+				<a class="wp-block-button__link has-foreground-color has-transparent-background-color has-text-color has-background has-link-color wp-element-button"
+					href="#"
+					style="border-style:none;border-width:0px;border-radius:100px;padding-top:8px;padding-right:18px;padding-bottom:8px;padding-left:18px"><?php esc_html_e( 'See All', 'grocefycart' ); ?></a></div>
+			<!-- /wp:button -->
+		</div>
+		<!-- /wp:buttons -->
 	</div>
 	<!-- /wp:group -->
 

@@ -9,10 +9,11 @@
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"32px","bottom":"32px","left":"20px","right":"20px"}}},"backgroundColor":"light","layout":{"type":"constrained","contentSize":"100%"}} -->
 <div class="wp-block-group has-light-background-color has-background"
 	style="margin-top:0;margin-bottom:0;padding-top:32px;padding-right:20px;padding-bottom:32px;padding-left:20px">
-	<!-- wp:group {"className":"grocefycart-marquee-wrapper is-style-grocefycart-overflow-hidden","layout":{"type":"constrained","contentSize":"100%"}} -->
-	<div class="wp-block-group grocefycart-marquee-wrapper is-style-grocefycart-overflow-hidden">
-		<!-- wp:group {"className":"grocefycart-marquee-content is-style-default","style":{"spacing":{"blockGap":"50px"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
-		<div class="wp-block-group grocefycart-marquee-content is-style-default">
+	<!-- wp:group {"className":"grocefycart-marquee-wrapper is-style-grocefycart-overflow-hidden","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"100%"}} -->
+	<div class="wp-block-group grocefycart-marquee-wrapper is-style-grocefycart-overflow-hidden"
+		style="margin-top:0;margin-bottom:0">
+		<!-- wp:group {"className":"grocefycart-marquee-content is-style-default","style":{"spacing":{"blockGap":"0px","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
+		<div class="wp-block-group grocefycart-marquee-content is-style-default" style="margin-top:0;margin-bottom:0">
 			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"elements":{"link":{"color":{"text":"var:preset|color|heading"}}}},"textColor":"heading","fontSize":"medium","fontFamily":"inter"} -->
 			<p class="has-heading-color has-text-color has-link-color has-inter-font-family has-medium-font-size"
 				style="font-style:normal;font-weight:400"><?php esc_html_e( '100% secure online payment', 'grocefycart' ); ?></p>
@@ -35,7 +36,7 @@
 
 			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"elements":{"link":{"color":{"text":"var:preset|color|heading"}}}},"textColor":"heading","fontSize":"medium","fontFamily":"inter"} -->
 			<p class="has-heading-color has-text-color has-link-color has-inter-font-family has-medium-font-size"
-				style="font-style:normal;font-weight:400"><?php esc_html_e( 'Use code: ', 'grocefycart' ); ?><strong><?php esc_html_e( '"Hello25"', 'grocefycart' ); ?></strong><?php esc_html_e( ' to get $25 off on first order', 'grocefycart' ); ?></p>
+				style="font-style:normal;font-weight:400"><?php esc_html_e( 'Use code:', 'grocefycart' ); ?><strong><?php esc_html_e( '"Hello25"', 'grocefycart' ); ?></strong><?php esc_html_e( ' to get $25 off on first order', 'grocefycart' ); ?></p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"elements":{"link":{"color":{"text":"var:preset|color|heading"}}}},"textColor":"heading","fontSize":"medium","fontFamily":"inter"} -->

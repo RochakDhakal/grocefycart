@@ -14,7 +14,7 @@ $grocefycart_feature_img = array(
 )
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","bottom":"40px","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"backgroundColor":"light","layout":{"type":"constrained","contentSize":"1260px"}} -->
-<div class="wp-block-group has-light-background-color has-background" style="padding-top:40px;padding-right:var(--wp--preset--spacing--40);padding-bottom:40px;padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group has-light-background-color has-background" style="padding-top:40px;padding-right:var(--wp--preset--spacing--40);padding-bottom:40px;padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 	<div class="wp-block-group"><!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"10px","left":"10px"}}}} -->
 		<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"20%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:20%"><!-- wp:image {"id":1403,"width":"70px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
