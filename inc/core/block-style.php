@@ -40,6 +40,13 @@ if ( function_exists( 'register_block_style' ) ) {
 			)
 		);
 		register_block_style(
+			'core/page-list',
+			array(
+				'name'  => 'grocefycart-page-list-hidden',
+				'label' => __( 'List Style : Hidden', 'grocefycart' ),
+			)
+		);
+		register_block_style(
 			'core/search',
 			array(
 				'name'  => 'grocefycart-search-primary',
@@ -317,6 +324,27 @@ if ( function_exists( 'register_block_style' ) ) {
 			array(
 				'name'  => 'grocefycart-list-style-none',
 				'label' => __( 'List Style : None', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'core/query-pagination',
+			array(
+				'name'  => 'grocefycart-pagination-primary',
+				'label' => __( 'Pagination : Primary', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'core/query-pagination',
+			array(
+				'name'  => 'grocefycart-pagination-secondary',
+				'label' => __( 'Pagination : Secondary', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'core/query-pagination',
+			array(
+				'name'  => 'grocefycart-pagination-terniary',
+				'label' => __( 'Pagination : Terniary', 'grocefycart' ),
 			)
 		);
 

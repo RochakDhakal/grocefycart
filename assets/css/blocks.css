@@ -466,6 +466,95 @@ ul.is-style-grocefycart-list-style-none {
   list-style: none;
   padding: 0px;
 }
+/* ********** Pagination ********** */
+/* Primary */
+nav.is-style-grocefycart-pagination-primary {
+  gap: 1em;
+}
+nav.is-style-grocefycart-pagination-primary
+  .wp-block-query-pagination-numbers
+  .page-numbers.current {
+  padding: 6px 14px;
+  border: 1px solid var(--wp--preset--color--border);
+  background-color: var(--wp--preset--color--primary);
+}
+nav.is-style-grocefycart-pagination-primary
+  .wp-block-query-pagination-numbers
+  a,
+nav.is-style-grocefycart-pagination-primary .wp-block-query-pagination-next,
+nav.is-style-grocefycart-pagination-primary
+  .wp-block-query-pagination-previous {
+  padding: 6px 14px;
+  border: 1px solid var(--wp--preset--color--border);
+}
+nav.is-style-grocefycart-pagination-primary
+  .wp-block-query-pagination-numbers
+  a:hover,
+nav.is-style-grocefycart-pagination-primary
+  .wp-block-query-pagination-next:hover,
+nav.is-style-grocefycart-pagination-primary
+  .wp-block-query-pagination-previous:hover {
+  background-color: var(--wp--preset--color--primary);
+}
+/* Secondary */
+nav.is-style-grocefycart-pagination-secondary {
+  gap: 1em;
+}
+nav.is-style-grocefycart-pagination-secondary
+  .wp-block-query-pagination-numbers
+  .page-numbers.current {
+  padding: 6px 14px;
+  border: 1px solid var(--wp--preset--color--border);
+  background-color: var(--wp--preset--color--secondary);
+}
+nav.is-style-grocefycart-pagination-secondary
+  .wp-block-query-pagination-numbers
+  a,
+nav.is-style-grocefycart-pagination-secondary .wp-block-query-pagination-next,
+nav.is-style-grocefycart-pagination-secondary
+  .wp-block-query-pagination-previous {
+  padding: 6px 14px;
+  border: 1px solid var(--wp--preset--color--border);
+}
+nav.is-style-grocefycart-pagination-secondary
+  .wp-block-query-pagination-numbers
+  a:hover,
+nav.is-style-grocefycart-pagination-secondary
+  .wp-block-query-pagination-next:hover,
+nav.is-style-grocefycart-pagination-secondary
+  .wp-block-query-pagination-previous:hover {
+  background-color: var(--wp--preset--color--secondary);
+}
+/* Terniary */
+nav.is-style-grocefycart-pagination-terniary {
+  gap: 1em;
+}
+nav.is-style-grocefycart-pagination-terniary
+  .wp-block-query-pagination-numbers
+  .page-numbers.current {
+  padding: 6px 14px;
+  border: 1px solid var(--wp--preset--color--border);
+  background-color: var(--wp--preset--color--terniary);
+}
+nav.is-style-grocefycart-pagination-terniary
+  .wp-block-query-pagination-numbers
+  a,
+nav.is-style-grocefycart-pagination-terniary .wp-block-query-pagination-next,
+nav.is-style-grocefycart-pagination-terniary
+  .wp-block-query-pagination-previous {
+  padding: 6px 14px;
+  border: 1px solid var(--wp--preset--color--border);
+}
+nav.is-style-grocefycart-pagination-terniary
+  .wp-block-query-pagination-numbers
+  a:hover,
+nav.is-style-grocefycart-pagination-terniary
+  .wp-block-query-pagination-next:hover,
+nav.is-style-grocefycart-pagination-terniary
+  .wp-block-query-pagination-previous:hover {
+  background-color: var(--wp--preset--color--terniary);
+}
+
 /* ********** WooCommerce Blocks ********** */
 /* Product in Stock */
 .is-style-grocefycart-wc-custom-psi-rounded,
