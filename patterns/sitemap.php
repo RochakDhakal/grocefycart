@@ -24,10 +24,10 @@
 			<div class="wp-block-column has-heading-color has-text-color has-link-color">
 				<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"spacing":{"margin":{"bottom":"var:preset|spacing|40"}},"elements":{"link":{"color":{"text":"var:preset|color|heading"}}}},"textColor":"heading","fontSize":"large"} -->
 				<h3 class="wp-block-heading has-heading-color has-text-color has-link-color has-large-font-size"
-					style="margin-bottom:var(--wp--preset--spacing--40);font-style:normal;font-weight:500"><?php esc_html_e( 'Pages', 'grocefycart' ); ?></h3>
+					style="margin-bottom:var(--wp--preset--spacing--40);font-style:normal;font-weight:500">Pages</h3>
 				<!-- /wp:heading -->
 
-				<!-- wp:page-list {"className":"is-style-blockverse-page-list-bullet-hide-style is-style-grocefycart-page-list-bullet-hide-style","style":{"typography":{"lineHeight":"1.5","fontStyle":"normal","fontWeight":"400"}}} /-->
+				<!-- wp:page-list {"className":"is-style-grocefycart-page-list-hidden","style":{"typography":{"lineHeight":"1.5","fontStyle":"normal","fontWeight":"400"}}} /-->
 			</div>
 			<!-- /wp:column -->
 
@@ -35,7 +35,7 @@
 			<div class="wp-block-column has-heading-color has-text-color has-link-color">
 				<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"spacing":{"margin":{"bottom":"var:preset|spacing|40"}},"elements":{"link":{"color":{"text":"var:preset|color|heading"}}}},"textColor":"heading","fontSize":"large"} -->
 				<h3 class="wp-block-heading has-heading-color has-text-color has-link-color has-large-font-size"
-					style="margin-bottom:var(--wp--preset--spacing--40);font-style:normal;font-weight:500"><?php esc_html_e( 'Categories', 'grocefycart' ); ?>
+					style="margin-bottom:var(--wp--preset--spacing--40);font-style:normal;font-weight:500">Categories
 				</h3>
 				<!-- /wp:heading -->
 
@@ -47,7 +47,7 @@
 			<div class="wp-block-column">
 				<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"spacing":{"margin":{"bottom":"var:preset|spacing|40"}},"elements":{"link":{"color":{"text":"var:preset|color|heading"}}}},"textColor":"heading","fontSize":"large"} -->
 				<h3 class="wp-block-heading has-heading-color has-text-color has-link-color has-large-font-size"
-					style="margin-bottom:var(--wp--preset--spacing--40);font-style:normal;font-weight:500"><?php esc_html_e( 'Posts', 'grocefycart' ); ?></h3>
+					style="margin-bottom:var(--wp--preset--spacing--40);font-style:normal;font-weight:500">Posts</h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:query {"queryId":44,"query":{"perPage":6,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false}} -->
