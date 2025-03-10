@@ -130,3 +130,21 @@ form input[type="submit"]:hover {
   color: var(--wp--preset--color--dark-shade);
   padding: 1em;
 }
+/* Product Categories */
+.wp-block-group.grocefycart-product-group-wrapper
+  .wp-block-group.is-style-grocefycart-product-group
+  img.attachment-woocommerce_single,
+.wp-block-group.is-style-grocefycart-product-group
+  .wp-block-button.wc-block-components-product-button {
+  transition: all 0.2s ease-in-out;
+}
+.wp-block-group.grocefycart-product-group-wrapper:hover
+  .wp-block-group.is-style-grocefycart-product-group
+  img.attachment-woocommerce_single {
+  opacity: 0.6;
+}
+.wp-block-group.grocefycart-product-group-wrapper:hover
+  .wp-block-button.wc-block-components-product-button {
+  bottom: 13px;
+  opacity: 1;
+}

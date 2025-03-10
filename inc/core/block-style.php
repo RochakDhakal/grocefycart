@@ -496,6 +496,13 @@ if ( function_exists( 'register_block_style' ) ) {
 				'label' => __( 'Faded Border', 'grocefycart' ),
 			)
 		);
+		register_block_style(
+			'woocommerce/catalog-sorting',
+			array(
+				'name'  => 'grocefycart-wc-sorting-primary',
+				'label' => __( 'Primary', 'grocefycart' ),
+			)
+		);
 	}
 	add_action( 'init', 'grocefycart_register_block_styles' );
 }

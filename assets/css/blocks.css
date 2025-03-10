@@ -782,3 +782,11 @@ nav.is-style-grocefycart-pagination-terniary
   border: none !important;
   margin: 0 1em 0 0 !important;
 }
+/* Catalog Sorting */
+/* Primary */
+.is-style-grocefycart-wc-sorting-primary select {
+  background-color: var(--wp--preset--color--primary);
+  outline: none;
+  padding: 5px 12px;
+  border-radius: 100px;
+}
