@@ -786,7 +786,21 @@ nav.is-style-grocefycart-pagination-terniary
 /* Primary */
 .is-style-grocefycart-wc-sorting-primary select {
   background-color: var(--wp--preset--color--primary);
+  border: none;
   outline: none;
-  padding: 5px 12px;
-  border-radius: 100px;
+  padding: 8px 12px;
+}
+/* Secondary */
+.is-style-grocefycart-wc-sorting-secondary select {
+  background-color: var(--wp--preset--color--secondary);
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+}
+/* Terniary */
+.is-style-grocefycart-wc-sorting-terniary select {
+  background-color: var(--wp--preset--color--terniary);
+  border: none;
+  outline: none;
+  padding: 8px 12px;
 }

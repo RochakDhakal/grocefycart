@@ -131,7 +131,7 @@
       ],
       "gradients": [
         {
-          "gradient": "linear-gradient(135deg, var(--wp--preset--color--primary) 10%, var(--wp--preset--color--light-shade) 100%)",
+          "gradient": "linear-gradient(135deg, var(--wp--preset--color--primary) 10%, var(--wp--preset--color--light) 100%)",
           "name": "Bottom Shade Color",
           "slug": "bottom-gradient"
         },
@@ -148,7 +148,7 @@
         {
           "gradient": "linear-gradient(135deg,rgb(236,241,241) 42%,rgba(242,247,247,0.85) 100%)",
           "name": "Light Shade Gradient",
-          "slug": "light-shade-color"
+          "slug": "light-color"
         },
         {
           "gradient": "linear-gradient(180deg,rgba(255,84,51,0) 54%,rgb(0,0,0) 100%)",
@@ -161,7 +161,7 @@
           "slug": "gradient-bg-two"
         },
         {
-          "gradient": "linear-gradient(360deg,var(--wp--preset--color--dark-shade) 50%, var(--wp--preset--color--light-shade) 50%)",
+          "gradient": "linear-gradient(360deg,var(--wp--preset--color--dark-shade) 50%, var(--wp--preset--color--light) 50%)",
           "name": "Half Style",
           "slug": "gradient-half-style"
         },
@@ -366,8 +366,8 @@
   "styles": {
     "typography": {
       "fontFamily": "var(--wp--preset--font-family--inter)",
-      "fontSize": "var(--wp-preset--font-size--small-plus)",
-      "fontWeight": "var(--wp--preset--font-weight--semi-bold)",
+      "fontSize": "var(--wp--preset--font-size--normal)",
+      "fontWeight": "500",
       "lineHeight": "1.5"
     },
     "elements": {
@@ -387,7 +387,7 @@
       "button": {
         "typography": {
           "fontSize": "var(--wp--preset--font-size--small)",
-          "fontWeight": "var(--wp--preset--font-weight--semi-bold)",
+          "fontWeight": "600",
           "lineHeight": "var(--wp--preset--line-height--initial)"
         },
         "spacing": {
@@ -467,7 +467,7 @@
       "h5": {
         "typography": {
           "fontSize": "var(--wp--preset--font-size--medium)",
-          "fontWeight": "var(--wp--preset--font-weight--bold)",
+          "fontWeight": "700",
           "lineHeight": "var(--wp--preset--line-height--medium)"
         },
         "spacing": {
@@ -492,11 +492,11 @@
         "typography": {
           "fontFamily": "var(--wp--preset--font-family--inter)",
           "fontStyle": "normal",
-          "fontWeight": "var(--wp--preset--font-weight--bold)",
+          "fontWeight": "700",
           "lineHeight": "1.5"
         },
         "color": {
-          "text": "var(--wp--preset--color--heading-color)",
+          "text": "var(--wp--preset--color--heading)",
           "background": "var(--wp--preset--color--transparent)"
         }
       }

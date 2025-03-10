@@ -500,7 +500,21 @@ if ( function_exists( 'register_block_style' ) ) {
 			'woocommerce/catalog-sorting',
 			array(
 				'name'  => 'grocefycart-wc-sorting-primary',
-				'label' => __( 'Primary', 'grocefycart' ),
+				'label' => __( 'Primary Background', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'woocommerce/catalog-sorting',
+			array(
+				'name'  => 'grocefycart-wc-sorting-secondary',
+				'label' => __( 'Secondary Background', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'woocommerce/catalog-sorting',
+			array(
+				'name'  => 'grocefycart-wc-sorting-terniary',
+				'label' => __( 'Terniary Background', 'grocefycart' ),
 			)
 		);
 	}
