@@ -256,21 +256,21 @@ ul.is-style-grocefycart-categories-terniary li {
 }
 /* ********** Navigation ********** */
 /* Primary */
-.is-style-grocefycart-navigation-primary > li.current-menu-item a {
+.is-style-grocefycart-navigation-primary li.current-menu-item a {
   color: var(--wp--preset--color--primary) !important;
 }
 .is-style-grocefycart-navigation-primary ul.wp-block-page-list > li a:hover {
   color: var(--wp--preset--color--primary);
 }
 /* Secondary */
-.is-style-grocefycart-navigation-secondary > li.current-menu-item a {
+.is-style-grocefycart-navigation-secondary li.current-menu-item a {
   color: var(--wp--preset--color--secondary) !important;
 }
 .is-style-grocefycart-navigation-secondary ul.wp-block-page-list > li a:hover {
   color: var(--wp--preset--color--secondary);
 }
 /* Terniary */
-.is-style-grocefycart-navigation-terniary > li.current-menu-item a {
+ul.is-style-grocefycart-navigation-terniary li.current-menu-item a {
   color: var(--wp--preset--color--terniary) !important;
 }
 .is-style-grocefycart-navigation-terniary ul.wp-block-page-list > li a:hover {

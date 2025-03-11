@@ -1,13 +1,37 @@
 <!-- wp:template-part {"slug":"header","theme":"grocefycart","area":"header"} /-->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"inherit":true,"type":"constrained","contentSize":"100%"}} -->
-<div class="wp-block-group" style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0">
-  <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"68px","bottom":"68px","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"backgroundColor":"primary-shade","layout":{"type":"constrained","contentSize":"1080px"}} -->
-  <div class="wp-block-group has-primary-shade-background-color has-background" style="margin-top: 0; margin-bottom: 0; padding-top: 68px; padding-right: var(--wp--preset--spacing--40); padding-bottom: 68px; padding-left: var(--wp--preset--spacing--40)">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}}},"layout":{"inherit":true,"type":"constrained","contentSize":"100%"}} -->
+<div
+  class="wp-block-group"
+  style="
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+  "
+>
+  <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"60px","left":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"60px"}}},"backgroundColor":"border","layout":{"type":"constrained","contentSize":"1260px"}} -->
+  <div
+    class="wp-block-group has-border-background-color has-background"
+    style="
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-top: 60px;
+      padding-right: var(--wp--preset--spacing--40);
+      padding-bottom: 60px;
+      padding-left: var(--wp--preset--spacing--40);
+    "
+  >
     <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
     <div class="wp-block-group" style="margin-top: 0; margin-bottom: 0">
-      <!-- wp:heading {"textAlign":"left","level":1,"align":"wide","style":{"elements":{"link":{"color":{"text":"var:preset|color|heading-color"}}}},"textColor":"heading-color"} -->
-      <h1 class="wp-block-heading alignwide has-text-align-left has-heading-color-color has-text-color has-link-color">Checkout</h1>
+      <!-- wp:heading {"textAlign":"left","level":1,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}}},"textColor":"heading"} -->
+      <h1
+        class="wp-block-heading has-text-align-left has-heading-color has-text-color has-link-color"
+      >
+        Checkout
+      </h1>
       <!-- /wp:heading -->
 
       <!-- wp:woocommerce/breadcrumbs {"textColor":"foreground","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"},":hover":{"color":{"text":"var:preset|color|secondary"}}}}}} /-->
@@ -16,12 +40,24 @@
   </div>
   <!-- /wp:group -->
 
-  <!-- wp:group {"style":{"spacing":{"padding":{"top":"64px","bottom":"64px","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"layout":{"type":"constrained","contentSize":"1180px"}} -->
-  <div class="wp-block-group" style="padding-top: 64px; padding-right: var(--wp--preset--spacing--40); padding-bottom: 64px; padding-left: var(--wp--preset--spacing--40)">
+  <!-- wp:group {"style":{"spacing":{"padding":{"top":"64px","bottom":"64px","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"1260px"}} -->
+  <div
+    class="wp-block-group"
+    style="
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-top: 64px;
+      padding-right: var(--wp--preset--spacing--40);
+      padding-bottom: 64px;
+      padding-left: var(--wp--preset--spacing--40);
+    "
+  >
     <!-- wp:woocommerce/store-notices /-->
 
     <!-- wp:woocommerce/checkout {"className":"wc-block-checkout"} -->
-    <div class="wp-block-woocommerce-checkout alignwide wc-block-checkout is-loading">
+    <div
+      class="wp-block-woocommerce-checkout alignwide wc-block-checkout is-loading"
+    >
       <!-- wp:woocommerce/checkout-fields-block -->
       <div class="wp-block-woocommerce-checkout-fields-block">
         <!-- wp:woocommerce/checkout-express-payment-block -->
@@ -29,7 +65,9 @@
         <!-- /wp:woocommerce/checkout-express-payment-block -->
 
         <!-- wp:woocommerce/checkout-contact-information-block -->
-        <div class="wp-block-woocommerce-checkout-contact-information-block"></div>
+        <div
+          class="wp-block-woocommerce-checkout-contact-information-block"
+        ></div>
         <!-- /wp:woocommerce/checkout-contact-information-block -->
 
         <!-- wp:woocommerce/checkout-shipping-method-block -->
@@ -57,7 +95,9 @@
         <!-- /wp:woocommerce/checkout-payment-block -->
 
         <!-- wp:woocommerce/checkout-additional-information-block -->
-        <div class="wp-block-woocommerce-checkout-additional-information-block"></div>
+        <div
+          class="wp-block-woocommerce-checkout-additional-information-block"
+        ></div>
         <!-- /wp:woocommerce/checkout-additional-information-block -->
 
         <!-- wp:woocommerce/checkout-order-note-block -->
@@ -79,33 +119,47 @@
         <!-- wp:woocommerce/checkout-order-summary-block -->
         <div class="wp-block-woocommerce-checkout-order-summary-block">
           <!-- wp:woocommerce/checkout-order-summary-cart-items-block -->
-          <div class="wp-block-woocommerce-checkout-order-summary-cart-items-block"></div>
+          <div
+            class="wp-block-woocommerce-checkout-order-summary-cart-items-block"
+          ></div>
           <!-- /wp:woocommerce/checkout-order-summary-cart-items-block -->
 
           <!-- wp:woocommerce/checkout-order-summary-coupon-form-block -->
-          <div class="wp-block-woocommerce-checkout-order-summary-coupon-form-block"></div>
+          <div
+            class="wp-block-woocommerce-checkout-order-summary-coupon-form-block"
+          ></div>
           <!-- /wp:woocommerce/checkout-order-summary-coupon-form-block -->
 
           <!-- wp:woocommerce/checkout-order-summary-totals-block -->
           <div class="wp-block-woocommerce-checkout-order-summary-totals-block">
             <!-- wp:woocommerce/checkout-order-summary-subtotal-block -->
-            <div class="wp-block-woocommerce-checkout-order-summary-subtotal-block"></div>
+            <div
+              class="wp-block-woocommerce-checkout-order-summary-subtotal-block"
+            ></div>
             <!-- /wp:woocommerce/checkout-order-summary-subtotal-block -->
 
             <!-- wp:woocommerce/checkout-order-summary-fee-block -->
-            <div class="wp-block-woocommerce-checkout-order-summary-fee-block"></div>
+            <div
+              class="wp-block-woocommerce-checkout-order-summary-fee-block"
+            ></div>
             <!-- /wp:woocommerce/checkout-order-summary-fee-block -->
 
             <!-- wp:woocommerce/checkout-order-summary-discount-block -->
-            <div class="wp-block-woocommerce-checkout-order-summary-discount-block"></div>
+            <div
+              class="wp-block-woocommerce-checkout-order-summary-discount-block"
+            ></div>
             <!-- /wp:woocommerce/checkout-order-summary-discount-block -->
 
             <!-- wp:woocommerce/checkout-order-summary-shipping-block -->
-            <div class="wp-block-woocommerce-checkout-order-summary-shipping-block"></div>
+            <div
+              class="wp-block-woocommerce-checkout-order-summary-shipping-block"
+            ></div>
             <!-- /wp:woocommerce/checkout-order-summary-shipping-block -->
 
             <!-- wp:woocommerce/checkout-order-summary-taxes-block -->
-            <div class="wp-block-woocommerce-checkout-order-summary-taxes-block"></div>
+            <div
+              class="wp-block-woocommerce-checkout-order-summary-taxes-block"
+            ></div>
             <!-- /wp:woocommerce/checkout-order-summary-taxes-block -->
           </div>
           <!-- /wp:woocommerce/checkout-order-summary-totals-block -->
