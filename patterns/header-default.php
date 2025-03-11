@@ -17,7 +17,7 @@
 			<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|light"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"light","fontSize":"normal"} -->
 			<p class="has-light-color has-text-color has-link-color has-normal-font-size"
 				style="font-style:normal;font-weight:600">
-				<?php esc_html_e( '2345 Beach,Rd Metrocity USA, HWY 1235 | +1 (000) 012-3456 ', 'grocefycart' ); ?>
+				<?php esc_html_e('2345 Beach,Rd Metrocity USA, HWY 1235 | +1 (000) 012-3456 ', 'grocefycart'); ?>
 			</p>
 			<!-- /wp:paragraph -->
 
@@ -25,7 +25,7 @@
 			<div class="wp-block-group">
 				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"light","fontSize":"normal"} -->
 				<p class="has-light-color has-text-color has-link-color has-normal-font-size">
-					<?php esc_html_e( 'Track your order | ', 'grocefycart' ); ?>
+					<?php esc_html_e('Track your order | ', 'grocefycart'); ?>
 				</p>
 				<!-- /wp:paragraph -->
 
@@ -60,7 +60,7 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search","buttonText":"Search","buttonUseIcon":true,"className":"is-style-grocefycart-search-rounded","style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"fontStyle":"italic","fontWeight":"400"},"spacing":{"margin":{"right":"0","left":"0","top":"0","bottom":"0"}},"border":{"radius":"100px","width":"0px","style":"none"}},"backgroundColor":"secondary","textColor":"heading","fontSize":"normal"} /-->
+			<!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search","width":350,"widthUnit":"px","buttonText":"Search","buttonUseIcon":true,"className":"is-style-grocefycart-search-rounded","style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"fontStyle":"italic","fontWeight":"400"},"spacing":{"margin":{"right":"0","left":"0","top":"0","bottom":"0"}},"border":{"radius":"100px","width":"0px","style":"none"}},"backgroundColor":"secondary","textColor":"heading","fontSize":"normal"} /-->
 
 			<!-- wp:group {"style":{"spacing":{"blockGap":"15px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 			<div class="wp-block-group">
@@ -82,7 +82,7 @@
 			style="margin-top:0;margin-bottom:0;padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
 			<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
 			<div class="wp-block-group">
-				<?php if ( class_exists( 'WooCommerce' ) ) { ?>
+				<?php if (class_exists('WooCommerce')) { ?>
 					<!-- wp:group {"className":"grocefycart-categories-dropdown","style":{"spacing":{"padding":{"top":"10px","bottom":"10px","left":"16px","right":"16px"}},"border":{"radius":"10px"}},"backgroundColor":"primary","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
 					<div class="wp-block-group grocefycart-categories-dropdown has-primary-background-color has-background"
 						style="border-radius:10px;padding-top:10px;padding-right:16px;padding-bottom:10px;padding-left:16px">
@@ -96,7 +96,8 @@
 						<div class="wp-block-button has-custom-font-size is-style-button-hover-secondary-bgcolor"
 							style="font-size:16px;font-style:normal;font-weight:500;line-height:1.5"><a
 								class="wp-block-button__link has-light-color has-text-color has-link-color wp-element-button"
-								style="border-radius:10px;padding-top:10px;padding-right:16px;padding-bottom:10px;padding-left:16px"><?php esc_html_e( 'Select Category', 'grocefycart' ); ?></a></div>
+								style="border-radius:10px;padding-top:10px;padding-right:16px;padding-bottom:10px;padding-left:16px"><?php esc_html_e('Select Category', 'grocefycart'); ?></a>
+						</div>
 						<!-- /wp:button -->
 					</div>
 					<!-- /wp:buttons -->
@@ -115,7 +116,7 @@
 				<div class="wp-block-button has-custom-font-size is-style-button-hover-secondary-bgcolor"
 					style="font-size:16px;font-style:normal;font-weight:500;line-height:1.5"><a
 						class="wp-block-button__link has-light-color has-text-color has-link-color wp-element-button"
-						style="border-radius:10px;padding-top:10px;padding-right:16px;padding-bottom:10px;padding-left:16px"><?php esc_html_e( 'Weekly Discount', 'grocefycart' ); ?></a>
+						style="border-radius:10px;padding-top:10px;padding-right:16px;padding-bottom:10px;padding-left:16px"><?php esc_html_e('Weekly Discount', 'grocefycart'); ?></a>
 				</div>
 				<!-- /wp:button -->
 			</div>
