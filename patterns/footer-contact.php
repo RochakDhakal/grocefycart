@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Footer Default
- * Slug: grocefycart/footer-default
+ * Title: Footer Contact
+ * Slug: grocefycart/footer-contact
  * Categories: grocefycart
  */
 
@@ -38,14 +38,12 @@ $grocefycart_footer_img = array(
 							'grocefycart'
 						)
 						?>
-					</p>
+						</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"background","fontSize":"normal"} -->
 					<p class="has-background-color has-text-color has-link-color has-normal-font-size"
-						style="font-style:normal;font-weight:600">
-						<?php esc_html_e( '2345 Beach,Rd Metrocity USA, HWY 1235', 'grocefycart' ); ?>
-					</p>
+						style="font-style:normal;font-weight:600"><?php esc_html_e( '2345 Beach,Rd Metrocity USA, HWY 1235', 'grocefycart' ); ?></p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:social-links {"iconColor":"light","iconColorValue":"#F9F9F9","customIconBackgroundColor":"#ffffff1a","iconBackgroundColorValue":"#ffffff1a","className":"is-style-default"} -->
@@ -73,9 +71,7 @@ $grocefycart_footer_img = array(
 						<div class="wp-block-group has-foreground-color has-text-color has-link-color">
 							<!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"background","fontSize":"big"} -->
 							<h5 class="wp-block-heading has-background-color has-text-color has-link-color has-big-font-size"
-								style="font-style:normal;font-weight:600">
-								<?php esc_html_e( 'Page Links', 'grocefycart' ); ?>
-							</h5>
+								style="font-style:normal;font-weight:600"><?php esc_html_e( 'Page Links', 'grocefycart' ); ?></h5>
 							<!-- /wp:heading -->
 
 							<!-- wp:page-list {"className":"is-style-grocefycart-page-list-hidden"} /-->
@@ -90,27 +86,22 @@ $grocefycart_footer_img = array(
 						<div class="wp-block-group">
 							<!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"background","fontSize":"big"} -->
 							<h5 class="wp-block-heading has-background-color has-text-color has-link-color has-big-font-size"
-								style="font-style:normal;font-weight:600">
-								<?php esc_html_e( 'Quick Links', 'grocefycart' ); ?>
-							</h5>
+								style="font-style:normal;font-weight:600"><?php esc_html_e( 'Quick Links', 'grocefycart' ); ?></h5>
 							<!-- /wp:heading -->
 
 							<!-- wp:list {"className":"is-style-grocefycart-list-style-none","style":{"spacing":{"padding":{"right":"0","left":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|foreground"},":hover":{"color":{"text":"var:preset|color|primary"}}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"foreground","fontSize":"normal"} -->
 							<ul style="padding-right:0;padding-left:0;font-style:normal;font-weight:500"
 								class="wp-block-list is-style-grocefycart-list-style-none has-foreground-color has-text-color has-link-color has-normal-font-size">
 								<!-- wp:list-item {"style":{"spacing":{"margin":{"bottom":"5px"}}}} -->
-								<li style="margin-bottom:5px"><a
-										href="#"><?php esc_html_e( 'About Us', 'grocefycart' ); ?></a></li>
+								<li style="margin-bottom:5px"><a href="#"><?php esc_html_e( 'About Us', 'grocefycart' ); ?></a></li>
 								<!-- /wp:list-item -->
 
 								<!-- wp:list-item {"style":{"spacing":{"margin":{"bottom":"5px"}}}} -->
-								<li style="margin-bottom:5px"><a
-										href="#"><?php esc_html_e( 'Shop', 'grocefycart' ); ?></a></li>
+								<li style="margin-bottom:5px"><a href="#"><?php esc_html_e( 'Shop', 'grocefycart' ); ?></a></li>
 								<!-- /wp:list-item -->
 
 								<!-- wp:list-item {"style":{"spacing":{"margin":{"bottom":"5px"}}}} -->
-								<li style="margin-bottom:5px"><a
-										href="#"><?php esc_html_e( 'Vendors', 'grocefycart' ); ?></a></li>
+								<li style="margin-bottom:5px"><a href="#"><?php esc_html_e( 'Vendors', 'grocefycart' ); ?></a></li>
 								<!-- /wp:list-item -->
 
 								<!-- wp:list-item {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"},":hover":{"color":{"text":"var:preset|color|primary"}}}}},"textColor":"foreground","fontSize":"normal"} -->
@@ -130,42 +121,34 @@ $grocefycart_footer_img = array(
 						<div class="wp-block-group">
 							<!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"background","fontSize":"big"} -->
 							<h5 class="wp-block-heading has-background-color has-text-color has-link-color has-big-font-size"
-								style="font-style:normal;font-weight:600">
-								<?php esc_html_e( 'Company', 'grocefycart' ); ?>
-							</h5>
+								style="font-style:normal;font-weight:600"><?php esc_html_e( 'Company', 'grocefycart' ); ?></h5>
 							<!-- /wp:heading -->
 
 							<!-- wp:list {"className":"is-style-grocefycart-list-style-none","style":{"spacing":{"padding":{"right":"0","left":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|foreground"},":hover":{"color":{"text":"var:preset|color|primary"}}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"foreground","fontSize":"normal"} -->
 							<ul style="padding-right:0;padding-left:0;font-style:normal;font-weight:500"
 								class="wp-block-list is-style-grocefycart-list-style-none has-foreground-color has-text-color has-link-color has-normal-font-size">
 								<!-- wp:list-item {"style":{"spacing":{"margin":{"bottom":"5px"}}}} -->
-								<li style="margin-bottom:5px"><a
-										href="#"><?php esc_html_e( 'Terms & Conditions', 'grocefycart' ); ?></a></li>
+								<li style="margin-bottom:5px"><a href="#"><?php esc_html_e( 'Terms & Conditions', 'grocefycart' ); ?></a></li>
 								<!-- /wp:list-item -->
 
 								<!-- wp:list-item {"style":{"spacing":{"margin":{"bottom":"5px"}}}} -->
-								<li style="margin-bottom:5px"><a
-										href="#"><?php esc_html_e( 'Sponsers', 'grocefycart' ); ?></a></li>
+								<li style="margin-bottom:5px"><a href="#"><?php esc_html_e( 'Sponsers', 'grocefycart' ); ?></a></li>
 								<!-- /wp:list-item -->
 
 								<!-- wp:list-item {"style":{"spacing":{"margin":{"bottom":"5px"}}}} -->
-								<li style="margin-bottom:5px"><a
-										href="#"><?php esc_html_e( 'Privacy Policy', 'grocefycart' ); ?></a></li>
+								<li style="margin-bottom:5px"><a href="#"><?php esc_html_e( 'Privacy Policy', 'grocefycart' ); ?></a></li>
 								<!-- /wp:list-item -->
 
 								<!-- wp:list-item {"style":{"spacing":{"margin":{"bottom":"5px"}}}} -->
-								<li style="margin-bottom:5px"><a
-										href="#"><?php esc_html_e( 'Return Policy', 'grocefycart' ); ?></a></li>
+								<li style="margin-bottom:5px"><a href="#"><?php esc_html_e( 'Return Policy', 'grocefycart' ); ?></a></li>
 								<!-- /wp:list-item -->
 
 								<!-- wp:list-item {"style":{"spacing":{"margin":{"bottom":"5px"}}}} -->
-								<li style="margin-bottom:5px"><a
-										href="#"><?php esc_html_e( 'Executive', 'grocefycart' ); ?></a></li>
+								<li style="margin-bottom:5px"><a href="#"><?php esc_html_e( 'Executive', 'grocefycart' ); ?></a></li>
 								<!-- /wp:list-item -->
 
 								<!-- wp:list-item {"style":{"spacing":{"margin":{"bottom":"5px"}}}} -->
-								<li style="margin-bottom:5px"><a
-										href="#"><?php esc_html_e( 'Partners', 'grocefycart' ); ?></a></li>
+								<li style="margin-bottom:5px"><a href="#"><?php esc_html_e( 'Partners', 'grocefycart' ); ?></a></li>
 								<!-- /wp:list-item -->
 							</ul>
 							<!-- /wp:list -->
@@ -180,25 +163,13 @@ $grocefycart_footer_img = array(
 						<div class="wp-block-group is-style-grocefycart-overflow-hidden">
 							<!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"background","fontSize":"big"} -->
 							<h5 class="wp-block-heading has-background-color has-text-color has-link-color has-big-font-size"
-								style="font-style:normal;font-weight:600">
-								<?php esc_html_e( 'Newsletter Sign-up', 'grocefycart' ); ?>
-							</h5>
+								style="font-style:normal;font-weight:600"><?php esc_html_e( 'Newsletter Sign-up', 'grocefycart' ); ?></h5>
 							<!-- /wp:heading -->
 
-							<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"foreground","fontSize":"normal"} -->
-							<p class="has-foreground-color has-text-color has-link-color has-normal-font-size"
-								style="font-style:normal;font-weight:500">
-								<?php
-								esc_html_e(
-									'**NOTE: Insert Contact Form 7 plugin shortcode
-								and use the classname" grocefycart-contact-newsletter-1,
-								grocefycart-contact-newsletter-2, grocefycart-contact-newsletter-3 or
-								grocefycart-contact-newsletter-4"',
-									'grocefycart'
-								)
-								?>
-								</p>
-							<!-- /wp:paragraph -->
+							<!-- wp:contact-form-7/contact-form-selector {"id":1577,"hash":"8ff56a9","title":"Footer Contact Form","className":"grocefycart-contact-form-1"} -->
+							<div class="wp-block-contact-form-7-contact-form-selector grocefycart-contact-form-1">
+								[contact-form-7 id="8ff56a9" title="Footer Contact Form"]</div>
+							<!-- /wp:contact-form-7/contact-form-selector -->
 
 							<!-- wp:group {"layout":{"type":"constrained","contentSize":"225px","justifyContent":"left"}} -->
 							<div class="wp-block-group">
@@ -207,23 +178,19 @@ $grocefycart_footer_img = array(
 									style="border-color:#ffffff4d;border-width:1px;margin-top:45px;padding-top:10px;padding-right:15px;padding-bottom:10px;padding-left:15px">
 									<!-- wp:image {"id":1563,"width":"34px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
 									<figure class="wp-block-image size-full is-resized"><img
-											src="<?php echo esc_url( $grocefycart_footer_img[0] ); ?>" alt=""
-											class="wp-image-1563" style="aspect-ratio:1;object-fit:cover;width:34px" />
-									</figure>
+											src="<?php echo esc_url( $grocefycart_footer_img[0] ); ?>"
+											alt="" class="wp-image-1563"
+											style="aspect-ratio:1;object-fit:cover;width:34px" /></figure>
 									<!-- /wp:image -->
 
 									<!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"blockGap":"0"}},"textColor":"background","layout":{"type":"constrained"}} -->
 									<div class="wp-block-group has-background-color has-text-color has-link-color">
 										<!-- wp:paragraph {"fontSize":"x-small"} -->
-										<p class="has-x-small-font-size">
-											<?php esc_html_e( 'Hotline Number', 'grocefycart' ); ?>
-										</p>
+										<p class="has-x-small-font-size"><?php esc_html_e( 'Hotline Number', 'grocefycart' ); ?></p>
 										<!-- /wp:paragraph -->
 
 										<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"normal"} -->
-										<p class="has-normal-font-size" style="font-style:normal;font-weight:600">
-											<?php esc_html_e( '+1 (000)012-3456', 'grocefycart' ); ?>
-										</p>
+										<p class="has-normal-font-size" style="font-style:normal;font-weight:600"><?php esc_html_e( '+1 (000)012-3456', 'grocefycart' ); ?></p>
 										<!-- /wp:paragraph -->
 									</div>
 									<!-- /wp:group -->
@@ -250,15 +217,13 @@ $grocefycart_footer_img = array(
 		<!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 		<div class="wp-block-group" style="padding-right:0;padding-left:0">
 			<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|light"}}}},"textColor":"light","fontSize":"small-plus"} -->
-			<p class="has-light-color has-text-color has-link-color has-small-plus-font-size">
-				<?php esc_html_e( 'Proudly powered by WordPress | GrocefyCart by CozyThemes.', 'grocefycart' ); ?>
-			</p>
+			<p class="has-light-color has-text-color has-link-color has-small-plus-font-size"><?php esc_html_e( 'Proudly powered by WordPress | GrocefyCart by CozyThemes.', 'grocefycart' ); ?></p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:image {"id":1516,"width":"auto","height":"25px","sizeSlug":"full","linkDestination":"none"} -->
 			<figure class="wp-block-image size-full is-resized"><img
-					src="<?php echo esc_url( $grocefycart_footer_img[1] ); ?>" alt="" class="wp-image-1516"
-					style="width:auto;height:25px" /></figure>
+					src="<?php echo esc_url( $grocefycart_footer_img[1] ); ?>"
+					alt="" class="wp-image-1516" style="width:auto;height:25px" /></figure>
 			<!-- /wp:image -->
 		</div>
 		<!-- /wp:group -->
