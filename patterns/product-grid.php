@@ -2,7 +2,7 @@
 /**
  * Title: Products Grid
  * Slug: grocefycart/product-grid
- * Categories:grocefycart
+ * Categories:grocefycart,grocefycart-woocommerce
  */
 
 ?>

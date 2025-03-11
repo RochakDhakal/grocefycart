@@ -2,7 +2,7 @@
 /**
  * Title: Trending and Top Selling Products
  * Slug: grocefycart/trending-products-sidebar
- * Categories: grocefycart
+ * Categories: grocefycart,grocefycart-woocommerce
  */
 $grocefycart_sidebar_url = trailingslashit( get_template_directory_uri() );
 $grocefycart_sidebar_img = array(

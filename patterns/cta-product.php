@@ -2,7 +2,7 @@
 /**
  * Title: CTA Product
  * Slug: grocefycart/cta-product
- * Categories: grocefycart
+ * Categories: grocefycart,grocefycart-woocommerce
  */
 
 $grocefycart_cta_url = trailingslashit( get_template_directory_uri() );

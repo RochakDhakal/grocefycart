@@ -2,7 +2,7 @@
 /**
  * Title: Sidebar Default
  * Slug: grocefycart/sidebar-default
- * Categories: grocefycart
+ * Categories: grocefycart,grocefycart-woocommerce
  */
 
 $grocefycart_sidebar_url = trailingslashit( get_template_directory_uri() );
