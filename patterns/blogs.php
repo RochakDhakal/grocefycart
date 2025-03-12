@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Latest Blogs
+ * Title: Latest Blogs Grid
  * Slug: grocefycart/blogs
  * Categories:grocefycart
  */
