@@ -346,8 +346,8 @@ function shopmighty_theme_info_display() {
 									<ul>
 										<li> - <?php echo __( 'Go to Appearance -> Editor -> Templates:', 'grocefycart' ); ?></li>
 										<li> - <?php echo __( 'Click on Manage all Templates', 'grocefycart' ); ?></li>
-										<li> - <?php echo __( 'Click on 3 Dots icon at right side of respective Template', 'grocefycart' ); ?></li>
-										<li> - <?php echo __( 'Click on Clear Customization', 'grocefycart' ); ?></li>
+										<li> - <?php echo __( 'Click on 3 Dots icon ( ⋮ ) at right side of respective Template', 'grocefycart' ); ?></li>
+										<li> - <?php echo __( 'Click on Reset', 'grocefycart' ); ?></li>
 									</ul>
 								</li>
 							</ul>
@@ -355,11 +355,11 @@ function shopmighty_theme_info_display() {
 						<div class="featured-box">
 							<ul>
 								<li><strong><?php echo __( 'Restore/Reset Default Content layout of Template Parts(Header/Footer/Sidebar)', 'grocefycart' ); ?></strong>
-									<ul>
-										<li> - <?php echo __( 'Go to Appearance -> Editor -> Patterns:', 'grocefycart' ); ?></li>
-										<li> - <?php echo __( 'Click on Manage All Template Parts', 'grocefycart' ); ?></li>
-										<li> - <?php echo __( 'Click on 3 Dots icon at right side of respective Template parts', 'grocefycart' ); ?></li>
-										<li> - <?php echo __( 'Click on Clear Customization', 'grocefycart' ); ?></li>
+								<ul>
+									<li> - <?php echo __( 'Go to Appearance -> Editor -> Patterns:', 'grocefycart' ); ?></li>
+									<li> - <?php echo __( 'Click on Manage All Template Parts', 'grocefycart' ); ?></li>
+									<li> - <?php echo __( 'Click on 3 Dots icon ( ⋮ ) at right side of respective Template parts', 'grocefycart' ); ?></li>
+									<li> - <?php echo __( 'Click on Reset', 'grocefycart' ); ?></li>
 									</ul>
 								</li>
 							</ul>
@@ -374,23 +374,17 @@ function shopmighty_theme_info_display() {
 								<li>
 									<h4><?php echo __( 'Grocefycart offers 20+ pre-built sections to help you launch your store effortlessly.', 'grocefycart' ); ?></h4>
 									<ul>
-										<li><?php echo __( 'Banner Slider Section', 'grocefycart' ); ?></li>
-										<li><?php echo __( 'About Us Section', 'grocefycart' ); ?></li>
-										<li><?php echo __( 'Featured Product Categories Section', 'grocefycart' ); ?></li>
-										<li><?php echo __( 'Featured Product Section', 'grocefycart' ); ?></li>
-										<li><?php echo __( 'Call To Action Section', 'grocefycart' ); ?></li>
-										<li><?php echo __( 'Favorites Collections Showcase', 'grocefycart' ); ?></li>
-										<li><?php echo __( 'Highlight Feature Section', 'grocefycart' ); ?></li>
-										<li><?php echo __( 'Testimonial Section', 'grocefycart' ); ?></li>
+										<li><?php echo __( '404 Page Not Found Section', 'grocefycart' ); ?></li>
+										<li><?php echo __( 'Marquee Section', 'grocefycart' ); ?></li>
+										<li><?php echo __( 'Latest Blogs Section - 2', 'grocefycart' ); ?></li>
+										<li><?php echo __( 'Call To Action Section - 2', 'grocefycart' ); ?></li>
+										<li><?php echo __( 'WooCommerce Product Showcase Section - 9', 'grocefycart' ); ?></li>
 										<li><?php echo __( 'Testimonial Grid Section', 'grocefycart' ); ?></li>
-										<li><?php echo __( 'Photo Gallery Section', 'grocefycart' ); ?></li>
-										<li><?php echo __( 'FAQ Section ', 'grocefycart' ); ?></li>
-										<li><?php echo __( 'Latest Post Display Section ', 'grocefycart' ); ?></li>
-										<li><?php echo __( 'Post Grid Section ', 'grocefycart' ); ?></li>
-										<li><?php echo __( 'Post List Section ', 'grocefycart' ); ?></li>
-										<li><?php echo __( 'Brands Logo Showcase', 'grocefycart' ); ?></li>
-										<li><?php echo __( 'Team Showcase', 'grocefycart' ); ?></li>
-										<li><?php echo __( 'Profile Links Card', 'grocefycart' ); ?></li>
+										<li><?php echo __( 'About Us Section', 'grocefycart' ); ?></li>
+										<li><?php echo __( 'Header Section', 'grocefycart' ); ?></li>
+										<li><?php echo __( 'Footer Section - 2', 'grocefycart' ); ?></li>
+										<li><?php echo __( 'Sitemap Section', 'grocefycart' ); ?></li>
+										<li><?php echo __( 'Sidebar Section - 2', 'grocefycart' ); ?></li>
 									</ul>
 								</li>
 
