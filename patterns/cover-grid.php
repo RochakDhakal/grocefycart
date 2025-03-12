@@ -241,13 +241,13 @@ $grocefycart_cat_img   = array(
 			<div class="wp-block-column" style="flex-basis:51%">
 				<!-- wp:query {"queryId":0,"query":{"perPage":1,"pages":0,"offset":0,"postType":"product","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[]}} -->
 				<div class="wp-block-query"><!-- wp:post-template -->
-					<!-- wp:cover {"url":"http://localhost/wordpress/grocefy-cart/wp-content/themes/grocefycart/assets/images/cover-1.jpg","id":233,"dimRatio":0,"customOverlayColor":"#efc342","isUserOverlayColor":false,"minHeight":500,"contentPosition":"center left","isDark":false,"className":"is-style-grocefycart-hover-zoom-in","style":{"border":{"radius":"10px"},"spacing":{"padding":{"right":"var:preset|spacing|40","left":"55px","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"420px"}} -->
+					<!-- wp:cover {"url":"<?php echo esc_url( $grocefycart_cover_img[0] ); ?>","id":233,"dimRatio":0,"customOverlayColor":"#efc342","isUserOverlayColor":false,"minHeight":500,"contentPosition":"center left","isDark":false,"className":"is-style-grocefycart-hover-zoom-in","style":{"border":{"radius":"10px"},"spacing":{"padding":{"right":"var:preset|spacing|40","left":"55px","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"420px"}} -->
 					<div class="wp-block-cover is-light has-custom-content-position is-position-center-left is-style-grocefycart-hover-zoom-in"
 						style="border-radius:10px;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:55px;min-height:500px">
 						<span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"
 							style="background-color:#efc342"></span><img
 							class="wp-block-cover__image-background wp-image-233" alt=""
-							src="http://localhost/wordpress/grocefy-cart/wp-content/themes/grocefycart/assets/images/cover-1.jpg"
+							src="<?php echo esc_url( $grocefycart_cover_img[0] ); ?>"
 							data-object-fit="cover" />
 						<div class="wp-block-cover__inner-container">
 							<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"420px","justifyContent":"left"}} -->
@@ -274,13 +274,13 @@ $grocefycart_cat_img   = array(
 			<div class="wp-block-column" style="flex-basis:25%">
 				<!-- wp:query {"queryId":1,"query":{"perPage":1,"pages":0,"offset":"1","postType":"product","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[]}} -->
 				<div class="wp-block-query"><!-- wp:post-template -->
-					<!-- wp:cover {"url":"http://localhost/wordpress/grocefy-cart/wp-content/themes/grocefycart/assets/images/cover-2.jpg","id":255,"dimRatio":0,"customOverlayColor":"#c4d3e3","isUserOverlayColor":false,"minHeight":240,"contentPosition":"center left","isDark":false,"className":"is-style-grocefycart-hover-zoom-in","style":{"spacing":{"padding":{"right":"20px","left":"20px"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":"10px"}},"layout":{"type":"constrained","contentSize":"170px"}} -->
+					<!-- wp:cover {"url":"<?php echo esc_url( $grocefycart_cover_img[1] ); ?>","id":255,"dimRatio":0,"customOverlayColor":"#c4d3e3","isUserOverlayColor":false,"minHeight":240,"contentPosition":"center left","isDark":false,"className":"is-style-grocefycart-hover-zoom-in","style":{"spacing":{"padding":{"right":"20px","left":"20px"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":"10px"}},"layout":{"type":"constrained","contentSize":"170px"}} -->
 					<div class="wp-block-cover is-light has-custom-content-position is-position-center-left is-style-grocefycart-hover-zoom-in"
 						style="border-radius:10px;margin-top:0;margin-bottom:0;padding-right:20px;padding-left:20px;min-height:240px">
 						<span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"
 							style="background-color:#c4d3e3"></span><img
 							class="wp-block-cover__image-background wp-image-255" alt=""
-							src="http://localhost/wordpress/grocefy-cart/wp-content/themes/grocefycart/assets/images/cover-2.jpg"
+							src="<?php echo esc_url( $grocefycart_cover_img[1] ); ?>"
 							data-object-fit="cover" />
 						<div class="wp-block-cover__inner-container">
 							<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"170px","justifyContent":"left"}} -->
@@ -303,13 +303,13 @@ $grocefycart_cat_img   = array(
 
 				<!-- wp:query {"queryId":1,"query":{"perPage":1,"pages":0,"offset":"2","postType":"product","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[]}} -->
 				<div class="wp-block-query"><!-- wp:post-template -->
-					<!-- wp:cover {"url":"http://localhost/wordpress/grocefy-cart/wp-content/themes/grocefycart/assets/images/cover-3.jpg","id":272,"dimRatio":0,"customOverlayColor":"#6fc1cd","isUserOverlayColor":false,"minHeight":240,"contentPosition":"center left","isDark":false,"className":"is-style-grocefycart-hover-zoom-in","style":{"spacing":{"padding":{"right":"20px","left":"20px"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":"10px"}},"layout":{"type":"constrained","contentSize":"170px"}} -->
+					<!-- wp:cover {"url":"<?php echo esc_url( $grocefycart_cover_img[2] ); ?>","id":272,"dimRatio":0,"customOverlayColor":"#6fc1cd","isUserOverlayColor":false,"minHeight":240,"contentPosition":"center left","isDark":false,"className":"is-style-grocefycart-hover-zoom-in","style":{"spacing":{"padding":{"right":"20px","left":"20px"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":"10px"}},"layout":{"type":"constrained","contentSize":"170px"}} -->
 					<div class="wp-block-cover is-light has-custom-content-position is-position-center-left is-style-grocefycart-hover-zoom-in"
 						style="border-radius:10px;margin-top:0;margin-bottom:0;padding-right:20px;padding-left:20px;min-height:240px">
 						<span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"
 							style="background-color:#6fc1cd"></span><img
 							class="wp-block-cover__image-background wp-image-272" alt=""
-							src="http://localhost/wordpress/grocefy-cart/wp-content/themes/grocefycart/assets/images/cover-3.jpg"
+							src="<?php echo esc_url( $grocefycart_cover_img[2] ); ?>"
 							data-object-fit="cover" />
 						<div class="wp-block-cover__inner-container">
 							<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"170px","justifyContent":"left"}} -->

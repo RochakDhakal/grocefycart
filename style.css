@@ -32,7 +32,7 @@ p a {
   font-size: var(--wp--preset--font-size--normal);
   font-family: var(--wp--preset--font-family--inter);
   background-color: var(--wp--preset--color--primary);
-  font-weight: 600;
+  font-weight: 400;
   text-transform: capitalize;
   cursor: pointer;
 }
