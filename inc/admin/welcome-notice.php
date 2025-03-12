@@ -392,22 +392,25 @@ function shopmighty_theme_info_display() {
 									<ul>
 										<li> <?php echo __( '404 Template', 'grocefycart' ); ?></li>
 										<li> <?php echo __( 'Archive Template', 'grocefycart' ); ?></li>
-										<li> <?php echo __( 'Product Catalog Template', 'grocefycart' ); ?></li>
+										<li> <?php echo __( 'Product Archive Template', 'grocefycart' ); ?></li>
 										<li> <?php echo __( 'Blank Template', 'grocefycart' ); ?></li>
+										<li> <?php echo __( 'Blank Template with Header and Footer', 'grocefycart' ); ?></li>
+										<li> <?php echo __( 'WooCommerce Cart Template', 'grocefycart' ); ?></li>
+										<li> <?php echo __( 'WooCommerce Checkout Template', 'grocefycart' ); ?></li>
 										<li> <?php echo __( 'Front Page Template', 'grocefycart' ); ?></li>
 										<li> <?php echo __( 'Blog Home Template', 'grocefycart' ); ?></li>
 										<li> <?php echo __( 'Index Page Template', 'grocefycart' ); ?></li>
 										<li> <?php echo __( 'Search Template', 'grocefycart' ); ?></li>
 										<li> <?php echo __( 'Sitemap Template', 'grocefycart' ); ?></li>
 										<li> <?php echo __( 'Page Template', 'grocefycart' ); ?></li>
-										<li> <?php echo __( 'Left Sidebar Page Template', 'grocefycart' ); ?></li>
-										<li> <?php echo __( 'Right sidebar page  Template', 'grocefycart' ); ?></li>
+										<li> <?php echo __( 'Page Template with Left Sidebar', 'grocefycart' ); ?></li>
+										<li> <?php echo __( 'Page  Template with Right Sidebar', 'grocefycart' ); ?></li>
 										<li> <?php echo __( 'Single Template', 'grocefycart' ); ?></li>
+										<li> <?php echo __( 'Single Template with Left Sidebar', 'grocefycart' ); ?></li>
+										<li> <?php echo __( 'Single Template with Right Sidebar', 'grocefycart' ); ?></li>
 										<li> <?php echo __( 'Single Product Template', 'grocefycart' ); ?></li>
-										<li> <?php echo __( 'Cart Page Template', 'grocefycart' ); ?></li>
-										<li> <?php echo __( 'Checkout Page Template', 'grocefycart' ); ?></li>
-										<li> <?php echo __( 'Left Sidebar Single Template', 'grocefycart' ); ?></li>
-										<li> <?php echo __( 'Full Width Single Template', 'grocefycart' ); ?></li>
+										<li> <?php echo __( 'Single Product Template with Left Sidebar', 'grocefycart' ); ?></li>
+										<li> <?php echo __( 'Single Product Template with Right Sidebar', 'grocefycart' ); ?></li>
 
 									</ul>
 								<li>
@@ -438,7 +441,7 @@ function shopmighty_theme_info_display() {
 								<li><?php echo __( 'After Before Image Block', 'grocefycart' ); ?></li>
 								<li><?php echo __( 'Slider Block', 'grocefycart' ); ?></li>
 								<li><?php echo __( 'Counter Block', 'grocefycart' ); ?></li>
-								<li><?php echo __( 'Prgress Bar Block', 'grocefycart' ); ?></li>
+								<li><?php echo __( 'Progress Bar Block', 'grocefycart' ); ?></li>
 								<li><?php echo __( 'Advanced Gallery with Lightbox, filterable and multiple layout', 'grocefycart' ); ?></li>
 								<li><?php echo __( 'Portfolio Block with Custom Post Type with lightbox, category filterable and multiple layout', 'grocefycart' ); ?></li>
 								<li><?php echo __( 'Team Block with grid and carousel', 'grocefycart' ); ?></li>
@@ -448,12 +451,12 @@ function shopmighty_theme_info_display() {
 								<li><?php echo __( 'Social Icons Block', 'grocefycart' ); ?></li>
 								<li><?php echo __( 'Breadcrumbs Block', 'grocefycart' ); ?></li>
 								<li><?php echo __( 'Popup buidler Block to display offer and flash sale', 'grocefycart' ); ?>
-									<?php echo __( 'and access', 'grocefycart' ); ?> <a href="https://cozythemes.com/cozy-addons/" target="_blank"><?php echo __( 'Cozy Blocks with more than 40+ advanced block.', 'grocefycart' ); ?></a>
+									<?php echo __( 'and access', 'grocefycart' ); ?> <a href="<?php echo __( 'https://cozythemes.com/cozy-addons/', 'grocefycart' ); ?>" target="_blank"><?php echo __( 'Cozy Blocks with more than 40+ advanced block.', 'grocefycart' ); ?></a>
 								</li>
 
 							</ul>
 							<br />
-							<a href="https://cozythemes.com/pricing-and-plans/" class="upgrade-btn button" target="_blank"><?php echo __( 'Upgrade to Pro', 'grocefycart' ); ?></a>
+							<a href="<?php echo __( 'https://cozythemes.com/pricing-and-plans/', 'grocefycart' ); ?>" class="upgrade-btn button" target="_blank"><?php echo __( 'Upgrade to Pro', 'grocefycart' ); ?></a>
 						</div>
 					</div>
 				</div>
