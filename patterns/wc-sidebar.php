@@ -86,8 +86,16 @@ $grocefycart_sidebar_img = array(
 		</div>
 		<!-- /wp:group -->
 	<?php } else { ?>
-		<!-- wp:paragraph -->
-		<p><?php esc_html_e( '** NOTE : It looks like WooCommerce plugin is not installed / activated. Please install the WooCommece plugin and reload the page' ); ?></p>
+		<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|meta-color"}}}},"textColor":"meta-color","fontSize":"medium-plus"} -->
+		<p class="has-meta-color-color has-text-color has-link-color has-medium-plus-font-size">
+			<?php
+			esc_html_e(
+				'** NOTE : It looks like WooCommerce plugin is not installed / activated. Please install the WooCommece plugin and
+		reload the page',
+				'grocefycart'
+			)
+			?>
+		</p>
 		<!-- /wp:paragraph -->
 	<?php } ?>
 </div>
