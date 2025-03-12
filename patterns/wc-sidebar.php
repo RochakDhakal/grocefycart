@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Products Sidebar
- * Slug: grocefycart/sidebar-default
+ * Slug: grocefycart/wc-sidebar
  * Categories: grocefycart,grocefycart-woocommerce
  */
 
