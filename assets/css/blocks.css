@@ -256,24 +256,45 @@ ul.is-style-grocefycart-categories-terniary li {
 }
 /* ********** Navigation ********** */
 /* Primary */
-.is-style-grocefycart-navigation-primary li.current-menu-item a {
+.wp-block-navigation.is-style-grocefycart-navigation-primary
+  li.current-menu-item {
   color: var(--wp--preset--color--primary) !important;
 }
-.is-style-grocefycart-navigation-primary li:hover {
+.wp-block-navigation.is-style-grocefycart-navigation-primary
+  .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
+  color: var(--wp--preset--color--primary);
+}
+.is-style-grocefycart-navigation-primary.wp-block-navigation
+  ul.wp-block-navigation__submenu-container.wp-block-navigation-submenu
+  .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
   color: var(--wp--preset--color--primary);
 }
 /* Secondary */
-.is-style-grocefycart-navigation-secondary li.current-menu-item a {
+.wp-block-navigation.is-style-grocefycart-navigation-secondary
+  li.current-menu-item {
   color: var(--wp--preset--color--secondary) !important;
 }
-.is-style-grocefycart-navigation-secondary li:hover {
+.wp-block-navigation.is-style-grocefycart-navigation-secondary
+  .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
+  color: var(--wp--preset--color--secondary);
+}
+.is-style-grocefycart-navigation-secondary.wp-block-navigation
+  ul.wp-block-navigation__submenu-container.wp-block-navigation-submenu
+  .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
   color: var(--wp--preset--color--secondary);
 }
 /* Terniary */
-ul.is-style-grocefycart-navigation-terniary li.current-menu-item a {
+.wp-block-navigation.is-style-grocefycart-navigation-terniary
+  li.current-menu-item {
   color: var(--wp--preset--color--terniary) !important;
 }
-.is-style-grocefycart-navigation-terniary li:hover {
+.wp-block-navigation.is-style-grocefycart-navigation-terniary
+  .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
+  color: var(--wp--preset--color--terniary);
+}
+.is-style-grocefycart-navigation-terniary.wp-block-navigation
+  ul.wp-block-navigation__submenu-container.wp-block-navigation-submenu
+  .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
   color: var(--wp--preset--color--terniary);
 }
 /* ********** Button ********** */
