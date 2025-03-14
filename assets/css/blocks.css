@@ -273,7 +273,7 @@ ul.is-style-grocefycart-categories-terniary li {
 ul.is-style-grocefycart-navigation-terniary li.current-menu-item a {
   color: var(--wp--preset--color--terniary) !important;
 }
-.is-style-grocefycart-navigation-terniary > li:hover {
+.is-style-grocefycart-navigation-terniary li:hover {
   color: var(--wp--preset--color--terniary);
 }
 /* ********** Button ********** */
