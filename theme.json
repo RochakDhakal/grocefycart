@@ -20,9 +20,9 @@
           "name": "Secondary"
         },
         {
-          "slug": "Terniary",
+          "slug": "terniary",
           "color": "#FB392D",
-          "name": "terniary"
+          "name": "Terniary"
         },
         {
           "slug": "heading",
@@ -402,8 +402,7 @@
           "text": "var(--wp--preset--color--light)"
         },
         "border": {
-          "radius": "0.625em",
-          "color": "var(--wp--preset--color--tertiary)"
+          "radius": "0.625em"
         },
         ":hover": {
           "color": {
