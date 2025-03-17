@@ -110,6 +110,27 @@ if ( function_exists( 'register_block_style' ) ) {
 			)
 		);
 		register_block_style(
+			'core/read-more',
+			array(
+				'name'  => 'grocefycart-read-more-primary',
+				'label' => __( 'Hover : Primary', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'core/read-more',
+			array(
+				'name'  => 'grocefycart-read-more-secondary',
+				'label' => __( 'Hover : Secondary', 'grocefycart' ),
+			)
+		);
+		register_block_style(
+			'core/read-more',
+			array(
+				'name'  => 'grocefycart-read-more-terniary',
+				'label' => __( 'Hover : Ternairy', 'grocefycart' ),
+			)
+		);
+		register_block_style(
 			'core/post-title',
 			array(
 				'name'  => 'title-hover-primary',

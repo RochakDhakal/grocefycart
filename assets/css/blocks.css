@@ -32,7 +32,7 @@ ul.is-style-grocefycart-categories-primary li {
   justify-content: space-between;
   padding-bottom: 1em;
   margin-bottom: 1em;
-  border-bottom: 1px solid var(--wp--preset--color--border);
+  border-bottom: 1px solid var(--wp--preset--color--border-color);
   color: var(--wp--preset--color--primary);
 }
 ul.is-style-grocefycart-categories-secondary li {
@@ -40,7 +40,7 @@ ul.is-style-grocefycart-categories-secondary li {
   justify-content: space-between;
   padding-bottom: 1em;
   margin-bottom: 1em;
-  border-bottom: 1px solid var(--wp--preset--color--border);
+  border-bottom: 1px solid var(--wp--preset--color--border-color);
   color: var(--wp--preset--color--secondary);
 }
 ul.is-style-grocefycart-categories-terniary li {
@@ -48,7 +48,7 @@ ul.is-style-grocefycart-categories-terniary li {
   justify-content: space-between;
   padding-bottom: 1em;
   margin-bottom: 1em;
-  border-bottom: 1px solid var(--wp--preset--color--border);
+  border-bottom: 1px solid var(--wp--preset--color--border-color);
   color: var(--wp--preset--color--terniary);
 }
 
@@ -235,12 +235,14 @@ ul.is-style-grocefycart-categories-terniary li {
 }
 /* Rounded */
 .is-style-grocefycart-search-rounded .wp-block-search__inside-wrapper {
-  border: 1px solid var(--wp--preset--color--border);
+  border: 1px solid var(--wp--preset--color--border-color);
   padding-left: 5px;
   border-radius: 100px;
 }
 .is-style-grocefycart-search-rounded .wp-block-search__inside-wrapper input {
   border-radius: 100px 0px 0px 100px !important;
+  outline: none;
+  border: none;
 }
 .is-style-grocefycart-search-rounded .wp-block-search__inside-wrapper button {
   border-radius: 0px 100px 100px 0px !important;
@@ -502,7 +504,7 @@ nav.is-style-grocefycart-pagination-primary
   .wp-block-query-pagination-numbers
   .page-numbers.current {
   padding: 6px 14px;
-  border: 1px solid var(--wp--preset--color--border);
+  border: 1px solid var(--wp--preset--color--border-color);
   background-color: var(--wp--preset--color--primary);
 }
 nav.is-style-grocefycart-pagination-primary
@@ -512,7 +514,7 @@ nav.is-style-grocefycart-pagination-primary .wp-block-query-pagination-next,
 nav.is-style-grocefycart-pagination-primary
   .wp-block-query-pagination-previous {
   padding: 6px 14px;
-  border: 1px solid var(--wp--preset--color--border);
+  border: 1px solid var(--wp--preset--color--border-color);
 }
 nav.is-style-grocefycart-pagination-primary
   .wp-block-query-pagination-numbers
@@ -531,7 +533,7 @@ nav.is-style-grocefycart-pagination-secondary
   .wp-block-query-pagination-numbers
   .page-numbers.current {
   padding: 6px 14px;
-  border: 1px solid var(--wp--preset--color--border);
+  border: 1px solid var(--wp--preset--color--border-color);
   background-color: var(--wp--preset--color--secondary);
 }
 nav.is-style-grocefycart-pagination-secondary
@@ -541,7 +543,7 @@ nav.is-style-grocefycart-pagination-secondary .wp-block-query-pagination-next,
 nav.is-style-grocefycart-pagination-secondary
   .wp-block-query-pagination-previous {
   padding: 6px 14px;
-  border: 1px solid var(--wp--preset--color--border);
+  border: 1px solid var(--wp--preset--color--border-color);
 }
 nav.is-style-grocefycart-pagination-secondary
   .wp-block-query-pagination-numbers
@@ -560,7 +562,7 @@ nav.is-style-grocefycart-pagination-terniary
   .wp-block-query-pagination-numbers
   .page-numbers.current {
   padding: 6px 14px;
-  border: 1px solid var(--wp--preset--color--border);
+  border: 1px solid var(--wp--preset--color--border-color);
   background-color: var(--wp--preset--color--terniary);
 }
 nav.is-style-grocefycart-pagination-terniary
@@ -570,7 +572,7 @@ nav.is-style-grocefycart-pagination-terniary .wp-block-query-pagination-next,
 nav.is-style-grocefycart-pagination-terniary
   .wp-block-query-pagination-previous {
   padding: 6px 14px;
-  border: 1px solid var(--wp--preset--color--border);
+  border: 1px solid var(--wp--preset--color--border-color);
 }
 nav.is-style-grocefycart-pagination-terniary
   .wp-block-query-pagination-numbers
@@ -771,7 +773,7 @@ nav.is-style-grocefycart-pagination-terniary
   align-items: center;
   padding-bottom: 1em;
   margin: 0 0 1em 0 !important;
-  border-bottom: 1px solid var(--wp--preset--color--border);
+  border-bottom: 1px solid var(--wp--preset--color--border-color);
   width: 100%;
 }
 .is-style-grocefycart-wc-categories-border ul li:last-child {

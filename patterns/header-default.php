@@ -54,13 +54,13 @@
 		<div class="wp-block-group">
 			<!-- wp:group {"style":{"spacing":{"blockGap":"15px"}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
 			<div class="wp-block-group">
-				<!-- wp:site-logo {"width":150,"style":{"color":{"duotone":"var:preset|duotone|primary-black"}}} /-->
+				<!-- wp:site-logo {"width":225,"style":{"color":{"duotone":"var:preset|duotone|primary-black"}}} /-->
 
 				<!-- wp:site-title {"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"},":hover":{"color":{"text":"var:preset|color|primary"}}}},"typography":{"fontSize":"32px","fontStyle":"normal","fontWeight":"600"}},"textColor":"heading"} /-->
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search","width":350,"widthUnit":"px","buttonText":"Search","buttonUseIcon":true,"className":"is-style-grocefycart-search-rounded","style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"fontStyle":"italic","fontWeight":"400"},"spacing":{"margin":{"right":"0","left":"0","top":"0","bottom":"0"}},"border":{"radius":"100px","width":"0px","style":"none"}},"backgroundColor":"secondary","textColor":"heading","fontSize":"normal"} /-->
+			<!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search","width":350,"widthUnit":"px","buttonText":"Search","buttonUseIcon":true,"className":"is-style-grocefycart-search-rounded","style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"fontStyle":"italic","fontWeight":"400"},"spacing":{"margin":{"right":"0","left":"0","top":"0","bottom":"0"}},"border":{"radius":"100px","width":"1px"}},"backgroundColor":"secondary","textColor":"heading","fontSize":"normal","borderColor":"border-color"} /-->
 
 			<!-- wp:group {"style":{"spacing":{"blockGap":"15px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 			<div class="wp-block-group">
