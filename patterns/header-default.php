@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Title: Header Default
  * Slug: grocefycart/header-default
@@ -17,7 +18,7 @@
 			<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|light"}}},"typography":{"fontSize":"14px","fontStyle":"normal","fontWeight":"400"}},"textColor":"light"} -->
 			<p class="has-light-color has-text-color has-link-color"
 				style="font-size:14px;font-style:normal;font-weight:400">
-				<?php esc_html_e( '2345 Beach,Rd Metrocity USA, HWY 1235 | +1 (000) 012-3456', 'grocefycart' ); ?></p>
+				2345 Beach,Rd Metrocity USA, HWY 1235 | +1 (000) 012-3456</p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:group {"style":{"spacing":{"blockGap":"15px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -25,8 +26,7 @@
 				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"typography":{"fontSize":"14px","fontStyle":"normal","fontWeight":"400"}},"textColor":"light"} -->
 				<p class="has-light-color has-text-color has-link-color"
 					style="font-size:14px;font-style:normal;font-weight:400">
-					<?php esc_html_e( 'Track your order |', 'grocefycart' ); ?>
-				</p>
+					Track your order | </p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:social-links {"iconColor":"light","iconColorValue":"#F9F9F9","size":"has-small-icon-size","className":"is-style-logos-only","style":{"spacing":{"blockGap":{"left":"15px"}}}} -->
@@ -74,15 +74,16 @@
 	</div>
 	<!-- /wp:group -->
 
-	<!-- wp:group {"className":"is-style-grocefycart-boxshadow-light","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"10px","bottom":"10px","left":"0","right":"0"}}},"layout":{"type":"constrained","contentSize":"1260px"}} -->
+	<!-- wp:group {"className":"is-style-grocefycart-boxshadow-light","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"10px","bottom":"10px","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"layout":{"type":"constrained","contentSize":"1260px"}} -->
 	<div class="wp-block-group is-style-grocefycart-boxshadow-light"
-		style="margin-top:0;margin-bottom:0;padding-top:10px;padding-right:0;padding-bottom:10px;padding-left:0">
-		<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
-		<div class="wp-block-group"
-			style="margin-top:0;margin-bottom:0;padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
+		style="margin-top:0;margin-bottom:0;padding-top:10px;padding-right:var(--wp--preset--spacing--40);padding-bottom:10px;padding-left:var(--wp--preset--spacing--40)">
+		<!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+		<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-right:0;padding-left:0">
 			<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
 			<div class="wp-block-group">
-				<?php if ( class_exists( 'WooCommerce' ) ) { ?>
+				<?php
+				if ( class_exists( 'WooCommerce' ) ) {
+					?>
 					<!-- wp:group {"className":"grocefycart-categories-dropdown","style":{"spacing":{"padding":{"top":"10px","bottom":"10px","left":"16px","right":"16px"}},"border":{"radius":"10px"}},"backgroundColor":"primary","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
 					<div class="wp-block-group grocefycart-categories-dropdown has-primary-background-color has-background"
 						style="border-radius:10px;padding-top:10px;padding-right:16px;padding-bottom:10px;padding-left:16px">
@@ -96,8 +97,7 @@
 						<div class="wp-block-button has-custom-font-size is-style-button-hover-secondary-bgcolor"
 							style="font-size:16px;font-style:normal;font-weight:400;line-height:1.5"><a
 								class="wp-block-button__link has-light-color has-text-color has-link-color wp-element-button"
-								style="border-radius:10px;padding-top:10px;padding-right:16px;padding-bottom:10px;padding-left:16px"><?php esc_html_e( 'Select Category	', 'grocefycart' ); ?></a>
-						</div>
+								style="border-radius:10px;padding-top:10px;padding-right:16px;padding-bottom:10px;padding-left:16px"><?php esc_html_e( 'Select Discount', 'grocefycart' ); ?></a></div>
 						<!-- /wp:button -->
 					</div>
 					<!-- /wp:buttons -->
@@ -117,8 +117,8 @@
 				<div class="wp-block-button has-custom-font-size is-style-button-hover-secondary-bgcolor"
 					style="font-size:16px;font-style:normal;font-weight:400;line-height:1.5"><a
 						class="wp-block-button__link has-light-color has-text-color has-link-color wp-element-button"
-						style="border-radius:10px;padding-top:10px;padding-right:16px;padding-bottom:10px;padding-left:16px"><?php esc_html_e( 'Weekly Discount', 'grocefycart' ); ?></a>
-				</div>
+						style="border-radius:10px;padding-top:10px;padding-right:16px;padding-bottom:10px;padding-left:16px">Weekly
+						Discount</a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->
