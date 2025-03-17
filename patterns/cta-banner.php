@@ -4,6 +4,7 @@
  * Slug: grocefycart/cta-banner
  * Categories: grocefycart
  */
+
 $grocefycart_banner_url = trailingslashit( get_template_directory_uri() );
 $grocefycart_banner_img = array(
 	$grocefycart_banner_url . 'assets/images/cta-banner.jpg',
@@ -39,7 +40,7 @@ $grocefycart_banner_img = array(
 
 				<!-- wp:buttons -->
 				<div class="wp-block-buttons">
-					<!-- wp:button {"backgroundColor":"Terniary","textColor":"background","className":"is-style-button-hover-primary-bgcolor is-style-grocefycart-button-up-arrow","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"padding":{"left":"24px","right":"24px","top":"18px","bottom":"18px"}},"border":{"radius":"100px"},"typography":{"fontSize":"18px"}}} -->
+					<!-- wp:button {"backgroundColor":"terniary","textColor":"background","className":"is-style-button-hover-primary-bgcolor is-style-grocefycart-button-up-arrow","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"padding":{"left":"24px","right":"24px","top":"18px","bottom":"18px"}},"border":{"radius":"100px"},"typography":{"fontSize":"18px"}}} -->
 					<div class="wp-block-button has-custom-font-size is-style-button-hover-primary-bgcolor is-style-grocefycart-button-up-arrow"
 						style="font-size:18px"><a
 							class="wp-block-button__link has-background-color has-terniary-background-color has-text-color has-background has-link-color wp-element-button"
