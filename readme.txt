@@ -39,10 +39,15 @@ This modern and user-friendly WordPress FSE theme is designed specifically for f
 Theme logo, Icons of service section and dummy brands logos, app section mobile mockup with our theme demo are created by our own.
 License: GPL v2 or later
 
-Image for testimonial, https://pxhere.com
+Image for Testimonial, https://pxhere.com
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
 Source: https://pxhere.com/en/photo/965915
+
+Image for Call To Action Banner, https://pxhere.com
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://pxhere.com/en/photo/936674
 
 Fonts credit and license:
 
