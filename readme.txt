@@ -26,7 +26,7 @@ This modern and user-friendly WordPress FSE theme is designed specifically for f
 "GrocefyCart" includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
-= 1.0.0 - Nov 13, 2025 =
+= 1.0.0 - Mar 18, 2025 =
 * Initial release
 
 ==Copyright==

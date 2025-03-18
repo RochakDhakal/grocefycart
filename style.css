@@ -166,7 +166,7 @@ ul.grocefycart-page-list-padding {
   margin-bottom: 5px;
   font-size: var(--wp--preset--font-size--normal);
   color: var(--wp--preset--color--dark-alt);
-  border: 1px solid var(--wp--preset--color--border);
+  border: 1px solid var(--wp--preset--color--border-color);
   width: -webkit-fill-available;
   transition: all 0.2s ease-in-out;
 }
@@ -174,7 +174,7 @@ ul.grocefycart-page-list-padding {
   padding: 12px;
   margin-bottom: 5px;
   font-size: var(--wp--preset--font-size--normal);
-  border: 1px solid var(--wp--preset--color--border);
+  border: 1px solid var(--wp--preset--color--border-color);
   width: -webkit-fill-available;
   transition: all 0.2s ease-in-out;
 }
@@ -206,7 +206,7 @@ ul.grocefycart-page-list-padding {
   margin-bottom: 5px;
   font-size: var(--wp--preset--font-size--normal);
   color: var(--wp--preset--color--dark-alt);
-  border: 1px solid var(--wp--preset--color--border);
+  border: 1px solid var(--wp--preset--color--border-color);
   width: -webkit-fill-available;
   border-radius: 100px;
   transition: all 0.2s ease-in-out;
@@ -215,7 +215,7 @@ ul.grocefycart-page-list-padding {
   padding: 12px;
   margin-bottom: 5px;
   font-size: var(--wp--preset--font-size--normal);
-  border: 1px solid var(--wp--preset--color--border);
+  border: 1px solid var(--wp--preset--color--border-color);
   width: -webkit-fill-available;
   border-radius: 100px;
   transition: all 0.2s ease-in-out;
