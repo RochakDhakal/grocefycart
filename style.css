@@ -137,7 +137,7 @@ ul.grocefycart-page-list-padding {
   padding: 10px;
   margin-bottom: 1em;
   font-size: var(--wp--preset--font-size--normal);
-  border: 1px solid var(--wp--preset--color--dark);
+  border: 1px solid var(--wp--preset--color--dark-shade);
   width: -webkit-fill-available;
 }
 .grocefycart-contact-newsletter-1 form p input[type="submit"] {
@@ -165,7 +165,7 @@ ul.grocefycart-page-list-padding {
   padding: 12px;
   margin-bottom: 5px;
   font-size: var(--wp--preset--font-size--normal);
-  color: var(--wp--preset--color--dark-alt);
+  color: var(--wp--preset--color--dark-shade);
   border: 1px solid var(--wp--preset--color--border-color);
   width: -webkit-fill-available;
   transition: all 0.2s ease-in-out;
@@ -205,7 +205,7 @@ ul.grocefycart-page-list-padding {
   padding: 13px;
   margin-bottom: 5px;
   font-size: var(--wp--preset--font-size--normal);
-  color: var(--wp--preset--color--dark-alt);
+  color: var(--wp--preset--color--dark-shade);
   border: 1px solid var(--wp--preset--color--border-color);
   width: -webkit-fill-available;
   border-radius: 100px;
