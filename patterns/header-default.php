@@ -97,7 +97,7 @@
 						<div class="wp-block-button has-custom-font-size is-style-button-hover-secondary-bgcolor"
 							style="font-size:16px;font-style:normal;font-weight:400;line-height:1.5"><a
 								class="wp-block-button__link has-light-color has-text-color has-link-color wp-element-button"
-								style="border-radius:10px;padding-top:10px;padding-right:16px;padding-bottom:10px;padding-left:16px"><?php esc_html_e( 'Select Discount', 'grocefycart' ); ?></a></div>
+								style="border-radius:10px;padding-top:10px;padding-right:16px;padding-bottom:10px;padding-left:16px"><?php esc_html_e( 'Select Category', 'grocefycart' ); ?></a></div>
 						<!-- /wp:button -->
 					</div>
 					<!-- /wp:buttons -->
