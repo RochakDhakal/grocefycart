@@ -48,7 +48,8 @@ p.cozy-blocks-text {
   display: inline-block;
   margin: 15px;
 }
-.grocefycart-admin-notice .admin-button.dismiss-notice.btn-notice-dismiss:hover {
+.grocefycart-admin-notice
+  .admin-button.dismiss-notice.btn-notice-dismiss:hover {
   color: #d63638;
 }
 .grocefycart-admin-notice .notice-text {
@@ -85,7 +86,7 @@ p.cozy-blocks-text {
   padding: 28px 28px 10px;
 }
 .dashboard-about-grocefycart h1 {
-  color: #fff;
+  color: #000;
 }
 .grocefycart-dashoard-hero .grocefycart-features-box {
   width: 33%;
@@ -181,7 +182,11 @@ p.cozy-blocks-text {
   display: inline-block;
   margin: 20px 0 0;
 }
-.dashboard-about-grocefycart .grocefycart-baisc-guideline .featured-box li strong {
+.dashboard-about-grocefycart
+  .grocefycart-baisc-guideline
+  .featured-box
+  li
+  strong {
   width: 100%;
   display: inline-block;
   margin-bottom: 10px;
@@ -205,7 +210,7 @@ p.cozy-blocks-text {
 }
 .grocefycart-admin-notice .theme-hero-screens img {
   max-width: 100%;
-  margin: -10px -38px -14px 0;
+  margin: 15px -20px -14px 0;
   max-height: 175px;
 }
 .dashboard-about-grocefycart p {
@@ -250,12 +255,16 @@ p.cozy-blocks-text {
   background-color: #fff;
   border-radius: 5px;
 }
-.grocefycart-admin-notice.notice.notice-info .info-content .admin-button.info-button.processing-spinner {
+.grocefycart-admin-notice.notice.notice-info
+  .info-content
+  .admin-button.info-button.processing-spinner {
   padding-right: 50px;
   position: relative;
 }
 /*processing-spinner*/
-.grocefycart-admin-notice.notice.notice-info .info-content .admin-button.info-button.processing-spinner:before {
+.grocefycart-admin-notice.notice.notice-info
+  .info-content
+  .admin-button.info-button.processing-spinner:before {
   content: "";
   right: 5px;
   top: 5px;
@@ -336,10 +345,14 @@ p.cozy-blocks-text {
   margin: 0;
   line-height: 20px;
 }
-.grocefycart-features-dash .grocefycart-features-box a.grocefycart-patterns-demo {
+.grocefycart-features-dash
+  .grocefycart-features-box
+  a.grocefycart-patterns-demo {
   color: #4f43ff;
 }
-.grocefycart-features-dash .grocefycart-features-box a.grocefycart-patterns-demo:hover {
+.grocefycart-features-dash
+  .grocefycart-features-box
+  a.grocefycart-patterns-demo:hover {
   color: #ff598e;
 }
 h3.dash-grocefycart-patterns-header {

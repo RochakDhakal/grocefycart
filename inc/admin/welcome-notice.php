@@ -55,7 +55,7 @@ if ( ! function_exists( 'shopmighty_welcome_notice' ) ) :
 					</div>
 				</div>
 				<div class="theme-hero-screens">
-					<img src="<?php echo esc_url( get_template_directory_uri() . '/screenshot.png' ); ?>" />
+					<img src="<?php echo esc_url( get_template_directory_uri() . '/inc/admin/images/admin-panel-img.png' ); ?>" />
 				</div>
 
 			</div>
