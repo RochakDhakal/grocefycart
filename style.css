@@ -31,7 +31,7 @@ p a {
   color: var(--wp--preset--color--light);
   font-size: var(--wp--preset--font-size--normal);
   font-family: var(--wp--preset--font-family--inter);
-  background-color: var(--wp--preset--color--primary);
+  background-color: inherit;
   font-weight: 400;
   text-transform: capitalize;
   cursor: pointer;
@@ -39,6 +39,7 @@ p a {
 
 .grocefycart-categories-dropdown select option {
   padding: 5px 8px !important;
+  color: var(--wp--preset--color--foreground);
 }
 .grocefycart-categories-dropdown .wp-block-categories-dropdown button {
   outline: none;

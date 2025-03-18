@@ -39,10 +39,75 @@ This modern and user-friendly WordPress FSE theme is designed specifically for f
 Theme logo, Icons of service section and dummy brands logos, app section mobile mockup with our theme demo are created by our own.
 License: GPL v2 or later
 
+Image for Product Cover, https://pxhere.com
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://pxhere.com/en/photo/450225
+
+Image for Product Cover, https://pxhere.com
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://pxhere.com/en/photo/686933
+
+Image for Product Cover, https://pxhere.com
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://pxhere.com/en/photo/640421
+
+Image for Product Cover, https://pxhere.com
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://pxhere.com/en/photo/812102
+
+Image for Product Cover, https://pxhere.com
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://pxhere.com/en/photo/1046276
+
+Image for Product Cover, https://pxhere.com
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://pxhere.com/en/photo/527277
+
+Image for Product Cover, https://pxhere.com
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://pxhere.com/en/photo/1216918
+
+Image for Product Cover, https://pxhere.com
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://pxhere.com/en/photo/599759
+
+Image for Product Cover, https://pxhere.com
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://pxhere.com/en/photo/883575
+
+Image for Product Cover, https://pxhere.com
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://pxhere.com/en/photo/382474
+
+Image for Product Cover, https://pxhere.com
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://pxhere.com/en/photo/1692810
+
+Image for Product Cover, https://pxhere.com
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://pxhere.com/en/photo/147669
+
 Image for Testimonial, https://pxhere.com
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
 Source: https://pxhere.com/en/photo/965915
+
+Image for Sidebar Ads, https://pxhere.com
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://pxhere.com/en/photo/1639001
 
 Image for Call To Action Banner, https://pxhere.com
 License: CC0 1.0 Universal (CC0 1.0)
