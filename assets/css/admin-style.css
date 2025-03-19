@@ -186,7 +186,9 @@
 }
 .grocefycart-admin-notice .theme-hero-screens img {
   max-width: 90%;
-  margin: 30px -38px -3px 0;
+  width: 325px;
+  height: 210px;
+  object-fit: contain;
 }
 .dashboard-about-grocefycart p {
   font-size: 16px;

@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-This modern and user-friendly WordPress FSE theme is designed specifically for food sales, offering seamless integration with WooCommerce. With its fully customizable patterns and templates, it provides a visually appealing and functional platform for showcasing your food products. Whether you're selling fresh produce, gourmet treats, or beverages, this theme ensures smooth browsing and easy online shopping. Tailored for a seamless customer experience, it supports a range of layouts, product displays, and checkout options to elevate your food business. Perfect for food-related shops, restaurants, and cafes looking to enhance their online presence.
+GrocefyCart is a modern, feature-rich WooCommerce theme designed for online grocery stores, offering 100% control over your site’s design with Full Site Editing (FSE). It lets you customize every element — from headers and footers to product pages and blog layouts — ensuring a seamless fit with your brand’s style. Perfect for selling fresh produce, beverages, pantry essentials, or organic products, GrocefyCart comes with professionally crafted starter demos and a one-click demo import feature, making setup quick and effortless. Its pre-built sections and templates allow you to create a high-converting store without coding, while built-in speed, SEO, and mobile optimization ensure a smooth shopping experience for your customers. Start building your grocery store today with GrocefyCart — discover all features and live demos at https://cozythemes.com/grocefycart-ecommerce-theme/
 
 == Installation ==
 
