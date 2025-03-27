@@ -100,15 +100,6 @@ require_once get_template_directory() . '/inc/core/init.php';
  */
 require_once get_template_directory() . '/inc/admin/welcome-notice.php';
 
-if ( ! function_exists( 'grocefycart_excerpt_more_postfix' ) ) {
-	function grocefycart_excerpt_more_postfix( $more ) {
-		if ( is_admin() ) {
-			return $more;
-		}
-		return '...';
-	}
-	add_filter( 'excerpt_more', 'grocefycart_excerpt_more_postfix' );
-}
 function grocefycart_add_woocommerce_support() {
 	add_theme_support( 'woocommerce' );
 }

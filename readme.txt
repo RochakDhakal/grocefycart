@@ -27,6 +27,10 @@ GrocefyCart is a modern, feature-rich WooCommerce theme designed for online groc
 
 == Changelog ==
 = 1.0.1 - Mar 27, 2025 =
+* Fix : Skip To Content issue has been solved.
+* Fix : Missing strings made translation-ready.
+
+= 1.0.0 - Mar 18, 2025 =
 * Initial release
 
 ==Copyright==
