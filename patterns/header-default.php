@@ -7,8 +7,8 @@
  */
 
 ?>
-<!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"100%"}} -->
-<main class="wp-block-group"
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"100%"}} -->
+<div class="wp-block-group"
 	style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 	<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"5px","bottom":"5px"},"blockGap":"0","margin":{"top":"0","bottom":"0"}}},"backgroundColor":"primary","layout":{"type":"constrained","contentSize":"1260px"}} -->
 	<div class="wp-block-group has-primary-background-color has-background"
@@ -25,7 +25,7 @@
 				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"typography":{"fontSize":"14px","fontStyle":"normal","fontWeight":"400"}},"textColor":"light"} -->
 				<p class="has-light-color has-text-color has-link-color"
 					style="font-size:14px;font-style:normal;font-weight:400">
-					Track your order | </p>
+					<?php esc_html_e( 'Track your order | ', 'grocefycart' ); ?></p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:social-links {"iconColor":"light","iconColorValue":"#F9F9F9","size":"has-small-icon-size","className":"is-style-logos-only","style":{"spacing":{"blockGap":{"left":"15px"}}}} -->
@@ -124,5 +124,5 @@
 		<!-- /wp:group -->
 	</div>
 	<!-- /wp:group -->
-</main>
+</div>
 <!-- /wp:group -->

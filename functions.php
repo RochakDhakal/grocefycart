@@ -44,7 +44,7 @@ if ( ! function_exists( 'grocefycart_styles' ) ) :
 		if ( is_rtl() ) {
 			wp_enqueue_style( 'grocefycart-rtl-css', get_template_directory_uri() . '/assets/css/rtl.css', 'rtl_css' );
 		}
-		wp_enqueue_script( 'jquery' );
+		// wp_enqueue_script( 'jquery' );
 		wp_enqueue_script( 'grocefycart-aos-scripts', get_template_directory_uri() . '/assets/js/aos.js', array(), GROCEFYCART_VERSION, true );
 		wp_enqueue_script( 'grocefycart-scripts', get_template_directory_uri() . '/assets/js/grocefycart-scripts.js', array(), GROCEFYCART_VERSION, true );
 	}

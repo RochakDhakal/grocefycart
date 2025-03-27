@@ -29,7 +29,7 @@
 					class="wp-block-button has-custom-font-size is-style-grocefycart-button-up-arrow has-normal-font-size">
 					<a class="wp-block-button__link has-foreground-color has-transparent-background-color has-text-color has-background has-link-color wp-element-button"
 						href="#"
-						style="border-style:none;border-width:0px;border-radius:100px;padding-top:8px;padding-right:18px;padding-bottom:8px;padding-left:18px"><?php eschtmle( 'See All', 'grocefycart' ); ?></a></div>
+						style="border-style:none;border-width:0px;border-radius:100px;padding-top:8px;padding-right:18px;padding-bottom:8px;padding-left:18px"><?php esc_html_e( 'See All', 'grocefycart' ); ?></a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->
