@@ -17,8 +17,7 @@
 		<div class="wp-block-group">
 			<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|light"}}},"typography":{"fontSize":"14px","fontStyle":"normal","fontWeight":"400"}},"textColor":"light"} -->
 			<p class="has-light-color has-text-color has-link-color"
-				style="font-size:14px;font-style:normal;font-weight:400">
-				2345 Beach,Rd Metrocity USA, HWY 1235 | +1 (000) 012-3456</p>
+				style="font-size:14px;font-style:normal;font-weight:400"><?php esc_html_e( '2345 Beach,Rd Metrocity USA, HWY 1235 | +1 (000) 012-3456', 'grocefycart' ); ?></p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:group {"style":{"spacing":{"blockGap":"15px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -117,8 +116,7 @@
 				<div class="wp-block-button has-custom-font-size is-style-button-hover-secondary-bgcolor"
 					style="font-size:16px;font-style:normal;font-weight:400;line-height:1.5"><a
 						class="wp-block-button__link has-light-color has-text-color has-link-color wp-element-button"
-						style="border-radius:10px;padding-top:10px;padding-right:16px;padding-bottom:10px;padding-left:16px">Weekly
-						Discount</a></div>
+						style="border-radius:10px;padding-top:10px;padding-right:16px;padding-bottom:10px;padding-left:16px"><?php esc_html_e( 'Weekly Discount', 'grocefycart' ); ?></a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->
