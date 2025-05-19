@@ -5,7 +5,7 @@ Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-me
 Requires at least: 5.9
 Tested up to: 6.7
 Requires PHP: 7.0
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,10 @@ GrocefyCart is a modern, feature-rich WooCommerce theme designed for online groc
 "GrocefyCart" includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
+= 1.0.2 - May 19, 2025 =
+* Fix : Contact Form style for Firefox.
+* Update : Feature block.
+
 = 1.0.1 - Mar 27, 2025 =
 * Fix : Skip To Content issue has been solved.
 * Fix : Missing strings made translation-ready.
