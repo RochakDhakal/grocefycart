@@ -129,7 +129,6 @@ ul.grocefycart-page-list-padding {
 .wpcf7 form input[type="submit"]:hover {
   background-color: var(--wp--preset--color--secondary);
   color: var(--wp--preset--color--dark-shade);
-  padding: 1em;
 }
 /* contact Newsletter 1 */
 .grocefycart-contact-newsletter-1 form p input,
@@ -145,7 +144,8 @@ ul.grocefycart-page-list-padding {
   font-size: var(--wp--preset--font-size--medium) !important;
   background: var(--wp--preset--color--primary);
   color: var(--wp--preset--color--light);
-  width: -webkit-fill-available;
+  width: 100%;
+  box-sizing: border-box;
   transition: all 0.2s ease-in-out;
 }
 .grocefycart-contact-newsletter-1 form p input[type="submit"]:hover {
@@ -154,6 +154,7 @@ ul.grocefycart-page-list-padding {
   background: var(--wp--preset--color--secondary);
   color: var(--wp--preset--color--light);
   width: 100%;
+  box-sizing: border-box;
   transition: all 0.2s ease-in-out;
 }
 /* contact Newsletter 2 */
@@ -167,7 +168,8 @@ ul.grocefycart-page-list-padding {
   font-size: var(--wp--preset--font-size--normal);
   color: var(--wp--preset--color--dark-shade);
   border: 1px solid var(--wp--preset--color--border-color);
-  width: -webkit-fill-available;
+  width: 100%;
+  box-sizing: border-box;
   transition: all 0.2s ease-in-out;
 }
 .grocefycart-contact-newsletter-2 form p textarea {
@@ -175,7 +177,8 @@ ul.grocefycart-page-list-padding {
   margin-bottom: 5px;
   font-size: var(--wp--preset--font-size--normal);
   border: 1px solid var(--wp--preset--color--border-color);
-  width: -webkit-fill-available;
+  width: 100%;
+  box-sizing: border-box;
   transition: all 0.2s ease-in-out;
 }
 .grocefycart-contact-newsletter-2 form p input[type="submit"] {
@@ -207,7 +210,8 @@ ul.grocefycart-page-list-padding {
   font-size: var(--wp--preset--font-size--normal);
   color: var(--wp--preset--color--dark-shade);
   border: 1px solid var(--wp--preset--color--border-color);
-  width: -webkit-fill-available;
+  width: 100%;
+  box-sizing: border-box;
   border-radius: 100px;
   transition: all 0.2s ease-in-out;
 }
@@ -216,7 +220,8 @@ ul.grocefycart-page-list-padding {
   margin-bottom: 5px;
   font-size: var(--wp--preset--font-size--normal);
   border: 1px solid var(--wp--preset--color--border-color);
-  width: -webkit-fill-available;
+  width: 100%;
+  box-sizing: border-box;
   border-radius: 100px;
   transition: all 0.2s ease-in-out;
 }
@@ -246,7 +251,8 @@ ul.grocefycart-page-list-padding {
   margin-bottom: 5px;
   font-size: var(--wp--preset--font-size--normal);
   border: 1px solid var(--wp--preset--color--light);
-  width: -webkit-fill-available;
+  width: 100%;
+  box-sizing: border-box;
   border-radius: 100px;
 }
 .grocefycart-contact-newsletter-4 form p input[type="submit"] {
@@ -254,7 +260,8 @@ ul.grocefycart-page-list-padding {
   font-size: var(--wp--preset--font-size--medium) !important;
   background: var(--wp--preset--color--primary);
   color: var(--wp--preset--color--light);
-  width: -webkit-fill-available;
+  width: 100%;
+  box-sizing: border-box;
   border-radius: 100px;
 }
 .grocefycart-contact-newsletter-4 form p input[type="submit"]:hover {
