@@ -59,9 +59,9 @@
 			</div>
 			<!-- /wp:group -->
 			<?php if ( class_exists( 'WooCommerce' ) ) { ?>
-			<!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search","width":350,"widthUnit":"px","buttonText":"Search","buttonUseIcon":true,"className":"is-style-grocefycart-search-rounded","style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"fontStyle":"italic","fontWeight":"400"},"spacing":{"margin":{"right":"0","left":"0","top":"0","bottom":"0"}},"border":{"radius":"100px","width":"1px"}},"backgroundColor":"secondary","textColor":"heading","fontSize":"normal","borderColor":"border-color"} /-->
-			<?php } else { ?>
 				<!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search products…","width":350,"buttonText":"Search","buttonUseIcon":true,"query":{"post_type":"product"},"className":"is-style-grocefycart-search-rounded","style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"fontStyle":"italic","fontWeight":"400"},"border":{"radius":"100px","width":"1px"},"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}},"backgroundColor":"secondary","textColor":"heading","fontSize":"normal","borderColor":"border-color","namespace":"woocommerce/product-search"} /-->
+				<?php } else { ?>
+					<!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search","width":350,"widthUnit":"px","buttonText":"Search","buttonUseIcon":true,"className":"is-style-grocefycart-search-rounded","style":{"elements":{"link":{"color":{"text":"var:preset|color|heading"}}},"typography":{"fontStyle":"italic","fontWeight":"400"},"spacing":{"margin":{"right":"0","left":"0","top":"0","bottom":"0"}},"border":{"radius":"100px","width":"1px"}},"backgroundColor":"secondary","textColor":"heading","fontSize":"normal","borderColor":"border-color"} /-->
 			<?php } ?>
 			<!-- wp:group {"style":{"spacing":{"blockGap":"15px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 			<div class="wp-block-group">
