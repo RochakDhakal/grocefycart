@@ -26,7 +26,7 @@ GrocefyCart is a modern, feature-rich WooCommerce theme designed for online groc
 "GrocefyCart" includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
-= 1.0.4 - May 26, 2025 =
+= 1.0.4 - May 27, 2025 =
 * Update : Feature Block.
 * Update: Header Searchbar.
 * Update: Single Product Template.
